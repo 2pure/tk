@@ -1,0 +1,138 @@
+extends layout
+
+block content
+    .container
+        .header.clearfix
+            nav.navbar.navbar-light.bg-faded
+                a.navbar-brand(href='#') Театры&Кино
+                ul.nav.navbar-nav
+                    li.nav-item.active
+                        a.nav-link(href='#')
+                            | Home
+                            span.sr-only (current)
+                    li.nav-item
+                        a.nav-link(href='#') Features
+                    li.nav-item
+                        a.nav-link(href='#') Pricing
+                    if user
+                        li.nav-item.pull-xs-right
+                            a.nav-link(href='#') Вы вошли как: Иван Иванов
+                    else
+                        form.form-inline.pull-xs-right
+                            //input.form-control(type='text', placeholder='Search')
+                            button.btn.btn-success-outline(type='submit') Войти
+        .jumbotron
+            h3 Тематические коллекции
+            //p.lead
+            //    | Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+            //pa.btn.btn-lg.btn-success(href='#', role='button') Sign up today
+            .card-deck-wrapper
+                .card-deck
+                    .card
+                        .image
+                            img.card-img-top(data-src="holder.js/100px200/" alt="100%x200" src="http://www.jazzwestmids.co.uk/archivePix/mulgrew.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;")
+                        .card-block
+                            h4.card-title Для негров
+                            //p.card-text
+                            //    | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                            p.card-text
+                                small.text-muted Небольшой текст
+                    .card
+                        .image
+                            img.card-img-top(data-src="holder.js/100px200/" alt="100%x200" src="http://www.jazzwestmids.co.uk/archivePix/mulgrew.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;")
+                        .card-block
+                            h4.card-title Для негров
+                            //p.card-text This card has supporting text below as a natural lead-in to additional content.
+                            p.card-text
+                                small.text-muted Небольшой текст ненависти к неграм
+                    .card
+                        .image
+                            img.card-img-top(data-src="holder.js/100px200/" alt="100%x200" src="http://www.jazzwestmids.co.uk/archivePix/mulgrew.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;")
+                        .card-block
+                            h4.card-title Для негров
+                            //p.card-text
+                            //    | This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                            p.card-text
+                                small.text-muted Небольшой текст ненависти к неграм
+                    .card
+                        .image
+                            img.card-img-top(data-src="holder.js/100px200/" alt="100%x200" src="http://www.jazzwestmids.co.uk/archivePix/mulgrew.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;")
+                        .card-block
+                            h4.card-title Для негров
+                            //p.card-text
+                            //    | This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                            p.card-text
+                                small.text-muted Небольшой текст ненависти к неграм
+
+        #newcollection.jumbotron
+            h3 Новые коллекции
+            //p.lead
+            //    | Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+            //p
+            //    a.btn.btn-lg.btn-success(href='#', role='button') Sign up today
+            .card-deck-wrapper
+                .card-deck
+                    .card
+                        .image
+                            img.card-img-top(data-src="holder.js/100px200/" alt="100%x300" src="http://www.buxtonfringe.org.uk/picture_library/2015/medium.AFlavouroftheFringe2015LilyBrown.2.jpg" data-holder-rendered="true" style="height: 300px; width: 100%; display: block;")
+                        .card-block
+                            h4.card-title.nameCard Для негров
+                            hr
+                            p.card-text.nameCard     Первый негр
+                            hr
+                            p.card-text.nameCard Второй негр
+                            hr
+                            p.card-text.nameCard
+                                small.text-muted Небольшой текст ненависти к неграм
+                    .card
+                        .image
+                            img.card-img-top(data-src="holder.js/100px300/" alt="100%x300" src="http://www.buxtonfringe.org.uk/picture_library/2015/medium.AFlavouroftheFringe2015LilyBrown.2.jpg" data-holder-rendered="true" style="height: 300px; width: 100%; display: block;")
+                        .card-block
+                            h4.card-title.nameCard Для негров
+                            hr
+                            p.card-text.nameCard Первый негр
+                            hr
+                            p.card-text.nameCard
+                                small.text-muted Небольшой текст ненависти к неграм
+                    .card
+                        .image
+                            img.card-img-top(data-src="holder.js/100px200/" alt="100%x300" src="http://www.buxtonfringe.org.uk/picture_library/2015/medium.AFlavouroftheFringe2015LilyBrown.2.jpg" data-holder-rendered="true" style="height: 300px; width: 100%; display: block;")
+                        .card-block
+                            h4.card-title.nameCard Для негров
+                            //p.card-text
+                            //    | This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                            p.card-text.nameCard
+                                small.text-muted Небольшой текст ненависти к неграм
+                    .card
+                        .image
+                            img.card-img-top(data-src="holder.js/100px200/" alt="100%x300" src="http://www.buxtonfringe.org.uk/picture_library/2015/medium.AFlavouroftheFringe2015LilyBrown.2.jpg" data-holder-rendered="true" style="height: 300px; width: 100%; display: block;")
+                        .card-block
+                            h4.card-title.nameCard Для негров
+                            //p.card-text
+                            //    | This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                            p.card-text.nameCard
+                                small.text-muted Небольшой текст ненависти к неграм
+
+        .jumbotron
+            // Twitter
+            a.btn.btn-twitter(href='http://twitter.com/home?status=', title='Share on Twitter', target='_blank')
+                i.fa.fa-twitter
+                |  Twitter
+            // Facebook
+            a.btn.btn-facebook(href='https://www.facebook.com/sharer/sharer.php?u=', title='Share on Facebook', target='_blank')
+                i.fa.fa-facebook
+                |  Facebook
+            // Google+
+            a.btn.btn-googleplus(href='https://plus.google.com/share?url=', title='Share on Google+', target='_blank')
+                i.fa.fa-google-plus
+                |  Google+
+            // StumbleUpon
+            a.btn.btn-stumbleupon(href='http://www.stumbleupon.com/submit?url=', title='Share on StumbleUpon', target='_blank', data-placement='top')
+                i.fa.fa-stumbleupon
+                |  Stumbleupon
+            // LinkedIn
+            a.btn.btn-linkedin(href='http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=', title='Share on LinkedIn', target='_blank')
+                i.fa.fa-linkedin
+                |  LinkedIn
+            footer.footer
+                p © Company 2015
