@@ -6,6 +6,7 @@ var express = require('express')
     , session = require('express-session')
     , bodyParser = require("body-parser")
     , cookieParser = require("cookie-parser")
+    , cors = require("cors")
     , methodOverride = require('method-override')
     //, orm = require('orm');
 
@@ -141,6 +142,7 @@ var app = express();
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.use(logger());
+app.use(cors());
 app.use(cookieParser());
 app.use(bodyParser());
 app.use(methodOverride());
