@@ -11,7 +11,7 @@ var express = require('express')
 
 
 var Sequelize = require('sequelize');
-var sequelize = new Sequelize("");
+var sequelize = new Sequelize("postgres://postgres:tk@localhost/postgres");
 
 var Cards = sequelize.define('Cards', {
     image_url: Sequelize.STRING,
@@ -82,8 +82,8 @@ sequelize.sync().then(function() {
 
 
 var winston = require("winston");
-var FACEBOOK_APP_ID = ""
-var FACEBOOK_APP_SECRET = "";
+var FACEBOOK_APP_ID = "1634268476827505"
+var FACEBOOK_APP_SECRET = "1210ad4eceeb339cbd222734469f46bd";
 
 // Passport session setup.
 //   To support persistent login sessions, Passport needs to be able to
@@ -213,7 +213,7 @@ app.get('/card:id', function (req, res) {
 })
 
 app.get('/api/themes', function (req, res) {
-    Theatres.findAll({ include: [ Plays ] }).then(function(play) {
+    Plays.findAll({ include: [ Theatres ] }).then(function(play) {
         res.send(play);
     })
 });
