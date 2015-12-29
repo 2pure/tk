@@ -54,12 +54,7 @@ errors:
 			"description": "Описание коллекции",
 			"img_url": "http://example.com/img.png",
 			"collection_url": "http://example.com/collection",
-			"plays_list": [
-				{
-					"name": "Название спектакля 1",
-					"play_id": 1,
-				},
-			],
+			"plays_list": [1, 2, 3],
 		},
 	]
 }
@@ -81,12 +76,7 @@ errors:
 		"description": "Описание коллекции",
 		"img_url": "http://example.com/img.png",
 		"collection_url": "http://example.com/collection",
-		"plays_list": [
-			{
-				"name": "Название спектакля 1",
-				"play_id": 1,
-			},
-		],
+	  "plays_list": [1, 2, 3],
 }
 ```
 
