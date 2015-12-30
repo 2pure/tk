@@ -7,33 +7,32 @@ var express = require('express')
     , bodyParser = require("body-parser")
     , cookieParser = require("cookie-parser")
     , cors = require("cors")
-    , methodOverride = require('method-override')
-    //, orm = require('orm');
+    , methodOverride = require('method-override');
 
 
 var Sequelize = require('sequelize');
 var sequelize = new Sequelize("postgres://postgres:tk@localhost/postgres");
 
-var Cards = sequelize.define('Cards', {
+var Cards = sequelize.define('Card', {
     image_url: Sequelize.STRING,
     collection_name: Sequelize.STRING,
     collection_description: Sequelize.STRING
 });
 
-var Clients = sequelize.define('Clients', {
+var Client = sequelize.define('Clients', {
     account_id: Sequelize.BIGINT,
     account_name: Sequelize.STRING,
     email: Sequelize.STRING,
     phone: Sequelize.STRING
 });
 
-var Theatres = sequelize.define('Theatres', {
+var Theatre = sequelize.define('Theatre', {
     theatre_name: Sequelize.STRING,
     address: Sequelize.STRING,
     description: Sequelize.STRING,
     image_url: Sequelize.STRING
 });
-var Plays = sequelize.define('Plays', {
+var Play = sequelize.define('Play', {
     producer: Sequelize.STRING,
     play_name: Sequelize.STRING,
     description: Sequelize.STRING,
@@ -46,29 +45,126 @@ var Plays = sequelize.define('Plays', {
     image_url: Sequelize.STRING,
     TheatreId: Sequelize.INTEGER
 });
-Plays.belongsTo(Theatres); // Will add TheatresId to Plays
+var Collection = sequelize.define('Collection', {
+    name: Sequelize.STRING,
+    description: Sequelize.STRING,
+    img_url: Sequelize.STRING
+});
+var Theme = sequelize.define('Theme', {
+    name: Sequelize.STRING,
+    description: Sequelize.STRING,
+    theme_url: Sequelize.STRING
+});
+//plays.hasMany(collections, {as: 'plays_list'});
+//plays.hasMany(theatres, {as: 'play_list'});
+Theatre.belongsToMany(Play, {through: 'TheatrePlay'});
+Play.belongsToMany(Theatre, {through: 'TheatrePlay'});
+Collection.belongsToMany(Play, {through: 'CollectionPlay'});
+Play.belongsToMany(Collection, {through: 'CollectionPlay'});
+Theme.belongsToMany(Collection, {through: 'ThemeCollection'});
+Collection.belongsToMany(Theme, {through: 'ThemeCollection'});
+
+//plays.belongsTo(theatres); // Will add TheatresId to Plays
 
 sequelize.sync().then(function() {
 
-    Theatres.create({
-        producer: 'негр',
-        play_name: 'негр',
-        description: 'негр',
-        actors: 'негр',
-        duration: 'негр',
-        genre: 'негр',
-        year: 'негр',
-        author: 'негр',
-        age: 'негр',
-        image_url: 'негр'
-    });
-    Plays.create({
-        theatre_name: 'Большой театр',
-        address: 'Москва',
-        description: 'негр-негр',
-        image_url: 'негр.png',
-
-    });
+    //Play.create({
+    //    producer: 'негр',
+    //    play_name: 'Опера 1',
+    //    description: 'театр',
+    //    actors: 'негр',
+    //    duration: '2 часа',
+    //    genre: 'негр',
+    //    year: '2015',
+    //    author: 'негр',
+    //    age: '18',
+    //    image_url: '/niger.png'
+    //});
+    //
+    //Play.create({
+    //    producer: 'негр',
+    //    play_name: 'Опера 2',
+    //    description: 'театр',
+    //    actors: 'негр',
+    //    duration: '2 часа',
+    //    genre: 'негр',
+    //    year: '2015',
+    //    author: 'негр',
+    //    age: '18',
+    //    image_url: '/niger.png'
+    //});
+    //
+    //Play.create({
+    //    producer: 'негр',
+    //    play_name: 'Опера 3',
+    //    description: 'театр',
+    //    actors: 'негр',
+    //    duration: '2 часа',
+    //    genre: 'негр',
+    //    year: '2015',
+    //    author: 'негр',
+    //    age: '18',
+    //    image_url: '/niger.png'
+    //});
+    //
+    //Play.create({
+    //    producer: 'негр',
+    //    play_name: 'Опера 4',
+    //    description: 'театр',
+    //    actors: 'негр',
+    //    duration: '2 часа',
+    //    genre: 'негр',
+    //    year: '2015',
+    //    author: 'негр',
+    //    age: '18',
+    //    image_url: '/niger.png'
+    //});
+    //
+    //Theatre.create({
+    //    theatre_name: 'Большой театр',
+    //    address: 'Москва',
+    //    description: 'крутое описание',
+    //    image_url: '/негр.png',
+    //});
+    //Theatre.create({
+    //    theatre_name: 'Современник',
+    //    address: 'Москва',
+    //    description: 'крутое описание',
+    //    image_url: '/негр.png',
+    //});
+    //Collection.create({
+    //    name: 'коллекция 1',
+    //    description: 'коллекция 1',
+    //    img_url: 'url'
+    //});
+    //Collection.create({
+    //    name: 'коллекция 2',
+    //    description: 'коллекция 2',
+    //    img_url: 'url'
+    //});
+    //Collection.create({
+    //    name: 'коллекция 3',
+    //    description: 'коллекция 3',
+    //    img_url: 'url'
+    //});
+    //
+    //
+    //Theme.create({
+    //    name: 'тема 1',
+    //    description: 'тема 1',
+    //    theme_url: 'url'
+    //});
+    //Theme.create({
+    //    name: 'тема 2',
+    //    description: 'тема 2',
+    //    theme_url: 'url'
+    //});
+    //theatres.addplays({
+    //    theatre_name: 'Большой театр',
+    //    address: 'Москва',
+    //    description: 'негр-негр',
+    //    image_url: 'негр.png',
+    //});
     return Cards.create({
         image_url: "negr.png",
         collection_name: "niger",
@@ -208,33 +304,33 @@ function ensureAuthenticated(req, res, next) {
 
 app.get('/card:id', function (req, res) {
 
-    Cards.findById(req.params.id).then(function(card) {
+    cards.findById(req.params.id).then(function(card) {
         console.log(card);
         res.send(card);
     })
 })
 
 app.get('/api/themes', function (req, res) {
-    Plays.findAll({ include: [ Theatres ] }).then(function(play) {
-        res.send(play);
+    Theme.findAll({ include: [ Collection ] }).then(function(theme) {
+        res.send(theme);
     })
 });
 app.get('/api/themes/:id', function (req, res) {
-    Plays.findById(req.params.id).then(function(play) {
-       res.send(play);
+    Theme.find({ where: {id: req.params.id}, include: [Collection] }).then(function(theme) {
+       res.send(theme);
     })
     //console.log(req.params.id);
     //res.send('all themes')
 });
 app.get('/api/collections', function (req, res) {
-    console.log(req.param('page'));
-    console.log(req.param('size'));
-    console.log(req.param('all'));
-    res.send("collections page");
+    Collection.findAll({ include: [ Play ] }).then(function(coll) {
+        res.send(coll);
+    })
 });
 app.get('/api/collections/:id', function (req, res) {
-    console.log(req.params.id);
-    res.send('all collections')
+    Collection.find({ where: {id: req.params.id}, include: [Play] }).then(function(coll) {
+        res.send(coll);
+    })
 });
 
 app.listen(3000);
