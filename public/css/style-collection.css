@@ -1,3 +1,7 @@
+.navbar {
+    margin: 0 !important;
+}
+
 .welcome-img-container {
     position: relative;
     width: 100%;
@@ -232,6 +236,7 @@ span.welcome {
     background-color: #e6e6e6;
     padding: 70px 0;
 }
+
 .new-collection-title {
     text-align: center;
 
@@ -240,6 +245,7 @@ span.welcome {
 .new-collection-title-text {
     font: 3em Helvetica;
 }
+
 .new-collection-element-wrapper {
     padding: 10px 0;
 }
@@ -247,9 +253,11 @@ span.welcome {
 .new-collection-element-wrapper:first-child {
     padding-left: 10px;
 }
+
 .new-collection-element-wrapper:last-child {
     padding-right: 10px;
 }
+
 .img-row-wrapper {
     position: relative;
 }
@@ -267,7 +275,6 @@ span.welcome {
     height: auto;
 }
 
-
 .new-collection-img-text {
     margin: auto;
     position: absolute;
@@ -281,9 +288,11 @@ span.welcome {
     border: 15px solid #000000;
     border-image: url('../img/oie_transparent.png') 40 repeat;
 }
-.footer-wrapper{
+
+.footer-wrapper {
     padding: 70px 0;
 }
+
 .footer-title {
     text-align: center;
 
@@ -291,4 +300,51 @@ span.welcome {
 
 .footer-title-text {
     font: 3em Helvetica;
+}
+.play-wrapper span{
+    display: block;
+}
+.theater-title {
+    color:darkgray;
+    font: 1.2em Helvetica;
+}
+
+.play-title {
+    color:black;
+    font: 2em Helvetica;
+}
+
+.play-description {
+    color:#000000;
+    font: 1.2em Helvetica;
+}
+
+.genre {
+    color:darkgray;
+    font: 0.8em Helvetica;
+}
+
+.genre:before {
+    color: red;
+    content: "Genre: "
+}
+
+.director {
+    color:darkgray;
+    font: 0.8em Helvetica;
+}
+
+.director:before {
+    color: red;
+    content: "Director: "
+}
+
+.artists {
+    color:darkgray;
+    font: 0.8em Helvetica;
+}
+
+.artists:before {
+    color: red;
+    content: "Artists: "
 }
