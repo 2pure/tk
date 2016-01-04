@@ -217,13 +217,13 @@ span.welcome {
     padding: 50px 0;
 }
 
-.other-themes-button {
+.buy-btn {
     background-color: #ac6866;
     color: #ffffff;
     font: 1.2em Helvetica;
 }
 
-.other-themes-button:hover {
+.buy-btn:hover {
     background-color: #9c5a58;
     color: #ffffff !important;
 }

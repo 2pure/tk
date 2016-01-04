@@ -221,15 +221,14 @@ span.welcome {
     padding: 50px 0;
 }
 
-.other-themes-button {
-    background-color: #ac6866;
-    color: #ffffff;
+.buy-btn {
+    background-color: #e3ffe3;
+    border: 1px solid #abffb3 !important;
     font: 1.2em Helvetica;
 }
 
-.other-themes-button:hover {
-    background-color: #9c5a58;
-    color: #ffffff !important;
+.buy-btn:hover {
+    background-color: #cce8cc;
 }
 
 .new-collection-wrapper {
@@ -301,26 +300,28 @@ span.welcome {
 .footer-title-text {
     font: 3em Helvetica;
 }
-.play-wrapper span{
+
+.play-wrapper span {
     display: block;
 }
+
 .theater-title {
-    color:darkgray;
+    color: darkgray;
     font: 1.2em Helvetica;
 }
 
 .play-title {
-    color:black;
+    color: black;
     font: 2em Helvetica;
 }
 
 .play-description {
-    color:#000000;
+    color: #000000;
     font: 1.2em Helvetica;
 }
 
 .genre {
-    color:darkgray;
+    color: darkgray;
     font: 0.8em Helvetica;
 }
 
@@ -330,7 +331,7 @@ span.welcome {
 }
 
 .director {
-    color:darkgray;
+    color: darkgray;
     font: 0.8em Helvetica;
 }
 
@@ -340,11 +341,72 @@ span.welcome {
 }
 
 .artists {
-    color:darkgray;
+    color: darkgray;
     font: 0.8em Helvetica;
 }
 
 .artists:before {
     color: red;
     content: "Artists: "
+}
+.place-select-wrapper{
+    background: #f3f3f3;
+    border: 1px solid #e9e1e9;
+    margin: 20px 0;
+}
+.place-select-content{
+    padding: 0px 20px;
+}
+.place-select-title{
+    padding: 20px 0;
+}
+.place-select-title span{
+    font: 1.5em Helvetica;
+    font-weight: bold;
+}
+.place-select-button {
+    padding: 5px 20px !important;
+    margin : 0 20px;
+    border: solid 1px #f58485 !important;
+}
+.input-number{
+    text-align: center;
+}
+.place-select-button.active {
+    outline: 0;
+    background: #ffdce6;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+}
+.price-text {
+    font-weight: bold;
+}
+.price-text:before {
+    content: "от ";
+font-weight: normal;
+}
+.price-text:after {
+    content: " рублей";
+    font-weight: normal;
+}
+.place-select-number{
+    padding: 20px 0;
+}
+.place-select-number .input-group{
+    width: 200px;
+}
+.total-price{
+    font-weight: bold;
+    font-size:  1.6em ;
+}
+.total-price:after{
+    content: " рублей";
+    font-weight: normal;
+}
+.total-price:before{
+    content: "Итого: ";
+    font-weight: normal;
+}
+.place-select-price{
+    padding: 20px 0;
 }

@@ -53,6 +53,59 @@
             </div>
         </div>
     </div>
+    <div class="place-select-wrapper">
+        <div class="place-select-content">
+            <div class="place-select-where">
+                <div class="place-select-title">
+                    <span>Выберете место:</span>
+                </div>
+                <div class="btn-group " data-toggle="buttons">
+                    <label class="btn place-select-button active">
+                        <input type="radio" name="options" id="option1">
+
+                        <div><span>Партер</span></div>
+                        <div><span class="price-text">2000</span></div>
+                    </label>
+                    <label class="btn place-select-button">
+                        <input type="radio" name="options" id="option2">
+
+                        <div><span>Бельэтаж</span></div>
+                        <div><span class="price-text">2000</span></div>
+                    </label>
+                    <label class="btn place-select-button">
+                        <input type="radio" name="options" id="option3">
+
+                        <div><span>Балкон</span></div>
+                        <div><span class="price-text">2000</span></div>
+                    </label>
+                </div>
+            </div>
+            <div class="place-select-number">
+
+                <div class="input-group">
+          <span class="input-group-btn">
+              <button type="button" class="btn place-select-button btn-number" disabled="disabled" data-type="minus"
+                      data-field="quant[1]">
+                  <span class="glyphicon glyphicon-minus"></span>
+              </button>
+          </span>
+                    <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+          <span class="input-group-btn">
+              <button type="button" class="btn place-select-button btn-number" data-type="plus" data-field="quant[1]">
+                  <span class="glyphicon glyphicon-plus"></span>
+              </button>
+          </span>
+                </div>
+
+            </div>
+            <div class="place-select-price">
+                <div><span class="total-price">2000</span></div>
+                <button type="button" class="btn buy-btn" aria-label="Left Align">
+                    <span class="buy-btn-title" aria-hidden="true">Купить</span>
+                </button>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
