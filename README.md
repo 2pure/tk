@@ -14,8 +14,8 @@
 			"description": "Описание темы",
 			"img_url": "http://example.com/img.png",
 			"theme_url": "http://example.com/theme",
-			"collections_id_list": [1, 2, 3],
-		},
+			"collections_id_list": [1, 2, 3]
+		}
 	]
 }
 ```
@@ -34,8 +34,8 @@
 		"description": "Описание темы",
 		"img_url": "http://example.com/img.png",
 		"theme_url": "http://example.com/theme",
-		"collections_id_list": [1, 2, 3],
-},
+		"collections_id_list": [1, 2, 3]
+}
 ```
 
 `/api/themes/:id` возвращает конкретную запись темы
@@ -54,13 +54,13 @@ errors:
 			"description": "Описание коллекции",
 			"img_url": "http://example.com/img.png",
 			"collection_url": "http://example.com/collection",
-			"plays_list": [
+			"events_list": [
 				{
 					"name": "Название спектакля 1",
-					"play_id": 1,
-				},
-			],
-		},
+					"event_id": 1
+				}
+			]
+		}
 	]
 }
 ```
@@ -81,12 +81,12 @@ errors:
 		"description": "Описание коллекции",
 		"img_url": "http://example.com/img.png",
 		"collection_url": "http://example.com/collection",
-		"plays_list": [
+		"event_list": [
 			{
-				"name": "Название спектакля 1",
-				"play_id": 1,
-			},
-		],
+				"name": "Название события 1",
+				"event_id": 1
+			}
+		]
 }
 ```
 
@@ -94,3 +94,54 @@ errors:
 
 errors:
 * 404 not found
+
+## Открытая коллекция
+
+Описание коллекции:
+```json
+{
+		"name": "Название коллекции",
+		"description": "Описание коллекции",
+		"img_url": "http://example.com/img.png",
+		"event_id_list": [1, 2, 3]
+}
+```
+
+Описание конкретного спектакля:
+```json
+{
+		"event_id": 12345,
+		"venue_name": "Название театра",
+
+		"img_url": "http://example.com/img.png",
+		"name": "Название спектакля",
+		"description": "Описание спектакля",
+
+		"actors_list": ["Первое имя", "Второе имя", ],
+		"genres_list": ["Первый жанр", "Второй жанр", ],
+		"directors_list": ["Первый режиссер", "Второй режиссер", ],
+
+		"event_dates": [1453910400000, 1452960000000],
+
+		"event_prices": {
+			"stalls": 1000,
+			"mezzanine": 2000,
+			"balcony": 3000
+		}
+}
+```
+
+Отправляем на сервер:
+```json
+{
+		"collection_id": 12345,
+		"purchase_events": [
+			{
+				"event_id": 1,
+				"event_date": 1453910400000
+			}
+		],
+		"purchase_key": "mezzanine",
+		"clients_number": 2
+}
+```
