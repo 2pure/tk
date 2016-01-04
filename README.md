@@ -100,6 +100,7 @@ errors:
 Описание коллекции:
 ```json
 {
+		"collection_id": 12345,
 		"name": "Название коллекции",
 		"description": "Описание коллекции",
 		"img_url": "http://example.com/img.png",
