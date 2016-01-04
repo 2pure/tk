@@ -17,7 +17,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 501562, 
+            "event_id": 497906, 
             "sectors_list": [
                 928
             ], 
@@ -29,7 +29,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 501562, 
+            "event_id": 497906, 
             "sectors_list": [
                 928
             ], 
@@ -41,7 +41,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 501562, 
+            "event_id": 497906, 
             "sectors_list": [
                 928
             ], 
@@ -53,7 +53,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503176, 
+            "event_id": 501543, 
             "sectors_list": [
                 928
             ], 
@@ -65,7 +65,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503176, 
+            "event_id": 501543, 
             "sectors_list": [
                 928
             ], 
@@ -77,7 +77,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503176, 
+            "event_id": 501543, 
             "sectors_list": [
                 928
             ], 
@@ -89,7 +89,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503176, 
+            "event_id": 501543, 
             "sectors_list": [
                 928
             ], 
@@ -101,7 +101,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503176, 
+            "event_id": 501543, 
             "sectors_list": [
                 928
             ], 
@@ -113,7 +113,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503176, 
+            "event_id": 501543, 
             "sectors_list": [
                 928
             ], 
@@ -125,7 +125,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503176, 
+            "event_id": 501543, 
             "sectors_list": [
                 928
             ], 
@@ -161,7 +161,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503182, 
+            "event_id": 503180, 
             "sectors_list": [
                 928
             ], 
@@ -173,7 +173,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503182, 
+            "event_id": 503180, 
             "sectors_list": [
                 928
             ], 
@@ -185,7 +185,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503182, 
+            "event_id": 503180, 
             "sectors_list": [
                 928
             ], 
@@ -197,7 +197,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503182, 
+            "event_id": 503180, 
             "sectors_list": [
                 928
             ], 
@@ -209,7 +209,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503182, 
+            "event_id": 503180, 
             "sectors_list": [
                 928
             ], 
@@ -221,7 +221,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503546, 
+            "event_id": 502277, 
             "sectors_list": [
                 324, 
                 325, 
@@ -235,7 +235,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503546, 
+            "event_id": 502277, 
             "sectors_list": [
                 324, 
                 325, 
@@ -249,7 +249,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503546, 
+            "event_id": 502277, 
             "sectors_list": [
                 324, 
                 325, 
@@ -263,7 +263,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503187, 
+            "event_id": 503186, 
             "sectors_list": [
                 928
             ], 
@@ -275,19 +275,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503187, 
-            "sectors_list": [
-                928
-            ], 
-            "subevent_date": 1456156800000, 
-            "subevent_id": 501560
-        }, 
-        {
-            "age": 16, 
-            "commission": 10, 
-            "credit_card_payment": true, 
-            "eticket_possible": false, 
-            "event_id": 503187, 
+            "event_id": 503186, 
             "sectors_list": [
                 928
             ], 
@@ -299,7 +287,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503187, 
+            "event_id": 503186, 
             "sectors_list": [
                 928
             ], 
@@ -311,7 +299,19 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 501566, 
+            "event_id": 501565, 
+            "sectors_list": [
+                928
+            ], 
+            "subevent_date": 1455292800000, 
+            "subevent_id": 501565
+        }, 
+        {
+            "age": 16, 
+            "commission": 10, 
+            "credit_card_payment": true, 
+            "eticket_possible": false, 
+            "event_id": 501565, 
             "sectors_list": [
                 928
             ], 
@@ -323,7 +323,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 501550, 
+            "event_id": 501551, 
             "sectors_list": [
                 928
             ], 
@@ -335,7 +335,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 501550, 
+            "event_id": 501551, 
             "sectors_list": [
                 928
             ], 
@@ -347,7 +347,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 501550, 
+            "event_id": 501551, 
             "sectors_list": [
                 928
             ], 
@@ -359,7 +359,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 501550, 
+            "event_id": 501551, 
             "sectors_list": [
                 928
             ], 
@@ -371,7 +371,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 501550, 
+            "event_id": 501551, 
             "sectors_list": [
                 928
             ], 
@@ -407,7 +407,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503193, 
+            "event_id": 501568, 
             "sectors_list": [
                 928
             ], 
@@ -419,7 +419,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503193, 
+            "event_id": 501568, 
             "sectors_list": [
                 928
             ], 
@@ -431,7 +431,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503193, 
+            "event_id": 501568, 
             "sectors_list": [
                 928
             ], 
@@ -628,7 +628,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502962, 
+            "event_id": 502961, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -642,7 +642,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502962, 
+            "event_id": 502961, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -670,7 +670,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 493317, 
+            "event_id": 502955, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -684,7 +684,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 493317, 
+            "event_id": 502955, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -712,7 +712,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502947, 
+            "event_id": 493306, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -726,7 +726,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502947, 
+            "event_id": 493306, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -740,7 +740,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 493298, 
+            "event_id": 502960, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -754,7 +754,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 493298, 
+            "event_id": 502960, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -768,7 +768,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503748, 
+            "event_id": 503766, 
             "sectors_list": [
                 73
             ], 
@@ -780,7 +780,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503748, 
+            "event_id": 503766, 
             "sectors_list": [
                 73
             ], 
@@ -792,7 +792,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503748, 
+            "event_id": 503766, 
             "sectors_list": [
                 73
             ], 
@@ -843,7 +843,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502248, 
+            "event_id": 502295, 
             "sectors_list": [
                 324, 
                 325, 
@@ -857,7 +857,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502248, 
+            "event_id": 502295, 
             "sectors_list": [
                 324, 
                 325, 
@@ -871,7 +871,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502248, 
+            "event_id": 502295, 
             "sectors_list": [
                 324, 
                 325, 
@@ -885,7 +885,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502248, 
+            "event_id": 502295, 
             "sectors_list": [
                 324, 
                 325, 
@@ -899,7 +899,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502248, 
+            "event_id": 502295, 
             "sectors_list": [
                 324, 
                 325, 
@@ -913,7 +913,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502248, 
+            "event_id": 502295, 
             "sectors_list": [
                 324, 
                 325, 
@@ -927,7 +927,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503529, 
+            "event_id": 502254, 
             "sectors_list": [
                 324, 
                 325, 
@@ -941,7 +941,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503529, 
+            "event_id": 502254, 
             "sectors_list": [
                 324, 
                 325, 
@@ -1012,7 +1012,6 @@
             "eticket_possible": true, 
             "event_id": 502252, 
             "sectors_list": [
-                324, 
                 325, 
                 326
             ], 
@@ -1024,7 +1023,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503541, 
+            "event_id": 502250, 
             "sectors_list": [
                 324, 
                 325, 
@@ -1038,7 +1037,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503541, 
+            "event_id": 502250, 
             "sectors_list": [
                 324, 
                 325, 
@@ -1130,7 +1129,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502944, 
+            "event_id": 502940, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -1144,7 +1143,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502944, 
+            "event_id": 502940, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -1158,7 +1157,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502944, 
+            "event_id": 502940, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -1172,7 +1171,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502944, 
+            "event_id": 502940, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -1186,7 +1185,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502944, 
+            "event_id": 502940, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -1200,7 +1199,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502944, 
+            "event_id": 502940, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -1214,7 +1213,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502944, 
+            "event_id": 502940, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -1228,7 +1227,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502944, 
+            "event_id": 502940, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -1242,7 +1241,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502944, 
+            "event_id": 502940, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -1256,7 +1255,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502944, 
+            "event_id": 502940, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -1405,9 +1404,8 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502023, 
+            "event_id": 500994, 
             "sectors_list": [
-                1067, 
                 1066
             ], 
             "subevent_date": 1452787200000, 
@@ -1418,9 +1416,8 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502023, 
+            "event_id": 500994, 
             "sectors_list": [
-                1067, 
                 1066
             ], 
             "subevent_date": 1454256000000, 
@@ -1431,9 +1428,8 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502023, 
+            "event_id": 500994, 
             "sectors_list": [
-                1067, 
                 1066
             ], 
             "subevent_date": 1455379200000, 
@@ -1444,52 +1440,12 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502023, 
+            "event_id": 500994, 
             "sectors_list": [
-                1067, 
                 1066
             ], 
             "subevent_date": 1455465600000, 
             "subevent_id": 502026
-        }, 
-        {
-            "age": 18, 
-            "commission": 10, 
-            "credit_card_payment": true, 
-            "eticket_possible": true, 
-            "event_id": 502031, 
-            "sectors_list": [
-                749, 
-                490
-            ], 
-            "subevent_date": 1453046400000, 
-            "subevent_id": 499981
-        }, 
-        {
-            "age": 18, 
-            "commission": 10, 
-            "credit_card_payment": true, 
-            "eticket_possible": true, 
-            "event_id": 502031, 
-            "sectors_list": [
-                749, 
-                490
-            ], 
-            "subevent_date": 1454860800000, 
-            "subevent_id": 501489
-        }, 
-        {
-            "age": 18, 
-            "commission": 10, 
-            "credit_card_payment": true, 
-            "eticket_possible": true, 
-            "event_id": 502031, 
-            "sectors_list": [
-                749, 
-                490
-            ], 
-            "subevent_date": 1456592400000, 
-            "subevent_id": 502031
         }, 
         {
             "age": 16, 
@@ -1508,7 +1464,19 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503771, 
+            "event_id": 503751, 
+            "sectors_list": [
+                73
+            ], 
+            "subevent_date": 1452877200000, 
+            "subevent_id": 503757
+        }, 
+        {
+            "age": 18, 
+            "commission": 10, 
+            "credit_card_payment": true, 
+            "eticket_possible": true, 
+            "event_id": 503751, 
             "sectors_list": [
                 73
             ], 
@@ -1520,7 +1488,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503771, 
+            "event_id": 503751, 
             "sectors_list": [
                 73
             ], 
@@ -1532,7 +1500,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503771, 
+            "event_id": 503751, 
             "sectors_list": [
                 73
             ], 
@@ -1544,9 +1512,8 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503575, 
+            "event_id": 502084, 
             "sectors_list": [
-                749, 
                 490
             ], 
             "subevent_date": 1453046400000, 
@@ -1557,9 +1524,8 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503575, 
+            "event_id": 502084, 
             "sectors_list": [
-                749, 
                 490
             ], 
             "subevent_date": 1454862600000, 
@@ -1570,11 +1536,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1453824000000, 
             "subevent_id": 500545
@@ -1584,11 +1549,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1453910400000, 
             "subevent_id": 500546
@@ -1598,11 +1562,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1453996800000, 
             "subevent_id": 500547
@@ -1612,11 +1575,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454083200000, 
             "subevent_id": 500548
@@ -1626,11 +1588,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454151600000, 
             "subevent_id": 500549
@@ -1640,11 +1601,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454169600000, 
             "subevent_id": 500550
@@ -1654,11 +1614,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454238000000, 
             "subevent_id": 500551
@@ -1668,11 +1627,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454256000000, 
             "subevent_id": 500552
@@ -1682,11 +1640,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454428800000, 
             "subevent_id": 500875
@@ -1696,11 +1653,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454515200000, 
             "subevent_id": 500876
@@ -1710,11 +1666,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454601600000, 
             "subevent_id": 500877
@@ -1724,11 +1679,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454688000000, 
             "subevent_id": 500878
@@ -1738,11 +1692,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454756400000, 
             "subevent_id": 500879
@@ -1752,11 +1705,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454774400000, 
             "subevent_id": 500880
@@ -1766,11 +1718,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454842800000, 
             "subevent_id": 500881
@@ -1780,11 +1731,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1454860800000, 
             "subevent_id": 500882
@@ -1794,11 +1744,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1456848000000, 
             "subevent_id": 503110
@@ -1808,11 +1757,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457107200000, 
             "subevent_id": 503111
@@ -1822,11 +1770,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457175600000, 
             "subevent_id": 503112
@@ -1836,11 +1783,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457193600000, 
             "subevent_id": 503113
@@ -1850,11 +1796,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457262000000, 
             "subevent_id": 503114
@@ -1864,11 +1809,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457280000000, 
             "subevent_id": 503115
@@ -1878,11 +1822,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457348400000, 
             "subevent_id": 503116
@@ -1892,11 +1835,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457366400000, 
             "subevent_id": 503117
@@ -1906,11 +1848,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457452800000, 
             "subevent_id": 503118
@@ -1920,11 +1861,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457625600000, 
             "subevent_id": 503119
@@ -1934,11 +1874,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457712000000, 
             "subevent_id": 503120
@@ -1948,11 +1887,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457780400000, 
             "subevent_id": 503121
@@ -1962,11 +1900,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457798400000, 
             "subevent_id": 503122
@@ -1976,11 +1913,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457866800000, 
             "subevent_id": 503123
@@ -1990,11 +1926,10 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "sectors_list": [
                 170, 
-                9576, 
-                167
+                9576
             ], 
             "subevent_date": 1457884800000, 
             "subevent_id": 503124
@@ -2019,7 +1954,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 499185, 
+            "event_id": 499069, 
             "sectors_list": [
                 749, 
                 490
@@ -2032,7 +1967,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 499185, 
+            "event_id": 499069, 
             "sectors_list": [
                 749, 
                 490
@@ -2045,8 +1980,9 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502280, 
+            "event_id": 503568, 
             "sectors_list": [
+                324, 
                 325, 
                 326
             ], 
@@ -2058,8 +1994,9 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502280, 
+            "event_id": 503568, 
             "sectors_list": [
+                324, 
                 325, 
                 326
             ], 
@@ -2071,8 +2008,9 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502280, 
+            "event_id": 503568, 
             "sectors_list": [
+                324, 
                 325, 
                 326
             ], 
@@ -2084,8 +2022,9 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502280, 
+            "event_id": 503568, 
             "sectors_list": [
+                324, 
                 325, 
                 326
             ], 
@@ -2097,7 +2036,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 499210, 
+            "event_id": 499206, 
             "sectors_list": [
                 490
             ], 
@@ -2109,7 +2048,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 499210, 
+            "event_id": 499206, 
             "sectors_list": [
                 490
             ], 
@@ -2159,30 +2098,6 @@
             "subevent_id": 502315
         }, 
         {
-            "age": 12, 
-            "commission": 10, 
-            "credit_card_payment": true, 
-            "eticket_possible": true, 
-            "event_id": 501876, 
-            "sectors_list": [
-                8302
-            ], 
-            "subevent_date": 1455469200000, 
-            "subevent_id": 501876
-        }, 
-        {
-            "age": 12, 
-            "commission": 10, 
-            "credit_card_payment": true, 
-            "eticket_possible": true, 
-            "event_id": 501876, 
-            "sectors_list": [
-                8302
-            ], 
-            "subevent_date": 1457539200000, 
-            "subevent_id": 501800
-        }, 
-        {
             "age": 16, 
             "commission": 10, 
             "credit_card_payment": true, 
@@ -2199,7 +2114,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502362, 
+            "event_id": 503126, 
             "sectors_list": [
                 145
             ], 
@@ -2211,7 +2126,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502362, 
+            "event_id": 503126, 
             "sectors_list": [
                 145
             ], 
@@ -2247,7 +2162,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502977, 
+            "event_id": 503131, 
             "sectors_list": [
                 145
             ], 
@@ -2259,7 +2174,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502977, 
+            "event_id": 503131, 
             "sectors_list": [
                 145
             ], 
@@ -2271,7 +2186,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502977, 
+            "event_id": 503131, 
             "sectors_list": [
                 145
             ], 
@@ -2443,43 +2358,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503773, 
-            "sectors_list": [
-                73
-            ], 
-            "subevent_date": 1451754000000, 
-            "subevent_id": 503778
-        }, 
-        {
-            "age": 16, 
-            "commission": 10, 
-            "credit_card_payment": true, 
-            "eticket_possible": true, 
-            "event_id": 503773, 
-            "sectors_list": [
-                73
-            ], 
-            "subevent_date": 1451840400000, 
-            "subevent_id": 503773
-        }, 
-        {
-            "age": 16, 
-            "commission": 10, 
-            "credit_card_payment": true, 
-            "eticket_possible": true, 
-            "event_id": 503773, 
-            "sectors_list": [
-                73
-            ], 
-            "subevent_date": 1451926800000, 
-            "subevent_id": 503772
-        }, 
-        {
-            "age": 16, 
-            "commission": 10, 
-            "credit_card_payment": true, 
-            "eticket_possible": true, 
-            "event_id": 503773, 
+            "event_id": 503770, 
             "sectors_list": [
                 73
             ], 
@@ -2491,7 +2370,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503773, 
+            "event_id": 503770, 
             "sectors_list": [
                 73
             ], 
@@ -2503,7 +2382,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503773, 
+            "event_id": 503770, 
             "sectors_list": [
                 73
             ], 
@@ -2599,7 +2478,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503801, 
+            "event_id": 503800, 
             "sectors_list": [
                 73
             ], 
@@ -2611,7 +2490,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503801, 
+            "event_id": 503800, 
             "sectors_list": [
                 73
             ], 
@@ -2623,7 +2502,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503801, 
+            "event_id": 503800, 
             "sectors_list": [
                 73
             ], 
@@ -2635,7 +2514,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503801, 
+            "event_id": 503800, 
             "sectors_list": [
                 73
             ], 
@@ -2647,7 +2526,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503801, 
+            "event_id": 503800, 
             "sectors_list": [
                 73
             ], 
@@ -2659,7 +2538,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503801, 
+            "event_id": 503800, 
             "sectors_list": [
                 73
             ], 
@@ -2671,7 +2550,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503801, 
+            "event_id": 503800, 
             "sectors_list": [
                 73
             ], 
@@ -2744,8 +2623,9 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502291, 
+            "event_id": 502293, 
             "sectors_list": [
+                324, 
                 325, 
                 326
             ], 
@@ -2757,8 +2637,9 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502291, 
+            "event_id": 502293, 
             "sectors_list": [
+                324, 
                 325, 
                 326
             ], 
@@ -2770,7 +2651,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 496043, 
+            "event_id": 502019, 
             "sectors_list": [
                 8302
             ], 
@@ -2782,7 +2663,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 496043, 
+            "event_id": 502019, 
             "sectors_list": [
                 8302
             ], 
@@ -2794,19 +2675,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 493318, 
-            "sectors_list": [
-                9576
-            ], 
-            "subevent_date": 1453024800000, 
-            "subevent_id": 493318
-        }, 
-        {
-            "age": 6, 
-            "commission": 10, 
-            "credit_card_payment": true, 
-            "eticket_possible": true, 
-            "event_id": 493318, 
+            "event_id": 493319, 
             "sectors_list": [
                 9576
             ], 
@@ -2818,7 +2687,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 493318, 
+            "event_id": 493319, 
             "sectors_list": [
                 9576
             ], 
@@ -2830,7 +2699,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 493318, 
+            "event_id": 493319, 
             "sectors_list": [
                 9576
             ], 
@@ -2883,7 +2752,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502356, 
+            "event_id": 502969, 
             "sectors_list": [
                 145
             ], 
@@ -2895,7 +2764,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502356, 
+            "event_id": 502969, 
             "sectors_list": [
                 145
             ], 
@@ -2907,7 +2776,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502356, 
+            "event_id": 502969, 
             "sectors_list": [
                 145
             ], 
@@ -2919,7 +2788,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502018, 
+            "event_id": 502039, 
             "sectors_list": [
                 1066
             ], 
@@ -2931,7 +2800,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502018, 
+            "event_id": 502039, 
             "sectors_list": [
                 1066
             ], 
@@ -2943,7 +2812,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502018, 
+            "event_id": 502039, 
             "sectors_list": [
                 1066
             ], 
@@ -2955,7 +2824,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 501051, 
+            "event_id": 502027, 
             "sectors_list": [
                 1067, 
                 1066
@@ -2968,7 +2837,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 501051, 
+            "event_id": 502027, 
             "sectors_list": [
                 1067, 
                 1066
@@ -3017,7 +2886,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503560, 
+            "event_id": 498381, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3031,7 +2900,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503560, 
+            "event_id": 498381, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3045,7 +2914,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503560, 
+            "event_id": 498381, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3059,7 +2928,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 503560, 
+            "event_id": 498381, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3086,7 +2955,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503185, 
+            "event_id": 503184, 
             "sectors_list": [
                 928
             ], 
@@ -3098,7 +2967,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 503185, 
+            "event_id": 503184, 
             "sectors_list": [
                 928
             ], 
@@ -3170,7 +3039,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 497908, 
+            "event_id": 501546, 
             "sectors_list": [
                 928
             ], 
@@ -3182,7 +3051,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 497908, 
+            "event_id": 501546, 
             "sectors_list": [
                 928
             ], 
@@ -3194,7 +3063,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 497908, 
+            "event_id": 501546, 
             "sectors_list": [
                 928
             ], 
@@ -3206,7 +3075,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 497908, 
+            "event_id": 501546, 
             "sectors_list": [
                 928
             ], 
@@ -3218,7 +3087,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 497908, 
+            "event_id": 501546, 
             "sectors_list": [
                 928
             ], 
@@ -3230,7 +3099,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": false, 
-            "event_id": 497908, 
+            "event_id": 501546, 
             "sectors_list": [
                 928
             ], 
@@ -3277,8 +3146,20 @@
             "age": 16, 
             "commission": 10, 
             "credit_card_payment": true, 
+            "eticket_possible": false, 
+            "event_id": 501563, 
+            "sectors_list": [
+                928
+            ], 
+            "subevent_date": 1455120000000, 
+            "subevent_id": 501563
+        }, 
+        {
+            "age": 16, 
+            "commission": 10, 
+            "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502272, 
+            "event_id": 502294, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3292,7 +3173,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502272, 
+            "event_id": 502294, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3306,7 +3187,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502272, 
+            "event_id": 502294, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3320,7 +3201,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502272, 
+            "event_id": 502294, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3388,7 +3269,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 501875, 
+            "event_id": 501805, 
             "sectors_list": [
                 8302
             ], 
@@ -3400,7 +3281,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 501875, 
+            "event_id": 501805, 
             "sectors_list": [
                 8302
             ], 
@@ -3412,7 +3293,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 501875, 
+            "event_id": 501805, 
             "sectors_list": [
                 8302
             ], 
@@ -3424,7 +3305,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 501875, 
+            "event_id": 501805, 
             "sectors_list": [
                 8302
             ], 
@@ -3436,7 +3317,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 498373, 
+            "event_id": 502287, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3450,7 +3331,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 498373, 
+            "event_id": 502287, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3458,6 +3339,30 @@
             ], 
             "subevent_date": 1456070400000, 
             "subevent_id": 502287
+        }, 
+        {
+            "age": 18, 
+            "commission": 10, 
+            "credit_card_payment": true, 
+            "eticket_possible": true, 
+            "event_id": 503792, 
+            "sectors_list": [
+                73
+            ], 
+            "subevent_date": 1456419600000, 
+            "subevent_id": 503788
+        }, 
+        {
+            "age": 18, 
+            "commission": 10, 
+            "credit_card_payment": true, 
+            "eticket_possible": true, 
+            "event_id": 503792, 
+            "sectors_list": [
+                73
+            ], 
+            "subevent_date": 1456506000000, 
+            "subevent_id": 503792
         }, 
         {
             "age": 16, 
@@ -3563,7 +3468,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502959, 
+            "event_id": 502958, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -3577,7 +3482,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502959, 
+            "event_id": 502958, 
             "sectors_list": [
                 170, 
                 9576, 
@@ -3646,7 +3551,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 498372, 
+            "event_id": 502269, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3660,7 +3565,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 498372, 
+            "event_id": 502269, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3674,7 +3579,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 498372, 
+            "event_id": 502269, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3688,7 +3593,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 498372, 
+            "event_id": 502269, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3702,7 +3607,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 498372, 
+            "event_id": 502269, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3716,7 +3621,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 498372, 
+            "event_id": 502269, 
             "sectors_list": [
                 324, 
                 325, 
@@ -3743,7 +3648,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502021, 
+            "event_id": 502034, 
             "sectors_list": [
                 1066
             ], 
@@ -3755,7 +3660,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502021, 
+            "event_id": 502034, 
             "sectors_list": [
                 1066
             ], 
@@ -3767,7 +3672,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502976, 
+            "event_id": 503129, 
             "sectors_list": [
                 145
             ], 
@@ -3779,7 +3684,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502976, 
+            "event_id": 503129, 
             "sectors_list": [
                 145
             ], 
@@ -3791,7 +3696,7 @@
             "commission": 10, 
             "credit_card_payment": true, 
             "eticket_possible": true, 
-            "event_id": 502976, 
+            "event_id": 503129, 
             "sectors_list": [
                 145
             ], 

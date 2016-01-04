@@ -15,9 +15,9 @@
                 1455724800000, 
                 1455811200000
             ], 
-            "event_id": 498251, 
+            "event_id": 498252, 
             "event_img_url": "http://media.cultserv.ru/library/original/d6160cc86723fe9d374f237bcbd594ef89c34779.jpg", 
-            "title": "Зимний международный фестиваль искусств. Даниэль Финци Паска представляет спектакль «Бьянко и Бьянко»", 
+            "title": "Зимний международный фестиваль искусств. Духовой оркестр Олега Меньшикова. Спектакль «Медь»", 
             "venue_id": 1462
         }, 
         {
@@ -26,7 +26,7 @@
                 1456070400000, 
                 1457366400000
             ], 
-            "event_id": 501562, 
+            "event_id": 497906, 
             "event_img_url": "http://media.cultserv.ru/library/original/d64e024b7904d68cc326196b6664a54c96d3a768.jpg", 
             "title": "Вишневый сад", 
             "venue_id": 173
@@ -41,7 +41,7 @@
                 1457193600000, 
                 1457971200000
             ], 
-            "event_id": 503176, 
+            "event_id": 501543, 
             "event_img_url": "http://media.cultserv.ru/library/original/702e1dff57c29734a87d98cefac2b68147734166.jpg", 
             "title": "Вальпургиева ночь", 
             "venue_id": 173
@@ -51,7 +51,7 @@
                 1452182400000, 
                 1452268800000
             ], 
-            "event_id": 499645, 
+            "event_id": 499642, 
             "event_img_url": "http://media.cultserv.ru/library/original/e64180.jpg", 
             "title": "Сказки Венского леса", 
             "venue_id": 799
@@ -68,15 +68,11 @@
         }, 
         {
             "event_dates": [
-                1451836800000, 
-                1451923200000, 
-                1452009600000, 
-                1452096000000, 
                 1452182400000, 
                 1452268800000, 
                 1452355200000
             ], 
-            "event_id": 501502, 
+            "event_id": 501496, 
             "event_img_url": "http://media.cultserv.ru/library/original/e64182.jpg", 
             "title": "Любовь и голуби", 
             "venue_id": 33
@@ -89,7 +85,7 @@
                 1458662400000, 
                 1458835200000
             ], 
-            "event_id": 503182, 
+            "event_id": 503180, 
             "event_img_url": "http://media.cultserv.ru/library/original/0372ee1060bec89462471ba353c8f5e23ac5ab62.jpg", 
             "title": "Аквитанская львица", 
             "venue_id": 173
@@ -110,7 +106,7 @@
                 1455724800000, 
                 1458662400000
             ], 
-            "event_id": 503546, 
+            "event_id": 502277, 
             "event_img_url": "http://media.cultserv.ru/library/original/1358403921993.jpg", 
             "title": "Таланты и покойники", 
             "venue_id": 57
@@ -127,11 +123,10 @@
         {
             "event_dates": [
                 1454860800000, 
-                1456156800000, 
                 1457280000000, 
                 1457452800000
             ], 
-            "event_id": 503187, 
+            "event_id": 503186, 
             "event_img_url": "http://media.cultserv.ru/library/original/08f430893ec9ac59cca522645a93c45d5e803c91.jpg", 
             "title": "Юнона и Авось", 
             "venue_id": 173
@@ -148,43 +143,26 @@
         }, 
         {
             "event_dates": [
-                1452096000000
-            ], 
-            "event_id": 501321, 
-            "event_img_url": "http://media.cultserv.ru/library/original/e22978.jpg", 
-            "title": "Т.Васильева и С.Садальский в проекте «Голая правда»", 
-            "venue_id": 4
-        }, 
-        {
-            "event_dates": [
                 1452960000000, 
                 1453046400000, 
                 1453910400000, 
                 1454688000000, 
                 1456588800000
             ], 
-            "event_id": 498422, 
+            "event_id": 502344, 
             "event_img_url": "http://media.cultserv.ru/library/original/e22629.jpg", 
             "title": "ЛОНДОН ШОУ", 
             "venue_id": 1722
         }, 
         {
             "event_dates": [
+                1455292800000, 
                 1456416000000
             ], 
-            "event_id": 501566, 
+            "event_id": 501565, 
             "event_img_url": "http://media.cultserv.ru/library/original/ccbc0b99fe09dc4ad94de4ff44a66be8606fab62.jpg", 
             "title": "Попрыгунья", 
             "venue_id": 173
-        }, 
-        {
-            "event_dates": [
-                1452268800000
-            ], 
-            "event_id": 500669, 
-            "event_img_url": "http://media.cultserv.ru/library/original/0d71604da90551974aa8f658b2676572e6855df9.jpg", 
-            "title": "Opera Yard", 
-            "venue_id": 2257
         }, 
         {
             "event_dates": [
@@ -194,7 +172,7 @@
                 1457712000000, 
                 1459440000000
             ], 
-            "event_id": 501550, 
+            "event_id": 501551, 
             "event_img_url": "http://media.cultserv.ru/library/original/4b4e5a4fc17a39a09db6b3f7686f91b6c616f821.jpg", 
             "title": "Женитьба", 
             "venue_id": 173
@@ -224,10 +202,20 @@
                 1457798400000, 
                 1457884800000
             ], 
-            "event_id": 503193, 
+            "event_id": 501568, 
             "event_img_url": "http://media.cultserv.ru/library/original/d83d3064604e9fa55e4a02725f770da218685856.jpg", 
             "title": "Пролетая над гнездом кукушки", 
             "venue_id": 173
+        }, 
+        {
+            "event_dates": [
+                1453478400000, 
+                1454169600000
+            ], 
+            "event_id": 504060, 
+            "event_img_url": "http://media.cultserv.ru/library/original/1414672550861.jpg", 
+            "title": "Полюби меня крепче жизни", 
+            "venue_id": 622
         }, 
         {
             "event_dates": [
@@ -244,7 +232,7 @@
                 1453996800000, 
                 1456416000000
             ], 
-            "event_id": 502029, 
+            "event_id": 496064, 
             "event_img_url": "http://media.cultserv.ru/library/original/e30280.jpg", 
             "title": "Сублимация любви", 
             "venue_id": 31
@@ -269,8 +257,6 @@
         }, 
         {
             "event_dates": [
-                1451923200000, 
-                1452009600000, 
                 1456675200000
             ], 
             "event_id": 503006, 
@@ -283,7 +269,7 @@
                 1452873600000, 
                 1454166000000
             ], 
-            "event_id": 501578, 
+            "event_id": 501224, 
             "event_img_url": "http://media.cultserv.ru/library/original/e30455.jpg", 
             "title": "Плоды просвещения", 
             "venue_id": 234
@@ -308,15 +294,6 @@
         }, 
         {
             "event_dates": [
-                1452099600000
-            ], 
-            "event_id": 497283, 
-            "event_img_url": "http://media.cultserv.ru/library/original/1359969134278.jpg", 
-            "title": "Шалости аристократов", 
-            "venue_id": 1829
-        }, 
-        {
-            "event_dates": [
                 1455292800000
             ], 
             "event_id": 502950, 
@@ -326,7 +303,6 @@
         }, 
         {
             "event_dates": [
-                1452009600000, 
                 1452182400000, 
                 1452268800000
             ], 
@@ -340,7 +316,7 @@
                 1456135200000, 
                 1456156800000
             ], 
-            "event_id": 502962, 
+            "event_id": 502961, 
             "event_img_url": "http://media.cultserv.ru/library/original/1376664696184.JPG", 
             "title": "Летучая мышь", 
             "venue_id": 19
@@ -359,7 +335,7 @@
                 1452960000000, 
                 1455465600000
             ], 
-            "event_id": 493317, 
+            "event_id": 502955, 
             "event_img_url": "http://media.cultserv.ru/library/original/1376665436333.jpg", 
             "title": "Grand канкан", 
             "venue_id": 19
@@ -378,7 +354,7 @@
                 1452787200000, 
                 1455033600000
             ], 
-            "event_id": 502947, 
+            "event_id": 493306, 
             "event_img_url": "http://media.cultserv.ru/library/original/1376660535100.jpg", 
             "title": "Сильва", 
             "venue_id": 19
@@ -388,7 +364,7 @@
                 1454083200000, 
                 1455379200000
             ], 
-            "event_id": 499986, 
+            "event_id": 502642, 
             "event_img_url": "http://media.cultserv.ru/library/original/e391.jpg", 
             "title": "Бег", 
             "venue_id": 61
@@ -398,7 +374,7 @@
                 1452787200000, 
                 1453392000000
             ], 
-            "event_id": 498206, 
+            "event_id": 498213, 
             "event_img_url": "http://media.cultserv.ru/library/original/1289558782604.jpg", 
             "title": "Плащ. Джанни Скикки", 
             "venue_id": 87
@@ -408,19 +384,10 @@
                 1453042800000, 
                 1453219200000
             ], 
-            "event_id": 498212, 
+            "event_id": 498210, 
             "event_img_url": "http://media.cultserv.ru/library/original/e395.jpg", 
             "title": "Похождения повесы", 
             "venue_id": 87
-        }, 
-        {
-            "event_dates": [
-                1452092400000
-            ], 
-            "event_id": 499556, 
-            "event_img_url": "http://media.cultserv.ru/library/original/e418.jpg", 
-            "title": "Ночь перед Рождеством", 
-            "venue_id": 3725
         }, 
         {
             "event_dates": [
@@ -437,7 +404,7 @@
                 1454166000000, 
                 1454252400000
             ], 
-            "event_id": 498218, 
+            "event_id": 498217, 
             "event_img_url": "http://media.cultserv.ru/library/original/1418993694713.jpg", 
             "title": "Дон Жуан или Наказанный развратник", 
             "venue_id": 87
@@ -447,7 +414,7 @@
                 1452873600000, 
                 1456070400000
             ], 
-            "event_id": 493298, 
+            "event_id": 502960, 
             "event_img_url": "http://media.cultserv.ru/library/original/e554.jpg", 
             "title": "Фиалка Монмартра", 
             "venue_id": 19
@@ -467,8 +434,8 @@
                 1454860800000, 
                 1458057600000
             ], 
-            "event_id": 499151, 
-            "event_img_url": "http://media.cultserv.ru/library/original/se499151.jpg", 
+            "event_id": 499058, 
+            "event_img_url": "http://media.cultserv.ru/library/original/se499058.jpg", 
             "title": "Максим Аверин «Все начинается с любви. Продолжение»", 
             "venue_id": 26
         }, 
@@ -497,14 +464,13 @@
                 1455037200000, 
                 1455123600000
             ], 
-            "event_id": 503748, 
+            "event_id": 503766, 
             "event_img_url": "http://media.cultserv.ru/library/original/83745b806087d397f3a1fc3e0a29be3cdb1c80f8.jpg", 
             "title": "Девушка и революционер", 
             "venue_id": 9
         }, 
         {
             "event_dates": [
-                1452096000000, 
                 1452182400000, 
                 1454601600000
             ], 
@@ -518,7 +484,7 @@
                 1453478400000, 
                 1455465600000
             ], 
-            "event_id": 499860, 
+            "event_id": 502640, 
             "event_img_url": "http://media.cultserv.ru/library/original/1366272000893.jpg", 
             "title": "Анна Каренина", 
             "venue_id": 61
@@ -529,7 +495,7 @@
                 1454947200000, 
                 1455811200000
             ], 
-            "event_id": 502336, 
+            "event_id": 498414, 
             "event_img_url": "http://media.cultserv.ru/library/original/1412944441882.jpg", 
             "title": "Король Лир", 
             "venue_id": 1722
@@ -540,7 +506,7 @@
                 1454342400000, 
                 1456416000000
             ], 
-            "event_id": 498406, 
+            "event_id": 502316, 
             "event_img_url": "http://media.cultserv.ru/library/original/e1012.jpg", 
             "title": "Константин Райкин. Вечер с Достоевским", 
             "venue_id": 1722
@@ -659,7 +625,7 @@
                 1456066800000, 
                 1456671600000
             ], 
-            "event_id": 499706, 
+            "event_id": 499699, 
             "event_img_url": "http://media.cultserv.ru/library/original/e1729.jpg", 
             "title": "У нас сегодня концерт", 
             "venue_id": 242
@@ -678,7 +644,7 @@
                 1453647600000, 
                 1454428800000
             ], 
-            "event_id": 497539, 
+            "event_id": 499669, 
             "event_img_url": "http://media.cultserv.ru/library/original/e1732.jpg", 
             "title": "Грушенька", 
             "venue_id": 242
@@ -738,7 +704,7 @@
                 1455375600000, 
                 1456153200000
             ], 
-            "event_id": 497545, 
+            "event_id": 499675, 
             "event_img_url": "http://media.cultserv.ru/library/original/e2026.jpg", 
             "title": "Мы - цыгане", 
             "venue_id": 242
@@ -748,7 +714,7 @@
                 1453996800000, 
                 1456416000000
             ], 
-            "event_id": 502647, 
+            "event_id": 499989, 
             "event_img_url": "http://media.cultserv.ru/library/original/e2090.jpg", 
             "title": "Ветер шумит в тополях", 
             "venue_id": 61
@@ -789,7 +755,7 @@
                 1457193600000, 
                 1457280000000
             ], 
-            "event_id": 502248, 
+            "event_id": 502295, 
             "event_img_url": "http://media.cultserv.ru/library/original/e2120.jpg", 
             "title": "Девичник CLUB", 
             "venue_id": 57
@@ -799,7 +765,7 @@
                 1454860800000, 
                 1459094400000
             ], 
-            "event_id": 503529, 
+            "event_id": 502254, 
             "event_img_url": "http://media.cultserv.ru/library/original/e2124.jpg", 
             "title": "Любовь. Письма", 
             "venue_id": 57
@@ -825,7 +791,6 @@
         }, 
         {
             "event_dates": [
-                1451836800000, 
                 1452441600000
             ], 
             "event_id": 492916, 
@@ -892,9 +857,9 @@
                 1453305600000, 
                 1455897600000
             ], 
-            "event_id": 500122, 
+            "event_id": 503309, 
             "event_img_url": "http://media.cultserv.ru/library/original/e2560.jpg", 
-            "title": "Спектакль Лес", 
+            "title": "Лес", 
             "venue_id": 10
         }, 
         {
@@ -920,7 +885,7 @@
                 1455206400000, 
                 1455638400000
             ], 
-            "event_id": 502956, 
+            "event_id": 502967, 
             "event_img_url": "http://media.cultserv.ru/library/original/1400486659216.jpg", 
             "title": "Разговоры мужчин...", 
             "venue_id": 29
@@ -949,7 +914,7 @@
                 1454688000000, 
                 1458835200000
             ], 
-            "event_id": 503541, 
+            "event_id": 502250, 
             "event_img_url": "http://media.cultserv.ru/library/original/e2915.jpg", 
             "title": "Великая магия", 
             "venue_id": 57
@@ -969,7 +934,7 @@
                 1455033600000, 
                 1456329600000
             ], 
-            "event_id": 502651, 
+            "event_id": 502652, 
             "event_img_url": "http://media.cultserv.ru/library/original/e3009.jpg", 
             "title": "Дядя Ваня", 
             "venue_id": 61
@@ -980,7 +945,7 @@
                 1455638400000, 
                 1455724800000
             ], 
-            "event_id": 502670, 
+            "event_id": 502671, 
             "event_img_url": "http://media.cultserv.ru/library/original/e3010.jpg", 
             "title": "Мадемуазель Нитуш", 
             "venue_id": 61
@@ -1029,7 +994,7 @@
                 1453910400000, 
                 1456329600000
             ], 
-            "event_id": 502025, 
+            "event_id": 501467, 
             "event_img_url": "http://media.cultserv.ru/library/original/1316094712975.jpg", 
             "title": "Жениться вам надо, барин!", 
             "venue_id": 31
@@ -1056,7 +1021,7 @@
                 1456657200000, 
                 1456675200000
             ], 
-            "event_id": 502944, 
+            "event_id": 502940, 
             "event_img_url": "http://media.cultserv.ru/library/original/e3333.jpg", 
             "title": "Монте-Кристо", 
             "venue_id": 19
@@ -1201,7 +1166,7 @@
                 1455379200000, 
                 1455465600000
             ], 
-            "event_id": 502023, 
+            "event_id": 500994, 
             "event_img_url": "http://media.cultserv.ru/library/original/e3797.jpg", 
             "title": "Варшавская мелодия", 
             "venue_id": 103
@@ -1212,19 +1177,18 @@
                 1455206400000, 
                 1456675200000
             ], 
-            "event_id": 502683, 
+            "event_id": 500002, 
             "event_img_url": "http://media.cultserv.ru/library/original/e3799.jpg", 
             "title": "Пристань", 
             "venue_id": 61
         }, 
         {
             "event_dates": [
-                1452096000000, 
                 1452268800000, 
                 1455465600000, 
                 1457280000000
             ], 
-            "event_id": 501587, 
+            "event_id": 498972, 
             "event_img_url": "http://media.cultserv.ru/library/original/1401885530470.jpg", 
             "title": "Ханума", 
             "venue_id": 31
@@ -1244,10 +1208,10 @@
                 1454860800000, 
                 1456592400000
             ], 
-            "event_id": 502031, 
+            "event_id": 499981, 
             "event_img_url": "http://media.cultserv.ru/library/original/1284531188636.jpg", 
             "title": "Гастрольное танго", 
-            "venue_id": 89
+            "venue_id": 490
         }, 
         {
             "event_dates": [
@@ -1260,11 +1224,12 @@
         }, 
         {
             "event_dates": [
+                1452877200000, 
                 1453050000000, 
                 1455555600000, 
                 1455642000000
             ], 
-            "event_id": 503771, 
+            "event_id": 503751, 
             "event_img_url": "http://media.cultserv.ru/library/original/1386075597874.jpg", 
             "title": "КЕДЫ", 
             "venue_id": 9
@@ -1274,7 +1239,7 @@
                 1453046400000, 
                 1454862600000
             ], 
-            "event_id": 503575, 
+            "event_id": 502084, 
             "event_img_url": "http://media.cultserv.ru/library/original/e20768.jpg", 
             "title": "Пигмалион", 
             "venue_id": 89
@@ -1313,7 +1278,7 @@
                 1457866800000, 
                 1457884800000
             ], 
-            "event_id": 503113, 
+            "event_id": 500545, 
             "event_img_url": "http://media.cultserv.ru/library/original/1906b49781b1f213abe5d3b31333492f200e699f.jpg", 
             "title": "Граф Орлов", 
             "venue_id": 19
@@ -1341,7 +1306,7 @@
                 1454256000000, 
                 1455206400000
             ], 
-            "event_id": 503654, 
+            "event_id": 496068, 
             "event_img_url": "http://media.cultserv.ru/library/original/1383056589174.jpg", 
             "title": "Вокзал на троих", 
             "venue_id": 31
@@ -1361,7 +1326,7 @@
                 1453564800000, 
                 1456416000000
             ], 
-            "event_id": 502819, 
+            "event_id": 500370, 
             "event_img_url": "http://media.cultserv.ru/library/original/1346753588297.png", 
             "title": "Коррида, или Роман с...", 
             "venue_id": 52
@@ -1458,7 +1423,7 @@
                 1452956400000, 
                 1454688000000
             ], 
-            "event_id": 501146, 
+            "event_id": 497684, 
             "event_img_url": "http://media.cultserv.ru/library/original/e21037.jpg", 
             "title": "Госпожа министерша", 
             "venue_id": 308
@@ -1468,7 +1433,7 @@
                 1452787200000, 
                 1454252400000
             ], 
-            "event_id": 502873, 
+            "event_id": 499146, 
             "event_img_url": "http://media.cultserv.ru/library/original/1347034819536.jpg", 
             "title": "Танцы с Учителем", 
             "venue_id": 308
@@ -1478,7 +1443,7 @@
                 1453305600000, 
                 1456671600000
             ], 
-            "event_id": 501154, 
+            "event_id": 497719, 
             "event_img_url": "http://media.cultserv.ru/library/original/1347036294447.jpg", 
             "title": "Волки и овцы", 
             "venue_id": 308
@@ -1498,7 +1463,7 @@
                 1452700800000, 
                 1454601600000
             ], 
-            "event_id": 501159, 
+            "event_id": 497735, 
             "event_img_url": "http://media.cultserv.ru/library/original/e21079.jpg", 
             "title": "Похождения бравого солдата Швейка", 
             "venue_id": 308
@@ -1508,7 +1473,7 @@
                 1453824000000, 
                 1455033600000
             ], 
-            "event_id": 501164, 
+            "event_id": 497741, 
             "event_img_url": "http://media.cultserv.ru/library/original/1347621475441.jpg", 
             "title": "Севильский цирюльник", 
             "venue_id": 308
@@ -1537,7 +1502,7 @@
                 1454770800000, 
                 1455897600000
             ], 
-            "event_id": 501170, 
+            "event_id": 501161, 
             "event_img_url": "http://media.cultserv.ru/library/original/1347626495470.jpg", 
             "title": "Одноклассники", 
             "venue_id": 308
@@ -1549,7 +1514,7 @@
                 1455984000000, 
                 1456585200000
             ], 
-            "event_id": 499679, 
+            "event_id": 497541, 
             "event_img_url": "http://media.cultserv.ru/library/original/1371812740943.jpg", 
             "title": "Подкова счастья", 
             "venue_id": 242
@@ -1562,15 +1527,6 @@
             "event_img_url": "http://media.cultserv.ru/library/original/1363176919611.jpg", 
             "title": "Времена года", 
             "venue_id": 473
-        }, 
-        {
-            "event_dates": [
-                1452956400000
-            ], 
-            "event_id": 498722, 
-            "event_img_url": "http://media.cultserv.ru/library/original/e21223.jpg", 
-            "title": "Пушкин", 
-            "venue_id": 2272
         }, 
         {
             "event_dates": [
@@ -1605,7 +1561,7 @@
                 1454086800000, 
                 1457370000000
             ], 
-            "event_id": 499185, 
+            "event_id": 499069, 
             "event_img_url": "http://media.cultserv.ru/library/original/1351250598882.jpg", 
             "title": "Скамейка", 
             "venue_id": 89
@@ -1616,7 +1572,7 @@
                 1454688000000, 
                 1455897600000
             ], 
-            "event_id": 503616, 
+            "event_id": 499048, 
             "event_img_url": "http://media.cultserv.ru/library/original/e21466.jpg", 
             "title": "Кафе «Жизнь в розовом свете»", 
             "venue_id": 528
@@ -1626,7 +1582,7 @@
                 1453478400000, 
                 1456502400000
             ], 
-            "event_id": 503626, 
+            "event_id": 499034, 
             "event_img_url": "http://media.cultserv.ru/library/original/e21468.jpg", 
             "title": "Королева красоты", 
             "venue_id": 528
@@ -1636,7 +1592,7 @@
                 1453651200000, 
                 1455292800000
             ], 
-            "event_id": 503603, 
+            "event_id": 499035, 
             "event_img_url": "http://media.cultserv.ru/library/original/e21471.jpg", 
             "title": "Васса", 
             "venue_id": 528
@@ -1671,22 +1627,10 @@
                 1455206400000, 
                 1456156800000
             ], 
-            "event_id": 503621, 
+            "event_id": 499037, 
             "event_img_url": "http://media.cultserv.ru/library/original/e21476.jpg", 
             "title": "Нас ждут далеко-далеко, не здесь", 
             "venue_id": 528
-        }, 
-        {
-            "event_dates": [
-                1451894400000, 
-                1451905200000, 
-                1451980800000, 
-                1451991600000
-            ], 
-            "event_id": 494508, 
-            "event_img_url": "http://media.cultserv.ru/library/original/se490261.jpg", 
-            "title": "Осторожно, Фиксики!", 
-            "venue_id": 862
         }, 
         {
             "event_dates": [
@@ -1730,7 +1674,7 @@
                 1452875400000, 
                 1454603400000
             ], 
-            "event_id": 503651, 
+            "event_id": 501700, 
             "event_img_url": "http://media.cultserv.ru/library/original/1355872280817.jpg", 
             "title": "Про мою маму и про меня", 
             "venue_id": 381
@@ -1751,7 +1695,7 @@
                 1455897600000, 
                 1457020800000
             ], 
-            "event_id": 502280, 
+            "event_id": 503568, 
             "event_img_url": "http://media.cultserv.ru/library/original/e21890.jpg", 
             "title": "Добрый человек из Сезуана", 
             "venue_id": 57
@@ -1775,10 +1719,10 @@
                 1456419600000, 
                 1456506000000
             ], 
-            "event_id": 502799, 
-            "event_img_url": "http://media.cultserv.ru/library/original/1388147304677.jpg", 
-            "title": "Рок-мюзикл TODD", 
-            "venue_id": 269
+            "event_id": 503538, 
+            "event_img_url": "http://media.cultserv.ru/library/original/se496551.jpg", 
+            "title": "Мюзикл Todd", 
+            "venue_id": 329
         }, 
         {
             "event_dates": [
@@ -1800,12 +1744,11 @@
         }, 
         {
             "event_dates": [
-                1451926800000, 
                 1452186000000, 
                 1452445200000, 
                 1453568400000
             ], 
-            "event_id": 502122, 
+            "event_id": 502918, 
             "event_img_url": "http://media.cultserv.ru/library/original/1361804527597.jpg", 
             "title": "Pro Федота", 
             "venue_id": 650
@@ -1815,7 +1758,7 @@
                 1452697200000, 
                 1452783600000
             ], 
-            "event_id": 499210, 
+            "event_id": 499206, 
             "event_img_url": "http://media.cultserv.ru/library/original/e22229.jpg", 
             "title": "Чайка", 
             "venue_id": 89
@@ -1826,14 +1769,13 @@
                 1452787200000, 
                 1457971200000
             ], 
-            "event_id": 501612, 
+            "event_id": 498399, 
             "event_img_url": "http://media.cultserv.ru/library/original/36dc224b7517d3bb8b4025067acc991763ac383d.jpg", 
             "title": "Константин Райкин. Своим голосом...", 
-            "venue_id": 26
+            "venue_id": 1722
         }, 
         {
             "event_dates": [
-                1452009600000, 
                 1452182400000
             ], 
             "event_id": 501202, 
@@ -1899,13 +1841,12 @@
         }, 
         {
             "event_dates": [
-                1452096000000, 
                 1452272400000
             ], 
-            "event_id": 502302, 
+            "event_id": 497284, 
             "event_img_url": "http://media.cultserv.ru/library/original/e22587.jpg", 
             "title": "Любовь не картошка, не выбросишь в окошко", 
-            "venue_id": 26
+            "venue_id": 1829
         }, 
         {
             "event_dates": [
@@ -2004,7 +1945,7 @@
                 1454342400000, 
                 1456761600000
             ], 
-            "event_id": 499994, 
+            "event_id": 499995, 
             "event_img_url": "http://media.cultserv.ru/library/original/e22982.jpg", 
             "title": "Евгений Онегин", 
             "venue_id": 61
@@ -2024,10 +1965,10 @@
                 1455469200000, 
                 1457539200000
             ], 
-            "event_id": 501876, 
+            "event_id": 501800, 
             "event_img_url": "http://media.cultserv.ru/library/original/1404814596287.jpg", 
             "title": "Медея. Эквус", 
-            "venue_id": 94
+            "venue_id": 7
         }, 
         {
             "event_dates": [
@@ -2040,16 +1981,19 @@
         }, 
         {
             "event_dates": [
-                1453653000000
+                1453653000000, 
+                1456158600000, 
+                1456245000000
             ], 
-            "event_id": 499671, 
+            "event_id": 504043, 
             "event_img_url": "http://media.cultserv.ru/library/original/1366894487421.jpg", 
             "title": "Ужин с дураком", 
             "venue_id": 26
         }, 
         {
             "event_dates": [
-                1453480200000
+                1453480200000, 
+                1455899400000
             ], 
             "event_id": 499648, 
             "event_img_url": "http://media.cultserv.ru/library/original/1366897104966.jpg", 
@@ -2090,7 +2034,7 @@
                 1454515200000, 
                 1454947200000
             ], 
-            "event_id": 503552, 
+            "event_id": 501368, 
             "event_img_url": "http://media.cultserv.ru/library/original/1368690094717.JPG", 
             "title": "Искусство", 
             "venue_id": 633
@@ -2127,7 +2071,7 @@
                 1454688000000, 
                 1455897600000
             ], 
-            "event_id": 501222, 
+            "event_id": 501246, 
             "event_img_url": "http://media.cultserv.ru/library/original/e23368.jpg", 
             "title": "Майская ночь", 
             "venue_id": 489
@@ -2146,7 +2090,7 @@
                 1453132800000, 
                 1454428800000
             ], 
-            "event_id": 502362, 
+            "event_id": 503126, 
             "event_img_url": "http://media.cultserv.ru/library/original/e23391.jpg", 
             "title": "Иисус Христос – суперзвезда", 
             "venue_id": 14
@@ -2175,7 +2119,7 @@
                 1454083200000, 
                 1454860800000
             ], 
-            "event_id": 502977, 
+            "event_id": 503131, 
             "event_img_url": "http://media.cultserv.ru/library/original/1406885865461.jpg", 
             "title": "Три сестры", 
             "venue_id": 14
@@ -2195,7 +2139,7 @@
                 1453996800000, 
                 1456329600000
             ], 
-            "event_id": 501352, 
+            "event_id": 501354, 
             "event_img_url": "http://media.cultserv.ru/library/original/1387191886714.jpg", 
             "title": "Ночные бдения", 
             "venue_id": 633
@@ -2205,7 +2149,7 @@
                 1453046400000, 
                 1454428800000
             ], 
-            "event_id": 501363, 
+            "event_id": 503545, 
             "event_img_url": "http://media.cultserv.ru/library/original/1387191886714.jpg", 
             "title": "Клопомор", 
             "venue_id": 633
@@ -2215,7 +2159,7 @@
                 1453564800000, 
                 1454688000000
             ], 
-            "event_id": 503549, 
+            "event_id": 501348, 
             "event_img_url": "http://media.cultserv.ru/library/original/1415443474796.jpg", 
             "title": "Зигзаги", 
             "venue_id": 633
@@ -2228,15 +2172,6 @@
             "event_img_url": "http://media.cultserv.ru/library/original/1369988703204.jpg", 
             "title": "Космос. По рассказам В. Шукшина", 
             "venue_id": 134
-        }, 
-        {
-            "event_dates": [
-                1451925000000
-            ], 
-            "event_id": 497658, 
-            "event_img_url": "http://media.cultserv.ru/library/original/1370095414772.JPG", 
-            "title": "Люби меня, как я тебя", 
-            "venue_id": 384
         }, 
         {
             "event_dates": [
@@ -2317,7 +2252,7 @@
                 1455724800000, 
                 1455811200000
             ], 
-            "event_id": 500579, 
+            "event_id": 500577, 
             "event_img_url": "http://media.cultserv.ru/library/original/e23878.jpg", 
             "title": "Демон. Вид сверху", 
             "venue_id": 645
@@ -2333,24 +2268,13 @@
         }, 
         {
             "event_dates": [
-                1452009600000, 
                 1452182400000, 
                 1456243200000
             ], 
-            "event_id": 498961, 
+            "event_id": 498970, 
             "event_img_url": "http://media.cultserv.ru/library/original/e23938.jpg", 
             "title": "Будьте здоровы, месье", 
             "venue_id": 31
-        }, 
-        {
-            "event_dates": [
-                1451829600000, 
-                1451838600000
-            ], 
-            "event_id": 497748, 
-            "event_img_url": "http://media.cultserv.ru/library/original/1371797167580.jpg", 
-            "title": "Безумства любви", 
-            "venue_id": 384
         }, 
         {
             "event_dates": [
@@ -2483,10 +2407,9 @@
         }, 
         {
             "event_dates": [
-                1452351600000, 
                 1455980400000
             ], 
-            "event_id": 497733, 
+            "event_id": 501171, 
             "event_img_url": "http://media.cultserv.ru/library/original/e24489.jpg", 
             "title": "Муж для Памелы", 
             "venue_id": 308
@@ -2496,7 +2419,7 @@
                 1453561200000, 
                 1456329600000
             ], 
-            "event_id": 497738, 
+            "event_id": 501173, 
             "event_img_url": "http://media.cultserv.ru/library/original/1373295015381.jpg", 
             "title": "Саня, Ваня, с ними Римас", 
             "venue_id": 308
@@ -2559,7 +2482,7 @@
                 1452614400000, 
                 1454774400000
             ], 
-            "event_id": 500557, 
+            "event_id": 502466, 
             "event_img_url": "http://media.cultserv.ru/library/original/1374061848508.jpg", 
             "title": "Гвидон", 
             "venue_id": 645
@@ -2584,6 +2507,15 @@
         }, 
         {
             "event_dates": [
+                1455381000000
+            ], 
+            "event_id": 504039, 
+            "event_img_url": "http://media.cultserv.ru/library/original/1374230989502.jpg", 
+            "title": "Морковка для Императора", 
+            "venue_id": 26
+        }, 
+        {
+            "event_dates": [
                 1454169600000
             ], 
             "event_id": 501793, 
@@ -2598,7 +2530,7 @@
                 1454428800000, 
                 1454515200000
             ], 
-            "event_id": 498412, 
+            "event_id": 498411, 
             "event_img_url": "http://media.cultserv.ru/library/original/e24944.jpg", 
             "title": "Отелло", 
             "venue_id": 1722
@@ -2608,7 +2540,7 @@
                 1452960000000, 
                 1453035600000
             ], 
-            "event_id": 501113, 
+            "event_id": 501114, 
             "event_img_url": "http://media.cultserv.ru/library/original/1400494317366.jpg", 
             "title": "www.nibelungopera.ru", 
             "venue_id": 1279
@@ -2620,7 +2552,7 @@
                 1453564800000, 
                 1453640400000
             ], 
-            "event_id": 501118, 
+            "event_id": 501119, 
             "event_img_url": "http://media.cultserv.ru/library/original/1385554958672.jpg", 
             "title": "Опера Евгений Онегин", 
             "venue_id": 1279
@@ -2632,15 +2564,6 @@
             "event_id": 501120, 
             "event_img_url": "http://media.cultserv.ru/library/original/1385364414678.jpg", 
             "title": "Моцарт и Сальери. Реквием", 
-            "venue_id": 1279
-        }, 
-        {
-            "event_dates": [
-                1456588800000
-            ], 
-            "event_id": 501140, 
-            "event_img_url": "http://media.cultserv.ru/library/original/1385366823362.jpg", 
-            "title": "Пиковая дама", 
             "venue_id": 1279
         }, 
         {
@@ -2658,7 +2581,7 @@
                 1455379200000, 
                 1455454800000
             ], 
-            "event_id": 501135, 
+            "event_id": 501136, 
             "event_img_url": "http://media.cultserv.ru/library/original/1385559125337.jpg", 
             "title": "Средство Макропулоса", 
             "venue_id": 1279
@@ -2780,7 +2703,7 @@
                 1453309200000, 
                 1455984000000
             ], 
-            "event_id": 502092, 
+            "event_id": 497570, 
             "event_img_url": "http://media.cultserv.ru/library/original/e25405.jpg", 
             "title": "Иллюзион", 
             "venue_id": 638
@@ -2818,7 +2741,7 @@
                 1455354000000, 
                 1456650000000
             ], 
-            "event_id": 502063, 
+            "event_id": 502062, 
             "event_img_url": "http://media.cultserv.ru/library/original/1379411001676.jpg", 
             "title": "Ч. Диккенс. Сверчок на печи", 
             "venue_id": 632
@@ -2828,7 +2751,7 @@
                 1452700800000, 
                 1456066800000
             ], 
-            "event_id": 502053, 
+            "event_id": 499165, 
             "event_img_url": "http://media.cultserv.ru/library/original/1414404706383.jpg", 
             "title": "Г. Фигейреду «Любовь и Рабство»", 
             "venue_id": 632
@@ -2905,7 +2828,7 @@
                 1453996800000, 
                 1456416000000
             ], 
-            "event_id": 502075, 
+            "event_id": 498152, 
             "event_img_url": "http://media.cultserv.ru/library/original/e25683.jpg", 
             "title": "А.Н. Островский «Таланты и поклонники»", 
             "venue_id": 632
@@ -2943,7 +2866,7 @@
                 1453478400000, 
                 1454601600000
             ], 
-            "event_id": 498143, 
+            "event_id": 502050, 
             "event_img_url": "http://media.cultserv.ru/library/original/e25695.jpg", 
             "title": "Николай Гумилев. Отравленная туника", 
             "venue_id": 632
@@ -2963,7 +2886,7 @@
                 1453392000000, 
                 1455292800000
             ], 
-            "event_id": 502051, 
+            "event_id": 499163, 
             "event_img_url": "http://media.cultserv.ru/library/original/1379604031754.jpg", 
             "title": "У.Гибсон «Белые розы, розовые слоны»", 
             "venue_id": 632
@@ -2991,7 +2914,7 @@
                 1455984000000, 
                 1458403200000
             ], 
-            "event_id": 501802, 
+            "event_id": 501877, 
             "event_img_url": "http://media.cultserv.ru/library/original/1380285153710.jpg", 
             "title": "Эгопойнт", 
             "venue_id": 473
@@ -3036,11 +2959,11 @@
         }, 
         {
             "event_dates": [
-                1451840400000
+                1455294600000
             ], 
-            "event_id": 500479, 
-            "event_img_url": "http://media.cultserv.ru/library/original/e26085.jpg", 
-            "title": "На высоких каблуках", 
+            "event_id": 504038, 
+            "event_img_url": "http://media.cultserv.ru/library/original/e26158.jpg", 
+            "title": "Крутые виражи", 
             "venue_id": 26
         }, 
         {
@@ -3081,15 +3004,6 @@
         }, 
         {
             "event_dates": [
-                1451833200000
-            ], 
-            "event_id": 498902, 
-            "event_img_url": "http://media.cultserv.ru/library/original/1412529009948.jpg", 
-            "title": "Дочки-матери", 
-            "venue_id": 635
-        }, 
-        {
-            "event_dates": [
                 1453996800000
             ], 
             "event_id": 498918, 
@@ -3108,12 +3022,14 @@
         }, 
         {
             "event_dates": [
-                1452006000000
+                1452787200000, 
+                1452873600000, 
+                1453392000000
             ], 
-            "event_id": 498905, 
-            "event_img_url": "http://media.cultserv.ru/library/original/1412532219950.jpg", 
-            "title": "Тойбеле и ее демон", 
-            "venue_id": 635
+            "event_id": 504053, 
+            "event_img_url": "http://media.cultserv.ru/library/original/1387549563299.jpg", 
+            "title": "Сватовство по-московски. Второе", 
+            "venue_id": 622
         }, 
         {
             "event_dates": [
@@ -3135,7 +3051,6 @@
         }, 
         {
             "event_dates": [
-                1452092400000, 
                 1454857200000
             ], 
             "event_id": 501163, 
@@ -3191,14 +3106,10 @@
         }, 
         {
             "event_dates": [
-                1451754000000, 
-                1451840400000, 
-                1451926800000, 
-                1452099600000, 
                 1452358800000, 
                 1452445200000
             ], 
-            "event_id": 503773, 
+            "event_id": 503770, 
             "event_img_url": "http://media.cultserv.ru/library/original/e26480.jpg", 
             "title": "Страшная месть", 
             "venue_id": 9
@@ -3250,15 +3161,6 @@
         }, 
         {
             "event_dates": [
-                1451998800000
-            ], 
-            "event_id": 498963, 
-            "event_img_url": "http://media.cultserv.ru/library/original/e26726.jpg", 
-            "title": "Он в Аргентине", 
-            "venue_id": 31
-        }, 
-        {
-            "event_dates": [
                 1452614400000
             ], 
             "event_id": 502352, 
@@ -3286,8 +3188,6 @@
         }, 
         {
             "event_dates": [
-                1451829600000, 
-                1451840400000, 
                 1452175200000, 
                 1453035600000, 
                 1453046400000, 
@@ -3297,7 +3197,7 @@
                 1455465600000, 
                 1455472800000
             ], 
-            "event_id": 502906, 
+            "event_id": 502909, 
             "event_img_url": "http://media.cultserv.ru/library/original/e26763.jpg", 
             "title": "Шикарная свадьба", 
             "venue_id": 650
@@ -3359,6 +3259,15 @@
         }, 
         {
             "event_dates": [
+                1454256000000
+            ], 
+            "event_id": 504061, 
+            "event_img_url": "http://media.cultserv.ru/library/original/1386330759473.jpg", 
+            "title": "Невеста", 
+            "venue_id": 622
+        }, 
+        {
+            "event_dates": [
                 1452873600000, 
                 1455120000000
             ], 
@@ -3387,10 +3296,37 @@
                 1456675200000, 
                 1456682400000
             ], 
-            "event_id": 503801, 
+            "event_id": 503800, 
             "event_img_url": "http://media.cultserv.ru/library/original/1411396408399.jpg", 
             "title": "Иллюзии", 
             "venue_id": 9
+        }, 
+        {
+            "event_dates": [
+                1453046400000
+            ], 
+            "event_id": 504052, 
+            "event_img_url": "http://media.cultserv.ru/library/original/1386880188684.jpg", 
+            "title": "Другой Тургенев. Актриса", 
+            "venue_id": 622
+        }, 
+        {
+            "event_dates": [
+                1453651200000
+            ], 
+            "event_id": 504057, 
+            "event_img_url": "http://media.cultserv.ru/library/original/1387549802808.jpg", 
+            "title": "Учитель химии", 
+            "venue_id": 622
+        }, 
+        {
+            "event_dates": [
+                1453996800000
+            ], 
+            "event_id": 504058, 
+            "event_img_url": "http://media.cultserv.ru/library/original/1386923570329.jpg", 
+            "title": "Прикосновение", 
+            "venue_id": 622
         }, 
         {
             "event_dates": [
@@ -3398,7 +3334,7 @@
                 1455120000000, 
                 1455897600000
             ], 
-            "event_id": 503566, 
+            "event_id": 503553, 
             "event_img_url": "http://media.cultserv.ru/library/original/1387191886714.jpg", 
             "title": "Зима под столом", 
             "venue_id": 633
@@ -3490,22 +3426,10 @@
         }, 
         {
             "event_dates": [
-                1452096000000
-            ], 
-            "event_id": 496941, 
-            "event_img_url": "http://media.cultserv.ru/library/original/1389976071196.jpg", 
-            "title": "Хочу купить вашего мужа", 
-            "venue_id": 384
-        }, 
-        {
-            "event_dates": [
-                1451916000000, 
-                1452002400000, 
-                1452013200000, 
                 1452949200000, 
                 1452960000000
             ], 
-            "event_id": 503213, 
+            "event_id": 503212, 
             "event_img_url": "http://media.cultserv.ru/library/original/1390179009528.jpg", 
             "title": "RedRoom", 
             "venue_id": 650
@@ -3535,7 +3459,7 @@
                 1454515200000, 
                 1456243200000
             ], 
-            "event_id": 502689, 
+            "event_id": 500003, 
             "event_img_url": "http://media.cultserv.ru/library/original/e27482.jpg", 
             "title": "Улыбнись нам, Господи", 
             "venue_id": 61
@@ -3560,22 +3484,12 @@
         }, 
         {
             "event_dates": [
-                1451836800000, 
                 1452186000000
             ], 
-            "event_id": 493974, 
+            "event_id": 499709, 
             "event_img_url": "http://media.cultserv.ru/library/original/e27694.jpg", 
             "title": "Битва с экстрасенсом", 
-            "venue_id": 799
-        }, 
-        {
-            "event_dates": [
-                1451836800000
-            ], 
-            "event_id": 485261, 
-            "event_img_url": "http://media.cultserv.ru/library/original/1392391372616.jpg", 
-            "title": "Тапер-шоу", 
-            "venue_id": 269
+            "venue_id": 1829
         }, 
         {
             "event_dates": [
@@ -3602,10 +3516,10 @@
                 1452355200000, 
                 1454515200000
             ], 
-            "event_id": 502855, 
+            "event_id": 501213, 
             "event_img_url": "http://media.cultserv.ru/library/original/1392620392428.jpg", 
             "title": "Форсъ-мажоръ", 
-            "venue_id": 31
+            "venue_id": 26
         }, 
         {
             "event_dates": [
@@ -3622,7 +3536,7 @@
                 1454515200000, 
                 1455292800000
             ], 
-            "event_id": 499670, 
+            "event_id": 499682, 
             "event_img_url": "http://media.cultserv.ru/library/original/1402298351642.jpg", 
             "title": "Клятва", 
             "venue_id": 242
@@ -3719,7 +3633,7 @@
                 1456243200000, 
                 1456329600000
             ], 
-            "event_id": 502291, 
+            "event_id": 502293, 
             "event_img_url": "http://media.cultserv.ru/library/original/e28298.jpg", 
             "title": "Женитьба Фигаро", 
             "venue_id": 57
@@ -3740,7 +3654,7 @@
                 1455642000000, 
                 1455728400000
             ], 
-            "event_id": 502595, 
+            "event_id": 500578, 
             "event_img_url": "http://media.cultserv.ru/library/original/1399280681673.jpg", 
             "title": "Рыбак и его душа", 
             "venue_id": 645
@@ -3751,7 +3665,7 @@
                 1454601600000, 
                 1456329600000
             ], 
-            "event_id": 503742, 
+            "event_id": 500911, 
             "event_img_url": "http://media.cultserv.ru/library/original/1399966799216.jpg", 
             "title": "Над пропастью во ржи", 
             "venue_id": 91
@@ -3761,7 +3675,7 @@
                 1453824000000, 
                 1455379200000
             ], 
-            "event_id": 502091, 
+            "event_id": 503661, 
             "event_img_url": "http://media.cultserv.ru/library/original/e28433.jpg", 
             "title": "Княжна Марья", 
             "venue_id": 381
@@ -3782,7 +3696,7 @@
                 1455724800000, 
                 1456416000000
             ], 
-            "event_id": 501322, 
+            "event_id": 501320, 
             "event_img_url": "http://media.cultserv.ru/library/original/1400493246585.jpg", 
             "title": "Письма и песни мужчин...", 
             "venue_id": 29
@@ -3834,7 +3748,8 @@
         }, 
         {
             "event_dates": [
-                1453048200000
+                1453048200000, 
+                1455985800000
             ], 
             "event_id": 499678, 
             "event_img_url": "http://media.cultserv.ru/library/original/e28682.jpg", 
@@ -3855,19 +3770,18 @@
                 1453395600000, 
                 1458493200000
             ], 
-            "event_id": 496043, 
+            "event_id": 502019, 
             "event_img_url": "http://media.cultserv.ru/library/original/1404820631632.jpg", 
             "title": "Застывший смех", 
             "venue_id": 94
         }, 
         {
             "event_dates": [
-                1453024800000, 
                 1453046400000, 
                 1456221600000, 
                 1456243200000
             ], 
-            "event_id": 493318, 
+            "event_id": 493319, 
             "event_img_url": "http://media.cultserv.ru/library/original/1409918976815.jpg", 
             "title": "Джейн Эйр", 
             "venue_id": 19
@@ -3887,7 +3801,7 @@
                 1454169600000, 
                 1455292800000
             ], 
-            "event_id": 499987, 
+            "event_id": 502644, 
             "event_img_url": "http://media.cultserv.ru/library/original/e28812.jpg", 
             "title": "Безумный день или женитьба Фигаро", 
             "venue_id": 61
@@ -3919,7 +3833,7 @@
                 1454860800000, 
                 1455552000000
             ], 
-            "event_id": 498397, 
+            "event_id": 502324, 
             "event_img_url": "http://media.cultserv.ru/library/original/1406797131658.jpg", 
             "title": "Укрощение", 
             "venue_id": 1722
@@ -3929,7 +3843,7 @@
                 1452700800000, 
                 1453647600000
             ], 
-            "event_id": 501221, 
+            "event_id": 501572, 
             "event_img_url": "http://media.cultserv.ru/library/original/1354628529393.jpg", 
             "title": "Чудаки", 
             "venue_id": 151
@@ -3940,7 +3854,7 @@
                 1455292800000, 
                 1456675200000
             ], 
-            "event_id": 501734, 
+            "event_id": 501717, 
             "event_img_url": "http://media.cultserv.ru/library/original/1407752236351.jpg", 
             "title": "С любимыми не расставайтесь", 
             "venue_id": 58
@@ -3988,7 +3902,7 @@
                 1455465600000, 
                 1455638400000
             ], 
-            "event_id": 502487, 
+            "event_id": 502488, 
             "event_img_url": "http://media.cultserv.ru/library/original/1407763796574.jpg", 
             "title": "О-й. Поздняя любовь", 
             "venue_id": 645
@@ -4118,7 +4032,7 @@
                 1456066800000, 
                 1456239600000
             ], 
-            "event_id": 502934, 
+            "event_id": 502935, 
             "event_img_url": "http://media.cultserv.ru/library/original/1410897692484.jpg", 
             "title": "Леонора", 
             "venue_id": 87
@@ -4137,10 +4051,10 @@
                 1453564800000, 
                 1456156800000
             ], 
-            "event_id": 500894, 
+            "event_id": 497784, 
             "event_img_url": "http://media.cultserv.ru/library/original/e29303.jpg", 
             "title": "Любовь по-итальянски", 
-            "venue_id": 4
+            "venue_id": 88
         }, 
         {
             "event_dates": [
@@ -4202,7 +4116,7 @@
                 1453478400000, 
                 1454601600000
             ], 
-            "event_id": 502356, 
+            "event_id": 502969, 
             "event_img_url": "http://media.cultserv.ru/library/original/be1916f26a1df754c38c31d55c1ac96efa2c77f0.jpg", 
             "title": "Римская комедия", 
             "venue_id": 14
@@ -4240,7 +4154,7 @@
                 1455206400000, 
                 1456416000000
             ], 
-            "event_id": 502018, 
+            "event_id": 502039, 
             "event_img_url": "http://media.cultserv.ru/library/original/1416571845149.jpg", 
             "title": "Формалин", 
             "venue_id": 103
@@ -4250,19 +4164,10 @@
                 1453478400000, 
                 1455724800000
             ], 
-            "event_id": 501051, 
+            "event_id": 502027, 
             "event_img_url": "http://media.cultserv.ru/library/original/e29693.jpg", 
             "title": "Сирано де Бержерак", 
             "venue_id": 103
-        }, 
-        {
-            "event_dates": [
-                1451923200000
-            ], 
-            "event_id": 485262, 
-            "event_img_url": "http://media.cultserv.ru/library/original/e29695.jpg", 
-            "title": "Девочки из календаря", 
-            "venue_id": 269
         }, 
         {
             "event_dates": [
@@ -4270,7 +4175,7 @@
                 1455724800000, 
                 1456502400000
             ], 
-            "event_id": 499703, 
+            "event_id": 499687, 
             "event_img_url": "http://media.cultserv.ru/library/original/e29723.jpg", 
             "title": "Цыганская невеста", 
             "venue_id": 242
@@ -4329,7 +4234,7 @@
                 1457539200000, 
                 1457625600000
             ], 
-            "event_id": 499447, 
+            "event_id": 499451, 
             "event_img_url": "http://media.cultserv.ru/library/original/e29958.jpg", 
             "title": "ЯРЪ", 
             "venue_id": 799
@@ -4351,7 +4256,7 @@
                 1455206400000, 
                 1457366400000
             ], 
-            "event_id": 503560, 
+            "event_id": 498381, 
             "event_img_url": "http://media.cultserv.ru/library/original/e30022.jpg", 
             "title": "Вишневый сад", 
             "venue_id": 57
@@ -4389,7 +4294,7 @@
                 1456941600000, 
                 1460484000000
             ], 
-            "event_id": 503833, 
+            "event_id": 503838, 
             "event_img_url": "http://media.cultserv.ru/library/original/e30180.jpg", 
             "title": "Шепот сердца", 
             "venue_id": 91
@@ -4399,7 +4304,7 @@
                 1454860800000, 
                 1457280000000
             ], 
-            "event_id": 501873, 
+            "event_id": 501799, 
             "event_img_url": "http://media.cultserv.ru/library/original/1419328950875.jpg", 
             "title": "Эрос. Минос", 
             "venue_id": 473
@@ -4433,13 +4338,11 @@
         }, 
         {
             "event_dates": [
-                1451912400000, 
-                1452085200000, 
                 1455984000000, 
                 1457366400000, 
                 1460131200000
             ], 
-            "event_id": 493988, 
+            "event_id": 501861, 
             "event_img_url": "http://media.cultserv.ru/library/original/e30327.jpg", 
             "title": "Дуры", 
             "venue_id": 799
@@ -4459,7 +4362,7 @@
                 1454173200000, 
                 1454252400000
             ], 
-            "event_id": 502760, 
+            "event_id": 502759, 
             "event_img_url": "http://media.cultserv.ru/library/original/e30368.jpg", 
             "title": "Хармс.Мыр", 
             "venue_id": 1035
@@ -4484,8 +4387,6 @@
         }, 
         {
             "event_dates": [
-                1451923200000, 
-                1452009600000, 
                 1456588800000, 
                 1457884800000
             ], 
@@ -4518,7 +4419,7 @@
                 1455292800000, 
                 1456502400000
             ], 
-            "event_id": 501175, 
+            "event_id": 501165, 
             "event_img_url": "http://media.cultserv.ru/library/original/e30721.jpg", 
             "title": "Завещание целомудренного бабника", 
             "venue_id": 308
@@ -4560,7 +4461,7 @@
                 1455033600000, 
                 1455724800000
             ], 
-            "event_id": 502334, 
+            "event_id": 502326, 
             "event_img_url": "http://media.cultserv.ru/library/original/e30836.jpg", 
             "title": "Все оттенки голубого", 
             "venue_id": 1722
@@ -4570,7 +4471,7 @@
                 1457107200000, 
                 1459353600000
             ], 
-            "event_id": 503185, 
+            "event_id": 503184, 
             "event_img_url": "http://media.cultserv.ru/library/original/37433dad2787ddf0a6cb6e66fb5973327e15b694.jpg", 
             "title": "Шут Балакирев", 
             "venue_id": 173
@@ -4597,7 +4498,7 @@
                 1458316800000, 
                 1458403200000
             ], 
-            "event_id": 497908, 
+            "event_id": 501546, 
             "event_img_url": "http://media.cultserv.ru/library/original/9dcf7c441b65b31136ad1ab4c193badb29e02385.jpg", 
             "title": "Ложь во спасение", 
             "venue_id": 173
@@ -4623,10 +4524,19 @@
         }, 
         {
             "event_dates": [
+                1455120000000
+            ], 
+            "event_id": 501563, 
+            "event_img_url": "http://media.cultserv.ru/library/original/e30885.jpg", 
+            "title": "Безумный день, или Женитьба Фигаро", 
+            "venue_id": 173
+        }, 
+        {
+            "event_dates": [
                 1453654800000, 
                 1453741200000
             ], 
-            "event_id": 500917, 
+            "event_id": 500916, 
             "event_img_url": "http://media.cultserv.ru/library/original/e30919.jpg", 
             "title": "Вера и велосипед", 
             "venue_id": 569
@@ -4636,7 +4546,7 @@
                 1453478400000, 
                 1454256000000
             ], 
-            "event_id": 501616, 
+            "event_id": 501598, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31006.jpg", 
             "title": "Фаршированная рыба с гарниром", 
             "venue_id": 422
@@ -4679,22 +4589,12 @@
         }, 
         {
             "event_dates": [
-                1452002400000, 
-                1452011400000
-            ], 
-            "event_id": 501315, 
-            "event_img_url": "http://media.cultserv.ru/library/original/e31016.jpg", 
-            "title": "Распахни окно любви", 
-            "venue_id": 384
-        }, 
-        {
-            "event_dates": [
                 1453996800000, 
                 1455465600000, 
                 1456416000000, 
                 1456934400000
             ], 
-            "event_id": 502272, 
+            "event_id": 502294, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31019.jpg", 
             "title": "Тартюф", 
             "venue_id": 57
@@ -4758,7 +4658,7 @@
                 1454256000000, 
                 1456502400000
             ], 
-            "event_id": 503357, 
+            "event_id": 503680, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31196.jpg", 
             "title": "SMILE. Опыт синематографа", 
             "venue_id": 381
@@ -4787,7 +4687,7 @@
                 1453221000000, 
                 1456504200000
             ], 
-            "event_id": 502077, 
+            "event_id": 503683, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31199.jpg", 
             "title": "Павел I", 
             "venue_id": 381
@@ -4797,7 +4697,7 @@
                 1452960000000, 
                 1455120000000
             ], 
-            "event_id": 503657, 
+            "event_id": 501705, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31200.jpg", 
             "title": "Стулья", 
             "venue_id": 381
@@ -4807,7 +4707,7 @@
                 1453915800000, 
                 1454002200000
             ], 
-            "event_id": 502757, 
+            "event_id": 502756, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31220.jpg", 
             "title": "Феи", 
             "venue_id": 1035
@@ -4826,14 +4726,11 @@
         }, 
         {
             "event_dates": [
-                1451916000000, 
-                1452002400000, 
-                1452088800000, 
                 1452175200000, 
                 1452261600000, 
                 1452348000000
             ], 
-            "event_id": 503041, 
+            "event_id": 503045, 
             "event_img_url": "http://media.cultserv.ru/library/original/5639e08c566181c440b47f95ec25be0faf392844.jpg", 
             "title": "Цирковой мюзикл «Алиса»", 
             "venue_id": 3801
@@ -4855,6 +4752,16 @@
             "event_img_url": "http://media.cultserv.ru/library/original/e31384.jpg", 
             "title": "Сашка", 
             "venue_id": 91
+        }, 
+        {
+            "event_dates": [
+                1453564800000, 
+                1454083200000
+            ], 
+            "event_id": 504055, 
+            "event_img_url": "http://media.cultserv.ru/library/original/e31430.jpg", 
+            "title": "Сегодня я люблю...", 
+            "venue_id": 622
         }, 
         {
             "event_dates": [
@@ -4889,7 +4796,7 @@
                 1453309200000, 
                 1454086800000
             ], 
-            "event_id": 503221, 
+            "event_id": 503220, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31503.jpg", 
             "title": "Шутки А.П. Чехова", 
             "venue_id": 650
@@ -4900,7 +4807,7 @@
                 1454601600000, 
                 1455811200000
             ], 
-            "event_id": 497527, 
+            "event_id": 499692, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31504.jpg", 
             "title": "Любовь и время. Цыганская легенда", 
             "venue_id": 242
@@ -4916,21 +4823,12 @@
         }, 
         {
             "event_dates": [
-                1452355200000
-            ], 
-            "event_id": 492902, 
-            "event_img_url": "http://media.cultserv.ru/library/original/e31597.jpg", 
-            "title": "Роковая женщина", 
-            "venue_id": 10
-        }, 
-        {
-            "event_dates": [
                 1452270600000, 
                 1454517000000
             ], 
-            "event_id": 503650, 
+            "event_id": 501696, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31710.jpg", 
-            "title": "GATE A33", 
+            "title": "Gate 33A", 
             "venue_id": 381
         }, 
         {
@@ -5012,7 +4910,7 @@
                 1458752400000, 
                 1458838800000
             ], 
-            "event_id": 501875, 
+            "event_id": 501805, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31889.jpg", 
             "title": "Кафе Идиот", 
             "venue_id": 94
@@ -5022,10 +4920,20 @@
                 1453478400000, 
                 1456070400000
             ], 
-            "event_id": 498373, 
+            "event_id": 502287, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31890.jpg", 
             "title": "Жанна д'Арк", 
             "venue_id": 57
+        }, 
+        {
+            "event_dates": [
+                1456419600000, 
+                1456506000000
+            ], 
+            "event_id": 503792, 
+            "event_img_url": "http://media.cultserv.ru/library/original/7d448d153ed51a16166f97102555c1a2380e5cfe.jpg", 
+            "title": "Невыносимо долгие объятия", 
+            "venue_id": 9
         }, 
         {
             "event_dates": [
@@ -5071,7 +4979,7 @@
                 1452529800000, 
                 1456417800000
             ], 
-            "event_id": 503361, 
+            "event_id": 503677, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31945.jpg", 
             "title": "Скамейка", 
             "venue_id": 381
@@ -5097,7 +5005,7 @@
                 1456156800000, 
                 1456502400000
             ], 
-            "event_id": 498419, 
+            "event_id": 502343, 
             "event_img_url": "http://media.cultserv.ru/library/original/e31983.jpg", 
             "title": "Человек из ресторана", 
             "venue_id": 1722
@@ -5111,10 +5019,19 @@
                 1456243200000, 
                 1456675200000
             ], 
-            "event_id": 499054, 
+            "event_id": 503589, 
             "event_img_url": "http://media.cultserv.ru/library/original/e32019.jpg", 
             "title": "Чума на оба ваши дома", 
             "venue_id": 528
+        }, 
+        {
+            "event_dates": [
+                1456072200000
+            ], 
+            "event_id": 504042, 
+            "event_img_url": "http://media.cultserv.ru/library/original/e32027.jpg", 
+            "title": "По особым случаям", 
+            "venue_id": 1829
         }, 
         {
             "event_dates": [
@@ -5124,15 +5041,6 @@
             "event_img_url": "http://media.cultserv.ru/library/original/e32065.jpg", 
             "title": "В.О.Л.К.", 
             "venue_id": 151
-        }, 
-        {
-            "event_dates": [
-                1454169600000
-            ], 
-            "event_id": 500761, 
-            "event_img_url": "http://media.cultserv.ru/library/original/e32066.jpg", 
-            "title": "Про мою маму и про меня", 
-            "venue_id": 3476
         }, 
         {
             "event_dates": [
@@ -5150,19 +5058,10 @@
                 1456502400000, 
                 1456588800000
             ], 
-            "event_id": 501366, 
+            "event_id": 501365, 
             "event_img_url": "http://media.cultserv.ru/library/original/e32092.jpg", 
             "title": "Наташина мечта", 
             "venue_id": 633
-        }, 
-        {
-            "event_dates": [
-                1452096000000
-            ], 
-            "event_id": 493987, 
-            "event_img_url": "http://media.cultserv.ru/library/original/e32138.jpg", 
-            "title": "Легенды Голливуда", 
-            "venue_id": 799
         }, 
         {
             "event_dates": [
@@ -5186,21 +5085,11 @@
         }, 
         {
             "event_dates": [
-                1451926800000, 
-                1452013200000
-            ], 
-            "event_id": 501288, 
-            "event_img_url": "http://media.cultserv.ru/library/original/e32218.jpg", 
-            "title": "Третий лишний", 
-            "venue_id": 1829
-        }, 
-        {
-            "event_dates": [
                 1456502400000, 
                 1458489600000, 
                 1460908800000
             ], 
-            "event_id": 501862, 
+            "event_id": 501871, 
             "event_img_url": "http://media.cultserv.ru/library/original/e32243.jpg", 
             "title": "Дублеры", 
             "venue_id": 799
@@ -5276,7 +5165,7 @@
                 1452960000000, 
                 1453564800000
             ], 
-            "event_id": 499877, 
+            "event_id": 499878, 
             "event_img_url": "http://media.cultserv.ru/library/original/e32443.jpg", 
             "title": "И снова «С наступающим!»", 
             "venue_id": 1829
@@ -5298,6 +5187,15 @@
             "event_img_url": "http://media.cultserv.ru/library/original/e32451.jpg", 
             "title": "Ночь сказок", 
             "venue_id": 621
+        }, 
+        {
+            "event_dates": [
+                1452438000000
+            ], 
+            "event_id": 502764, 
+            "event_img_url": "http://media.cultserv.ru/library/original/66f63ab657b8d9b7003c4cb54db5282578b2a89c.jpg", 
+            "title": "Алиса в стране чудес. Балет", 
+            "venue_id": 2160
         }, 
         {
             "event_dates": [
@@ -5332,7 +5230,7 @@
                 1453219200000, 
                 1453824000000
             ], 
-            "event_id": 503076, 
+            "event_id": 503065, 
             "event_img_url": "http://media.cultserv.ru/library/original/e32487.jpg", 
             "title": "Предложение", 
             "venue_id": 584
@@ -5352,7 +5250,7 @@
                 1452614400000, 
                 1453392000000
             ], 
-            "event_id": 503003, 
+            "event_id": 503068, 
             "event_img_url": "http://media.cultserv.ru/library/original/e32490.jpg", 
             "title": "Доходное место", 
             "venue_id": 584
@@ -5368,12 +5266,11 @@
         }, 
         {
             "event_dates": [
-                1452265200000, 
                 1454083200000, 
                 1455375600000, 
                 1456416000000
             ], 
-            "event_id": 497732, 
+            "event_id": 501167, 
             "event_img_url": "http://media.cultserv.ru/library/original/e32511.jpg", 
             "title": "Филумена Мартурано", 
             "venue_id": 308
@@ -5433,7 +5330,7 @@
                 1454166000000, 
                 1454230800000
             ], 
-            "event_id": 490223, 
+            "event_id": 490254, 
             "event_img_url": "http://media.cultserv.ru/library/original/e32599.jpg", 
             "title": "Gear. Механическое сердце", 
             "venue_id": 485
@@ -5479,11 +5376,10 @@
         }, 
         {
             "event_dates": [
-                1452171600000, 
                 1453651200000, 
                 1456502400000
             ], 
-            "event_id": 502767, 
+            "event_id": 501592, 
             "event_img_url": "http://media.cultserv.ru/library/original/e32750.jpg", 
             "title": "Поймай меня… Сможешь?", 
             "venue_id": 31
@@ -5530,17 +5426,16 @@
                 1454778000000, 
                 1455037200000
             ], 
-            "event_id": 500572, 
+            "event_id": 502474, 
             "event_img_url": "http://media.cultserv.ru/library/original/e32824.jpg", 
             "title": "Евгений Онегин. Своими словами", 
             "venue_id": 645
         }, 
         {
             "event_dates": [
-                1452011400000, 
                 1452182400000
             ], 
-            "event_id": 492909, 
+            "event_id": 492910, 
             "event_img_url": "http://media.cultserv.ru/library/original/e32828.jpg", 
             "title": "Куриц(а)", 
             "venue_id": 10
@@ -5553,7 +5448,7 @@
                 1454774400000, 
                 1454860800000
             ], 
-            "event_id": 493179, 
+            "event_id": 493180, 
             "event_img_url": "http://media.cultserv.ru/library/original/e32839.jpg", 
             "title": "Пьер Ричард III", 
             "venue_id": 222
@@ -5637,7 +5532,7 @@
                 1453640400000, 
                 1453647600000
             ], 
-            "event_id": 501398, 
+            "event_id": 501395, 
             "event_img_url": "http://media.cultserv.ru/library/original/e63743.jpg", 
             "title": "Путь самурая", 
             "venue_id": 3719
@@ -5647,7 +5542,7 @@
                 1455984000000, 
                 1456329600000
             ], 
-            "event_id": 502959, 
+            "event_id": 502958, 
             "event_img_url": "http://media.cultserv.ru/library/original/03f662a49c07597e1796a28a9a2088c0c5d17a7b.jpg", 
             "title": "Баядера", 
             "venue_id": 19
@@ -5671,7 +5566,7 @@
                 1454601600000, 
                 1455984000000
             ], 
-            "event_id": 502649, 
+            "event_id": 502648, 
             "event_img_url": "http://media.cultserv.ru/library/original/e63799.jpg", 
             "title": "Девичник над вечным покоем", 
             "venue_id": 61
@@ -5684,7 +5579,7 @@
                 1453478400000, 
                 1453647600000
             ], 
-            "event_id": 502845, 
+            "event_id": 502843, 
             "event_img_url": "http://media.cultserv.ru/library/original/e63809.JPG", 
             "title": "Беда от нежного сердца", 
             "venue_id": 224
@@ -5695,7 +5590,7 @@
                 1453305600000, 
                 1453737600000
             ], 
-            "event_id": 503057, 
+            "event_id": 503075, 
             "event_img_url": "http://media.cultserv.ru/library/original/e63832.jpg", 
             "title": "Лес", 
             "venue_id": 584
@@ -5732,8 +5627,6 @@
         }, 
         {
             "event_dates": [
-                1451991600000, 
-                1452078000000, 
                 1452153600000, 
                 1452164400000, 
                 1452175200000, 
@@ -5743,7 +5636,7 @@
                 1452337200000, 
                 1452348000000
             ], 
-            "event_id": 496003, 
+            "event_id": 496006, 
             "event_img_url": "http://media.cultserv.ru/library/original/e63898.jpg", 
             "title": "Незнайка в стране Колючек", 
             "venue_id": 459
@@ -5772,19 +5665,10 @@
                 1452877200000, 
                 1452960000000
             ], 
-            "event_id": 501197, 
+            "event_id": 501195, 
             "event_img_url": "http://media.cultserv.ru/library/original/e63918.jpg", 
             "title": "Нью-Йорк. 80-е. Мы", 
             "venue_id": 134
-        }, 
-        {
-            "event_dates": [
-                1451923200000
-            ], 
-            "event_id": 496480, 
-            "event_img_url": "http://media.cultserv.ru/library/original/e63929.jpg", 
-            "title": "«Последняя любовь Деда Мороза» или «Искушение»", 
-            "venue_id": 4
         }, 
         {
             "event_dates": [
@@ -5850,7 +5734,7 @@
                 1454688000000, 
                 1454947200000
             ], 
-            "event_id": 503656, 
+            "event_id": 503655, 
             "event_img_url": "http://media.cultserv.ru/library/original/e64055.jpg", 
             "title": "Хандра", 
             "venue_id": 381
@@ -5864,7 +5748,7 @@
                 1456588800000, 
                 1458748800000
             ], 
-            "event_id": 498372, 
+            "event_id": 502269, 
             "event_img_url": "http://media.cultserv.ru/library/original/e64076.jpg", 
             "title": "Семейка Краузе", 
             "venue_id": 57
@@ -5875,7 +5759,7 @@
                 1453564800000, 
                 1454169600000
             ], 
-            "event_id": 502012, 
+            "event_id": 502004, 
             "event_img_url": "http://media.cultserv.ru/library/original/6dc33655d0036f74cef3dace2089f77a11a77f18.jpg", 
             "title": "Двенадцатая ночь", 
             "venue_id": 623
@@ -5921,7 +5805,7 @@
                 1452700800000, 
                 1454256000000
             ], 
-            "event_id": 501530, 
+            "event_id": 500347, 
             "event_img_url": "http://media.cultserv.ru/library/original/818c00a628030a37eb71ba7a6a9e6edd9302c9cf.jpg", 
             "title": "Пушкинский Дом", 
             "venue_id": 569
@@ -5952,20 +5836,10 @@
                 1455292800000, 
                 1455379200000
             ], 
-            "event_id": 500565, 
+            "event_id": 502484, 
             "event_img_url": "http://media.cultserv.ru/library/original/e64253.jpg", 
             "title": "В поисках Джулии", 
             "venue_id": 645
-        }, 
-        {
-            "event_dates": [
-                1452070800000, 
-                1452243600000
-            ], 
-            "event_id": 500922, 
-            "event_img_url": "http://media.cultserv.ru/library/original/36cca3b973bb334ffa0370f93d83cc4704f138b2.jpg", 
-            "title": "Ночь перед Рождеством", 
-            "venue_id": 515
         }, 
         {
             "event_dates": [
@@ -5973,7 +5847,7 @@
                 1455638400000, 
                 1456671600000
             ], 
-            "event_id": 501158, 
+            "event_id": 501177, 
             "event_img_url": "http://media.cultserv.ru/library/original/2b73b3af65d30542ec860c2713fc9617a645e540.jpg", 
             "title": "Этот безумец Платонов", 
             "venue_id": 308
@@ -5993,7 +5867,7 @@
                 1452945600000, 
                 1453024800000
             ], 
-            "event_id": 501342, 
+            "event_id": 501344, 
             "event_img_url": "http://media.cultserv.ru/library/original/8ec160b31704a7c37e4c1302ae11c69c27d69ec9.jpg", 
             "title": "Признак оперы", 
             "venue_id": 3187
@@ -6003,7 +5877,7 @@
                 1453536000000, 
                 1453541400000
             ], 
-            "event_id": 501350, 
+            "event_id": 501353, 
             "event_img_url": "http://media.cultserv.ru/library/original/a8680e1c30f7fcf24c7bfe988ad7ec0222aec08c.jpg", 
             "title": "Театральный урок", 
             "venue_id": 3187
@@ -6013,19 +5887,10 @@
                 1454140800000, 
                 1454146200000
             ], 
-            "event_id": 501358, 
+            "event_id": 501359, 
             "event_img_url": "http://media.cultserv.ru/library/original/1d71ede49612f90f9a2fa39e920edabd67474a42.jpg", 
             "title": "Калямаля", 
             "venue_id": 3187
-        }, 
-        {
-            "event_dates": [
-                1451926800000
-            ], 
-            "event_id": 501685, 
-            "event_img_url": "http://media.cultserv.ru/library/original/ef72fa3a89a8616e676bb3c868545c1c3ba0f8d1.jpg", 
-            "title": "Мастер и Маргарита", 
-            "venue_id": 1829
         }, 
         {
             "event_dates": [
@@ -6050,7 +5915,7 @@
                 1455292800000, 
                 1456070400000
             ], 
-            "event_id": 502021, 
+            "event_id": 502034, 
             "event_img_url": "http://media.cultserv.ru/library/original/e18c3bb6361cf446ba897ba6882ff0e78d5421fc.jpg", 
             "title": "Кроличья нора", 
             "venue_id": 103
@@ -6120,15 +5985,6 @@
         }, 
         {
             "event_dates": [
-                1452009600000
-            ], 
-            "event_id": 502704, 
-            "event_img_url": "http://media.cultserv.ru/library/original/72ffa262c97f9932d1b1947320a1ffb5fa698a16.jpg", 
-            "title": "Вечер женской поэзии", 
-            "venue_id": 794
-        }, 
-        {
-            "event_dates": [
                 1453046400000
             ], 
             "event_id": 502900, 
@@ -6151,7 +6007,7 @@
                 1453996800000, 
                 1454688000000
             ], 
-            "event_id": 502976, 
+            "event_id": 503129, 
             "event_img_url": "http://media.cultserv.ru/library/original/979c4c7bb0eba379fe03ae92573bc9f3d95bd707.jpg", 
             "title": "Энергичные люди", 
             "venue_id": 14
@@ -6171,7 +6027,7 @@
                 1458403200000, 
                 1458489600000
             ], 
-            "event_id": 503085, 
+            "event_id": 503087, 
             "event_img_url": "http://media.cultserv.ru/library/original/3604023b226fcb6a509de1324a41e641f0a2a272.jpg", 
             "title": "Преступление и наказание", 
             "venue_id": 479
@@ -6196,15 +6052,6 @@
         }, 
         {
             "event_dates": [
-                1452011400000
-            ], 
-            "event_id": 503218, 
-            "event_img_url": "http://media.cultserv.ru/library/original/f9f3a97548305a0e3b178be1c7709bb5e6fba277.jpg", 
-            "title": "«Знакомый платок голубой» и «Мой глобус умещается в письмо...»", 
-            "venue_id": 2733
-        }, 
-        {
-            "event_dates": [
                 1458403200000, 
                 1458489600000
             ], 
@@ -6219,7 +6066,7 @@
                 1455375600000, 
                 1457190000000
             ], 
-            "event_id": 503578, 
+            "event_id": 503581, 
             "event_img_url": "http://media.cultserv.ru/library/original/32130a56263a8e4f61265c9b9052127d3a40df3d.jpg", 
             "title": "Счастливые устрицы", 
             "venue_id": 3725
@@ -6229,7 +6076,7 @@
                 1456156800000, 
                 1456243200000
             ], 
-            "event_id": 503633, 
+            "event_id": 503634, 
             "event_img_url": "http://media.cultserv.ru/library/original/8d41500050b2a757011e8c8405cc536259da6761.jpg", 
             "title": "Кориолан", 
             "venue_id": 299
@@ -6260,6 +6107,15 @@
             "event_img_url": "http://media.cultserv.ru/library/original/60125a2974509c65513b6acc9d9150109493dc1a.jpg", 
             "title": "Прекращение огня", 
             "venue_id": 3516
+        }, 
+        {
+            "event_dates": [
+                1455984000000
+            ], 
+            "event_id": 504047, 
+            "event_img_url": "http://media.cultserv.ru/library/original/d8eb4c5b056345a8e5d0e0e74f2efd2c32048666.jpg", 
+            "title": "Босиком по парку", 
+            "venue_id": 39
         }
     ]
 }
