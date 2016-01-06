@@ -7,10 +7,13 @@
     <link rel="stylesheet" type="text/css" href="./css/buttons.css">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/datepicker/bootstrap-datetimepicker.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/collection-init.js"></script>
+    <script type="text/javascript" src="./js/moment/min/moment.min.js"></script>
+    <script type="text/javascript" src="./js/datepicker/bootstrap-datetimepicker.min.js"></script>
     <script src="./js/buttons.js"></script>
     <title></title>
 </head>
@@ -49,63 +52,80 @@
                 </span>
             </div>
             <div class="col-md-3">
-                <div class="calendar"></div>
+                <div class="calendar">
+                    <div id="datetimepicker12"></div>
+                    <script type="text/javascript">
+                        $(function () {
+                            $('#datetimepicker12').datetimepicker({
+                                inline: true,
+                                format: 'DD/MM/YYYY',
+                                enabledDates: [
+                                    moment("01/06/2016"),
+                                    moment("01/12/2016"),
+                                    moment("01/09/2016"),
+                                ]
+                            });
+                        });
+                    </script>
+                </div>
             </div>
         </div>
     </div>
-    <div class="place-select-wrapper">
-        <div class="place-select-content">
-            <div class="place-select-where">
-                <div class="place-select-title">
-                    <span>Выберете место:</span>
-                </div>
-                <div class="btn-group " data-toggle="buttons">
-                    <label class="btn place-select-button active">
-                        <input type="radio" name="options" id="option1">
-
-                        <div><span>Партер</span></div>
-                        <div><span class="price-text">2000</span></div>
-                    </label>
-                    <label class="btn place-select-button">
-                        <input type="radio" name="options" id="option2">
-
-                        <div><span>Бельэтаж</span></div>
-                        <div><span class="price-text">2000</span></div>
-                    </label>
-                    <label class="btn place-select-button">
-                        <input type="radio" name="options" id="option3">
-
-                        <div><span>Балкон</span></div>
-                        <div><span class="price-text">2000</span></div>
-                    </label>
-                </div>
+</div>
+<div class="place-select-wrapper">
+    <div class="place-select-content">
+        <div class="place-select-where">
+            <div class="place-select-title">
+                <span>Выберете место:</span>
             </div>
-            <div class="place-select-number">
+            <div class="btn-group " data-toggle="buttons">
+                <label class="btn place-select-button active">
+                    <input type="radio" name="options" id="option1">
 
-                <div class="input-group">
+                    <div><span>Партер</span></div>
+                    <div><span class="price-text">2000</span></div>
+                </label>
+                <label class="btn place-select-button">
+                    <input type="radio" name="options" id="option2">
+
+                    <div><span>Бельэтаж</span></div>
+                    <div><span class="price-text">2000</span></div>
+                </label>
+                <label class="btn place-select-button">
+                    <input type="radio" name="options" id="option3">
+
+                    <div><span>Балкон</span></div>
+                    <div><span class="price-text">2000</span></div>
+                </label>
+            </div>
+        </div>
+        <div class="place-select-number">
+
+            <div class="input-group">
           <span class="input-group-btn">
               <button type="button" class="btn place-select-button btn-number" disabled="disabled" data-type="minus"
                       data-field="quant[1]">
                   <span class="glyphicon glyphicon-minus"></span>
               </button>
           </span>
-                    <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
           <span class="input-group-btn">
               <button type="button" class="btn place-select-button btn-number" data-type="plus" data-field="quant[1]">
                   <span class="glyphicon glyphicon-plus"></span>
               </button>
           </span>
-                </div>
+            </div>
 
-            </div>
-            <div class="place-select-price">
-                <div><span class="total-price">2000</span></div>
-                <button type="button" class="btn buy-btn" aria-label="Left Align">
-                    <span class="buy-btn-title" aria-hidden="true">Купить</span>
-                </button>
-            </div>
+        </div>
+        <div class="place-select-price">
+            <div><span class="total-price">2000</span></div>
+            <button type="button" class="btn buy-btn" aria-label="Left Align">
+                <span class="buy-btn-title" aria-hidden="true">Купить</span>
+            </button>
         </div>
     </div>
+
+</div>
 </div>
 </body>
 </html>
