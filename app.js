@@ -29,15 +29,16 @@ var event = sequelize.define('event', {
     event_id: Sequelize.DECIMAL,
     event_img_url: Sequelize.TEXT,
     title: Sequelize.STRING,
-    venue_id: Sequelize.DECIMAL
+    venue_id: Sequelize.DECIMAL,
+
+    description: Sequelize.TEXT,
+    actors_list: Sequelize.ARRAY(Sequelize.TEXT),
+    genres_list: Sequelize.ARRAY(Sequelize.TEXT),
+    directors_list: Sequelize.ARRAY(Sequelize.TEXT),
+    event_prices: Sequelize.JSON
 }, {underscored: true});
 
 var subevent = sequelize.define('subevent', {
-    //event_dates: Sequelize.ARRAY(Sequelize.DECIMAL),
-    //event_id: Sequelize.DECIMAL,
-    //event_img_url: Sequelize.TEXT,
-    //title: Sequelize.STRING,
-    //venue_id: Sequelize.DECIMAL
     age: Sequelize.INTEGER,
     commission: Sequelize.INTEGER,
     credit_card_payment: Sequelize.BOOLEAN,
@@ -54,25 +55,26 @@ var ticket = sequelize.define('ticket', {
     tickets_list: Sequelize.JSON
 }, {underscored: true});
 
-var theatre = sequelize.define('theatre', {
+var venue = sequelize.define('venue', {
     theatre_name: Sequelize.STRING,
     address: Sequelize.STRING,
+    google_address: Sequelize.STRING,
     description: Sequelize.TEXT,
     image_url: Sequelize.STRING,
-    ponominalu_id: Sequelize.STRING
+    venue_id: Sequelize.DECIMAL
 }, {underscored: true});
-var play = sequelize.define('play', {
-    producer: Sequelize.STRING,
-    play_name: Sequelize.STRING,
-    description: Sequelize.STRING,
-    actors: Sequelize.STRING,
-    duration: Sequelize.STRING,
-    genre: Sequelize.STRING,
-    year: Sequelize.STRING,
-    author: Sequelize.STRING,
-    age: Sequelize.STRING,
-    image_url: Sequelize.STRING,
-}, {underscored: true});
+//var play = sequelize.define('play', {
+//    producer: Sequelize.STRING,
+//    play_name: Sequelize.STRING,
+//    description: Sequelize.STRING,
+//    actors: Sequelize.STRING,
+//    duration: Sequelize.STRING,
+//    genre: Sequelize.STRING,
+//    year: Sequelize.STRING,
+//    author: Sequelize.STRING,
+//    age: Sequelize.STRING,
+//    image_url: Sequelize.STRING,
+//}, {underscored: true});
 var collection = sequelize.define('collection', {
     name: Sequelize.STRING,
     description: Sequelize.STRING,
@@ -103,25 +105,25 @@ var mails = sequelize.define('mails', {
 }, {underscored: true});
 
 
-var theatreplay = sequelize.define('theatreplay', {
-    definition: Sequelize.STRING
+var eventvenue = sequelize.define('eventvenue', {
+    definition: Sequelize.TEXT
 });
-var collectionplay = sequelize.define('collectionplay', {
-    definition: Sequelize.STRING
+var collectionevent = sequelize.define('collectionevent', {
+    definition: Sequelize.TEXT
 });
 var themecollection = sequelize.define('themecollection', {
-    definition: Sequelize.STRING
+    definition: Sequelize.TEXT
 });
-var playsessions = sequelize.define('playsessions', {
-    definition: Sequelize.STRING
-});
+//var playsessions = sequelize.define('playsessions', {
+//    definition: Sequelize.TEXT
+//});
 
 var clientpurchases = sequelize.define('clientpurchases', {
-    definition: Sequelize.STRING
+    definition: Sequelize.TEXT
 });
 
 var clientmails = sequelize.define('clientmails', {
-    definition: Sequelize.STRING
+    definition: Sequelize.TEXT
 });
 var event_subevent = sequelize.define('event_subevent', {
     definition: Sequelize.STRING
@@ -130,15 +132,16 @@ var sub_event_ticket = sequelize.define('sub_event_ticket', {
     definition: Sequelize.STRING
 });
 
-theatre.belongsToMany(play, {through: theatreplay});
+venue.belongsToMany(event, {through: eventvenue});
+event.belongsToMany(venue, {through: eventvenue});
 
-collection.belongsToMany(play, {through: collectionplay});
-play.belongsToMany(collection, {through: collectionplay});
+collection.belongsToMany(event, {through: collectionevent});
+event.belongsToMany(collection, {through: collectionevent});
 
 theme.belongsToMany(collection, {through: themecollection});
 collection.belongsToMany(theme, {through: themecollection});
-
-sessions.belongsToMany(play, {through: playsessions});
+//
+//sessions.belongsToMany(play, {through: playsessions});
 
 client.belongsToMany(purchase, {through: clientpurchases});
 purchase.belongsToMany(client, {through: clientpurchases});
@@ -395,17 +398,7 @@ sequelize.sync().then(function () {
     //    image_url: 'негр.png',
     //});
     // ok, now they are saved... how do I get them later on?
-    return play.create({
-        producer: 'негр',
-        play_name: 'Опера 1',
-        description: 'театр',
-        actors: 'негр',
-        duration: '2 часа',
-        genre: 'негр',
-        year: '2015',
-        author: 'негр',
-        age: '18',
-        image_url: '/niger.png'
+    return client.create({
     });
 }).then(function (jane) {
     console.log(jane.get({
@@ -538,13 +531,6 @@ function ensureAuthenticated(req, res, next) {
 }
 
 
-app.get('/card:id', function (req, res) {
-
-    cards.findById(req.params.id).then(function (card) {
-        console.log(card);
-        res.send(card);
-    })
-})
 
 app.get('/api/themes', function (req, res) {
     theme.findAll({include: [collection]}).then(function (theme) {
@@ -555,36 +541,34 @@ app.get('/api/themes/:id', function (req, res) {
     theme.find({where: {id: req.params.id}, include: [collection]}).then(function (theme) {
         res.send(theme);
     })
-    //console.log(req.params.id);
-    //res.send('all themes')
 });
 app.get('/api/collections', function (req, res) {
-    collection.findAll({include: [play]}).then(function (coll) {
-        res.send(coll);
+    collection.findAll({include: [event]}).then(function (events) {
+        res.send(events);
     })
 });
 app.get('/api/collections/:id', function (req, res) {
-    collection.find({where: {id: req.params.id}, include: [play]}).then(function (coll) {
-        res.send(coll);
+    collection.find({where: {id: req.params.id}, include: [event]}).then(function (events) {
+        res.send(events);
     })
 });
-app.get('/api/plays/:id', function (req, res) {
-    play.find({where: {id: req.params.id}}).then(function (pl) {
-        res.send(pl);
-    })
-});
-app.get('/api/plays', function (req, res) {
-    play.findAll().then(function (pl) {
-        res.send(pl);
-    })
-});
+//app.get('/api/plays/:id', function (req, res) {
+//    play.find({where: {id: req.params.id}}).then(function (pl) {
+//        res.send(pl);
+//    })
+//});
+//app.get('/api/plays', function (req, res) {
+//    play.findAll().then(function (pl) {
+//        res.send(pl);
+//    })
+//});
 app.get('/api/events', function (req, res) {
     event.findAll().then(function(events) {
         res.send(events);
     });
 });
 app.get('/api/events/:id', function (req, res) {
-    event.find({where: {id: req.params.id}, include: [subevent]}).then(function (events) {
+    event.find({where: {id: req.params.id}, include: [subevent, venue]}).then(function (events) {
         res.send(events);
     })
 });
@@ -609,6 +593,122 @@ app.get('/api/tickets/:id', function (req, res) {
         res.send(tickets);
     })
 });
+app.get('/api/initDB', function (req, res) {
+    fs.readFile('data/venues_info.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        var obj = JSON.parse(data);
+        console.log(obj.venues_info);
+        for (var item=0; item< obj.venues_info.length; item++)
+        {
+            console.log(obj.venues_info[item]);
+            venue
+                .findOrCreate({
+                    where: {theatre_name: obj.venues_info[item].name}, defaults: {
+                        theatre_name: obj.venues_info[item].name,
+                        google_address: obj.venues_info[item].google_address,
+                        description: obj.venues_info[item].description,
+                        venue_id: obj.venues_info[item].theatre_id
+                    }
+                })
+                .spread(function (user, created) {
+                    //console.log(created)
+                })
+        };
+    });
+
+    fs.readFile('data/events_info.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        var obj = JSON.parse(data);
+        console.log(obj.events_info);
+        //for(var item in obj.venues_info) {
+        for (var item=0; item< obj.events_info.length; item++)
+            //alert( i + ": " + item + " (массив:" + arr + ")" );
+        {
+            console.log(obj.events_info[item]);
+            event
+                .findOrCreate({
+                    where: {event_id: obj.events_info[item].event_id}, defaults: obj.events_info[item]
+                })
+                .spread(function (user, created) {
+                    console.log(created)
+                })
+        };
+        //console.log(obj);
+    });
+    fs.readFile('data/subevent_info.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        var obj = JSON.parse(data);
+        console.log(obj.subevent_info);
+        //for(var item in obj.venues_info) {
+        for (var item=0; item< obj.subevent_info.length; item++)
+            //alert( i + ": " + item + " (массив:" + arr + ")" );
+        {
+            console.log(obj.subevent_info[item]);
+            subevent
+                .findOrCreate({
+                    where: {subevent_id: obj.subevent_info[item].event_id}, defaults: obj.subevent_info[item]
+                })
+                .spread(function (user, created) {
+                    console.log(created)
+                })
+        };
+        //console.log(obj);
+    });
+
+    fs.readFile('data/tickets_info.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        var obj = JSON.parse(data);
+        console.log(obj.tickets_info);
+        //for(var item in obj.venues_info) {
+        for (var item=0; item< obj.tickets_info.length; item++)
+            //alert( i + ": " + item + " (массив:" + arr + ")" );
+        {
+            console.log(obj.tickets_info[item]);
+            ticket
+                .findOrCreate({
+                    where: {sector_id: obj.tickets_info[item].sector_id, subevent_id: obj.tickets_info[item].subevent_id }, defaults: obj.tickets_info[item]
+                })
+                .spread(function (user, created) {
+                    console.log(created)
+                })
+        };
+        //console.log(obj);
+    });
+
+});
+app.get('/api/initRelations', function (req, res) {
+    event.findAll().then(function (events) {
+        console.log(events);
+        for (var item = 0; item < events.length; item++) {
+            var ev_id = events[item].event_id;
+            var idd = events[item].id;
+            test_f(ev_id,idd);
+        }
+    })
+
+
+    subevent.findAll().then(function (subevents) {
+        console.log(subevents);
+        for (var item = 0; item < subevents.length; item++) {
+            var ev_id = subevents[item].subevent_id;
+            var idd = subevents[item].id;
+            change_ticket(ev_id,idd);
+        }
+    })
+
+    event.findAll().then(function (events) {
+        console.log(events);
+        for (var item = 0; item < events.length; item++) {
+            var ev_id = events[item].venue_id;
+            var idd = events[item].id;
+            change_venue(ev_id,idd);
+        }
+    })
+
+
+});
+
+
 
 new CronJob('0,30 * * * *', function () {
     fs.readFile('data/venues_info.json', 'utf8', function (err, data) {
@@ -618,14 +718,13 @@ new CronJob('0,30 * * * *', function () {
         for (var item=0; item< obj.venues_info.length; item++)
         {
             console.log(obj.venues_info[item]);
-            theatre
+            venue
                 .findOrCreate({
                     where: {theatre_name: obj.venues_info[item].name}, defaults: {
                         theatre_name: obj.venues_info[item].name,
-                        address: obj.venues_info[item].google_address,
+                        google_address: obj.venues_info[item].google_address,
                         description: obj.venues_info[item].description,
-                        image_url: '',
-                        ponominalu_id: obj.venues_info[item].theatre_id
+                        venue_id: obj.venues_info[item].theatre_id
                     }
                 })
                 .spread(function (user, created) {
@@ -633,7 +732,6 @@ new CronJob('0,30 * * * *', function () {
                 })
         };
     });
-
     fs.readFile('data/events_info.json', 'utf8', function (err, data) {
         if (err) throw err;
         var obj = JSON.parse(data);
@@ -713,6 +811,16 @@ new CronJob('0,30 * * * *', function () {
         }
     })
 
+    event.findAll().then(function (events) {
+        console.log(events);
+        for (var item = 0; item < events.length; item++) {
+            var ev_id = events[item].venue_id;
+            var idd = events[item].id;
+            change_venue(ev_id,idd);
+        }
+    })
+
+
 }, null, true, 'America/Los_Angeles');
 
 
@@ -757,6 +865,30 @@ var change_ticket = function(id, f_id){
                     where: {ticket_id: sub_id, subevent_id: f_id}, defaults: {
                         ticket_id: sub_id,
                         subevent_id: f_id
+                    }
+                })
+                .spread(function (user, created) {
+                    console.log(user.get({
+                        plain: true
+                    }))
+                    console.log(created)
+                })
+        }
+    })
+};
+var change_venue = function(id, f_id){
+    venue.findAll({where: {venue_id: id}}).then(function (ven) {
+        console.log('query exec: ');
+        console.log(id);
+        console.log(ven.length);
+
+        for (var i = 0; i < ven.length; i++) {
+            sub_id = ven[i].id;
+            eventvenue
+                .findOrCreate({
+                    where: {venue_id: sub_id, event_id: f_id}, defaults: {
+                        venue_id: sub_id,
+                        event_id: f_id
                     }
                 })
                 .spread(function (user, created) {
