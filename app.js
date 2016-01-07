@@ -61,23 +61,13 @@ var venue = sequelize.define('venue', {
     google_address: Sequelize.STRING,
     description: Sequelize.TEXT,
     image_url: Sequelize.STRING,
+    region: Sequelize.STRING,
     venue_id: Sequelize.DECIMAL
 }, {underscored: true});
-//var play = sequelize.define('play', {
-//    producer: Sequelize.STRING,
-//    play_name: Sequelize.STRING,
-//    description: Sequelize.STRING,
-//    actors: Sequelize.STRING,
-//    duration: Sequelize.STRING,
-//    genre: Sequelize.STRING,
-//    year: Sequelize.STRING,
-//    author: Sequelize.STRING,
-//    age: Sequelize.STRING,
-//    image_url: Sequelize.STRING,
-//}, {underscored: true});
 var collection = sequelize.define('collection', {
     name: Sequelize.STRING,
     description: Sequelize.STRING,
+    collection_url: Sequelize.STRING,
     img_url: Sequelize.STRING
 }, {underscored: true});
 var sessions = sequelize.define('sessions', {
@@ -88,7 +78,8 @@ var sessions = sequelize.define('sessions', {
 var theme = sequelize.define('theme', {
     name: Sequelize.STRING,
     description: Sequelize.STRING,
-    theme_url: Sequelize.STRING
+    theme_url: Sequelize.STRING,
+    img_url: Sequelize.STRING
 }, {underscored: true});
 var purchase = sequelize.define('purchase', {
     name: Sequelize.STRING,
@@ -159,247 +150,7 @@ ticket.belongsToMany(subevent, {through: sub_event_ticket});
 //subevent.belongsTo(event, {foreignKey: 'event_id', targetKey: 'event_id'});
 
 sequelize.sync().then(function () {
-    //
-    //
-    //play.create({
-    //    producer: 'негр',
-    //    play_name: 'Опера 1',
-    //    description: 'театр',
-    //    actors: 'негр',
-    //    duration: '2 часа',
-    //    genre: 'негр',
-    //    year: '2015',
-    //    author: 'негр',
-    //    age: '18',
-    //    image_url: '/niger.png'
-    //});
-    //
-    //play.create({
-    //    producer: 'негр',
-    //    play_name: 'Опера 2',
-    //    description: 'театр',
-    //    actors: 'негр',
-    //    duration: '2 часа',
-    //    genre: 'негр',
-    //    year: '2015',
-    //    author: 'негр',
-    //    age: '18',
-    //    image_url: '/niger.png'
-    //});
-    //
-    //play.create({
-    //    producer: 'негр',
-    //    play_name: 'Опера 3',
-    //    description: 'театр',
-    //    actors: 'негр',
-    //    duration: '2 часа',
-    //    genre: 'негр',
-    //    year: '2015',
-    //    author: 'негр',
-    //    age: '18',
-    //    image_url: '/niger.png'
-    //});
-    //
-    //play.create({
-    //    producer: 'негр',
-    //    play_name: 'Опера 4',
-    //    description: 'театр',
-    //    actors: 'негр',
-    //    duration: '2 часа',
-    //    genre: 'негр',
-    //    year: '2015',
-    //    author: 'негр',
-    //    age: '18',
-    //    image_url: '/niger.png'
-    //});
-    //play.create({
-    //    producer: 'негр',
-    //    play_name: 'Опера 4',
-    //    description: 'театр',
-    //    actors: 'негр',
-    //    duration: '2 часа',
-    //    genre: 'негр',
-    //    year: '2015',
-    //    author: 'негр',
-    //    age: '18',
-    //    image_url: '/niger.png'
-    //});
-    //play.create({
-    //    producer: 'негр',
-    //    play_name: 'Опера 4',
-    //    description: 'театр',
-    //    actors: 'негр',
-    //    duration: '2 часа',
-    //    genre: 'негр',
-    //    year: '2015',
-    //    author: 'негр',
-    //    age: '18',
-    //    image_url: '/niger.png'
-    //});
-    //
-    //theatre.create({
-    //    theatre_name: 'Большой театр',
-    //    address: 'Москва',
-    //    description: 'крутое описание',
-    //    image_url: '/негр.png',
-    //});
-    //theatre.create({
-    //    theatre_name: 'Современник',
-    //    address: 'Москва',
-    //    description: 'крутое описание',
-    //    image_url: '/негр.png',
-    //});
-    //collection.create({
-    //    name: 'коллекция 1',
-    //    description: 'коллекция 1',
-    //    img_url: 'url'
-    //});
-    //collection.create({
-    //    name: 'коллекция 2',
-    //    description: 'коллекция 2',
-    //    img_url: 'url'
-    //});
-    //collection.create({
-    //    name: 'коллекция 3',
-    //    description: 'коллекция 3',
-    //    img_url: 'url'
-    //});
-    //collection.create({
-    //    name: 'коллекция 4',
-    //    description: 'коллекция 3',
-    //    img_url: 'url'
-    //});
-    //collection.create({
-    //    name: 'коллекция 5',
-    //    description: 'коллекция 3',
-    //    img_url: 'url'
-    //});
-    //collection.create({
-    //    name: 'коллекция 6',
-    //    description: 'коллекция 3',
-    //    img_url: 'url'
-    //});
-    //collection.create({
-    //    name: 'коллекция 7',
-    //    description: 'коллекция 3',
-    //    img_url: 'url'
-    //});
-    //collection.create({
-    //    name: 'коллекция 8',
-    //    description: 'коллекция 3',
-    //    img_url: 'url'
-    //});
-    //collection.create({
-    //    name: 'коллекция 9',
-    //    description: 'коллекция 3',
-    //    img_url: 'url'
-    //});
-    //collection.create({
-    //    name: 'коллекция 10',
-    //    description: 'коллекция 3',
-    //    img_url: 'url'
-    //});
-    //collection.create({
-    //    name: 'коллекция 11',
-    //    description: 'коллекция 3',
-    //    img_url: 'url'
-    //});
-    //collection.create({
-    //    name: 'коллекция 12',
-    //    description: 'коллекция 3',
-    //    img_url: 'url'
-    //});
-    //
-    //
-    //theme.create({
-    //    name: 'тема 1',
-    //    description: 'тема 1',
-    //    theme_url: 'url'
-    //});
-    //theme.create({
-    //    name: 'тема 2',
-    //    description: 'тема 2',
-    //    theme_url: 'url'
-    //});
-    //theme.create({
-    //    name: 'тема 3',
-    //    description: 'тема 2',
-    //    theme_url: 'url'
-    //});
-    //theme.create({
-    //    name: 'тема 4',
-    //    description: 'тема 2',
-    //    theme_url: 'url'
-    //});
-    //theme.create({
-    //    name: 'тема 5',
-    //    description: 'тема 2',
-    //    theme_url: 'url'
-    //});
-    //theme.create({
-    //    name: 'тема 6',
-    //    description: 'тема 2',
-    //    theme_url: 'url'
-    //});
-    //
-    //theatreplay.create({
-    //    theatre_id: 1,
-    //    play_id: 1
-    //});
-    //theatreplay.create({
-    //    theatre_id: 1,
-    //    play_id: 2
-    //});
-    //theatreplay.create({
-    //    theatre_id: 1,
-    //    play_id: 3
-    //});
-    //theatreplay.create({
-    //    theatre_id: 1,
-    //    play_id: 4
-    //});
-    //theatreplay.create({
-    //    theatre_id: 2,
-    //    play_id: 5
-    //});
-    //theatreplay.create({
-    //    theatre_id: 2,
-    //    play_id: 6
-    //});
-    //collectionplay.create({
-    //    collection_id: 1,
-    //    play_id: 1
-    //});
-    //collectionplay.create({
-    //    collection_id: 1,
-    //    play_id: 2
-    //});
-    //collectionplay.create({
-    //    collection_id: 1,
-    //    play_id: 3
-    //});
-    //collectionplay.create({
-    //    collection_id: 2,
-    //    play_id: 4
-    //});
-    //collectionplay.create({
-    //    collection_id: 2,
-    //    play_id: 5
-    //});
-    //collectionplay.create({
-    //    collection_id: 3,
-    //    play_id: 6
-    //});
-
-    //pl.addcollection({
-    //    theatre_name: 'Большой театр',
-    //    address: 'Москва',
-    //    description: 'негр-негр',
-    //    image_url: 'негр.png',
-    //});
-    // ok, now they are saved... how do I get them later on?
-    return client.create({
-    });
+    return client.create({});
 }).then(function (jane) {
     console.log(jane.get({
         plain: true
@@ -531,7 +282,6 @@ function ensureAuthenticated(req, res, next) {
 }
 
 
-
 app.get('/api/themes', function (req, res) {
     theme.findAll({include: [collection]}).then(function (theme) {
         res.send(theme);
@@ -540,6 +290,16 @@ app.get('/api/themes', function (req, res) {
 app.get('/api/themes/:id', function (req, res) {
     theme.find({where: {id: req.params.id}, include: [collection]}).then(function (theme) {
         res.send(theme);
+    })
+});
+app.get('/api/venues', function (req, res) {
+    venue.findAll({include: [event]}).then(function (venues) {
+        res.send(venues);
+    })
+});
+app.get('/api/venues/:id', function (req, res) {
+    theme.find({where: {venue_id: req.params.id}, include: [event]}).then(function (venues) {
+        res.send(venues);
     })
 });
 app.get('/api/collections', function (req, res) {
@@ -552,23 +312,13 @@ app.get('/api/collections/:id', function (req, res) {
         res.send(events);
     })
 });
-//app.get('/api/plays/:id', function (req, res) {
-//    play.find({where: {id: req.params.id}}).then(function (pl) {
-//        res.send(pl);
-//    })
-//});
-//app.get('/api/plays', function (req, res) {
-//    play.findAll().then(function (pl) {
-//        res.send(pl);
-//    })
-//});
 app.get('/api/events', function (req, res) {
-    event.findAll().then(function(events) {
+    event.findAll().then(function (events) {
         res.send(events);
     });
 });
 app.get('/api/events/:id', function (req, res) {
-    event.find({where: {id: req.params.id}, include: [subevent, venue]}).then(function (events) {
+    event.find({where: {event_id: req.params.id}, include: [subevent, venue]}).then(function (events) {
         res.send(events);
     })
 });
@@ -578,7 +328,7 @@ app.get('/api/subevents', function (req, res) {
     });
 });
 app.get('/api/subevents/:id', function (req, res) {
-    subevent.find({where: {id: req.params.id}, include: [ticket]}).then(function (subevents) {
+    subevent.find({where: {subevent_id: req.params.id}, include: [ticket]}).then(function (subevents) {
         res.send(subevents);
     })
 });
@@ -598,8 +348,7 @@ app.get('/api/initDB', function (req, res) {
         if (err) throw err;
         var obj = JSON.parse(data);
         console.log(obj.venues_info);
-        for (var item=0; item< obj.venues_info.length; item++)
-        {
+        for (var item = 0; item < obj.venues_info.length; item++) {
             console.log(obj.venues_info[item]);
             venue
                 .findOrCreate({
@@ -613,7 +362,8 @@ app.get('/api/initDB', function (req, res) {
                 .spread(function (user, created) {
                     //console.log(created)
                 })
-        };
+        }
+        ;
     });
 
     fs.readFile('data/events_info.json', 'utf8', function (err, data) {
@@ -621,7 +371,7 @@ app.get('/api/initDB', function (req, res) {
         var obj = JSON.parse(data);
         console.log(obj.events_info);
         //for(var item in obj.venues_info) {
-        for (var item=0; item< obj.events_info.length; item++)
+        for (var item = 0; item < obj.events_info.length; item++)
             //alert( i + ": " + item + " (массив:" + arr + ")" );
         {
             console.log(obj.events_info[item]);
@@ -632,7 +382,8 @@ app.get('/api/initDB', function (req, res) {
                 .spread(function (user, created) {
                     console.log(created)
                 })
-        };
+        }
+        ;
         //console.log(obj);
     });
     fs.readFile('data/subevent_info.json', 'utf8', function (err, data) {
@@ -640,7 +391,7 @@ app.get('/api/initDB', function (req, res) {
         var obj = JSON.parse(data);
         console.log(obj.subevent_info);
         //for(var item in obj.venues_info) {
-        for (var item=0; item< obj.subevent_info.length; item++)
+        for (var item = 0; item < obj.subevent_info.length; item++)
             //alert( i + ": " + item + " (массив:" + arr + ")" );
         {
             console.log(obj.subevent_info[item]);
@@ -651,7 +402,8 @@ app.get('/api/initDB', function (req, res) {
                 .spread(function (user, created) {
                     console.log(created)
                 })
-        };
+        }
+        ;
         //console.log(obj);
     });
 
@@ -660,18 +412,22 @@ app.get('/api/initDB', function (req, res) {
         var obj = JSON.parse(data);
         console.log(obj.tickets_info);
         //for(var item in obj.venues_info) {
-        for (var item=0; item< obj.tickets_info.length; item++)
+        for (var item = 0; item < obj.tickets_info.length; item++)
             //alert( i + ": " + item + " (массив:" + arr + ")" );
         {
             console.log(obj.tickets_info[item]);
             ticket
                 .findOrCreate({
-                    where: {sector_id: obj.tickets_info[item].sector_id, subevent_id: obj.tickets_info[item].subevent_id }, defaults: obj.tickets_info[item]
+                    where: {
+                        sector_id: obj.tickets_info[item].sector_id,
+                        subevent_id: obj.tickets_info[item].subevent_id
+                    }, defaults: obj.tickets_info[item]
                 })
                 .spread(function (user, created) {
                     console.log(created)
                 })
-        };
+        }
+        ;
         //console.log(obj);
     });
 
@@ -682,7 +438,7 @@ app.get('/api/initRelations', function (req, res) {
         for (var item = 0; item < events.length; item++) {
             var ev_id = events[item].event_id;
             var idd = events[item].id;
-            test_f(ev_id,idd);
+            test_f(ev_id, idd);
         }
     })
 
@@ -692,7 +448,7 @@ app.get('/api/initRelations', function (req, res) {
         for (var item = 0; item < subevents.length; item++) {
             var ev_id = subevents[item].subevent_id;
             var idd = subevents[item].id;
-            change_ticket(ev_id,idd);
+            change_ticket(ev_id, idd);
         }
     })
 
@@ -701,7 +457,7 @@ app.get('/api/initRelations', function (req, res) {
         for (var item = 0; item < events.length; item++) {
             var ev_id = events[item].venue_id;
             var idd = events[item].id;
-            change_venue(ev_id,idd);
+            change_venue(ev_id, idd);
         }
     })
 
@@ -709,14 +465,12 @@ app.get('/api/initRelations', function (req, res) {
 });
 
 
-
 new CronJob('0,30 * * * *', function () {
     fs.readFile('data/venues_info.json', 'utf8', function (err, data) {
         if (err) throw err;
         var obj = JSON.parse(data);
         console.log(obj.venues_info);
-        for (var item=0; item< obj.venues_info.length; item++)
-        {
+        for (var item = 0; item < obj.venues_info.length; item++) {
             console.log(obj.venues_info[item]);
             venue
                 .findOrCreate({
@@ -730,14 +484,15 @@ new CronJob('0,30 * * * *', function () {
                 .spread(function (user, created) {
                     //console.log(created)
                 })
-        };
+        }
+        ;
     });
     fs.readFile('data/events_info.json', 'utf8', function (err, data) {
         if (err) throw err;
         var obj = JSON.parse(data);
         console.log(obj.events_info);
         //for(var item in obj.venues_info) {
-        for (var item=0; item< obj.events_info.length; item++)
+        for (var item = 0; item < obj.events_info.length; item++)
             //alert( i + ": " + item + " (массив:" + arr + ")" );
         {
             console.log(obj.events_info[item]);
@@ -748,7 +503,8 @@ new CronJob('0,30 * * * *', function () {
                 .spread(function (user, created) {
                     console.log(created)
                 })
-        };
+        }
+        ;
         //console.log(obj);
     });
     fs.readFile('data/subevent_info.json', 'utf8', function (err, data) {
@@ -756,7 +512,7 @@ new CronJob('0,30 * * * *', function () {
         var obj = JSON.parse(data);
         console.log(obj.subevent_info);
         //for(var item in obj.venues_info) {
-        for (var item=0; item< obj.subevent_info.length; item++)
+        for (var item = 0; item < obj.subevent_info.length; item++)
             //alert( i + ": " + item + " (массив:" + arr + ")" );
         {
             console.log(obj.subevent_info[item]);
@@ -767,7 +523,8 @@ new CronJob('0,30 * * * *', function () {
                 .spread(function (user, created) {
                     console.log(created)
                 })
-        };
+        }
+        ;
         //console.log(obj);
     });
 
@@ -776,18 +533,22 @@ new CronJob('0,30 * * * *', function () {
         var obj = JSON.parse(data);
         console.log(obj.tickets_info);
         //for(var item in obj.venues_info) {
-        for (var item=0; item< obj.tickets_info.length; item++)
+        for (var item = 0; item < obj.tickets_info.length; item++)
             //alert( i + ": " + item + " (массив:" + arr + ")" );
         {
             console.log(obj.tickets_info[item]);
             ticket
                 .findOrCreate({
-                    where: {sector_id: obj.tickets_info[item].sector_id, subevent_id: obj.tickets_info[item].subevent_id }, defaults: obj.tickets_info[item]
+                    where: {
+                        sector_id: obj.tickets_info[item].sector_id,
+                        subevent_id: obj.tickets_info[item].subevent_id
+                    }, defaults: obj.tickets_info[item]
                 })
                 .spread(function (user, created) {
                     console.log(created)
                 })
-        };
+        }
+        ;
         //console.log(obj);
     });
 
@@ -797,7 +558,7 @@ new CronJob('0,30 * * * *', function () {
         for (var item = 0; item < events.length; item++) {
             var ev_id = events[item].event_id;
             var idd = events[item].id;
-            test_f(ev_id,idd);
+            test_f(ev_id, idd);
         }
     })
 
@@ -807,7 +568,7 @@ new CronJob('0,30 * * * *', function () {
         for (var item = 0; item < subevents.length; item++) {
             var ev_id = subevents[item].subevent_id;
             var idd = subevents[item].id;
-            change_ticket(ev_id,idd);
+            change_ticket(ev_id, idd);
         }
     })
 
@@ -816,7 +577,7 @@ new CronJob('0,30 * * * *', function () {
         for (var item = 0; item < events.length; item++) {
             var ev_id = events[item].venue_id;
             var idd = events[item].id;
-            change_venue(ev_id,idd);
+            change_venue(ev_id, idd);
         }
     })
 
@@ -824,8 +585,7 @@ new CronJob('0,30 * * * *', function () {
 }, null, true, 'America/Los_Angeles');
 
 
-
-var test_f = function(id, f_id){
+var test_f = function (id, f_id) {
     subevent.findAll({where: {event_id: id}}).then(function (sub) {
         console.log('query exec: ');
         console.log(id);
@@ -851,8 +611,7 @@ var test_f = function(id, f_id){
 };
 
 
-
-var change_ticket = function(id, f_id){
+var change_ticket = function (id, f_id) {
     ticket.findAll({where: {subevent_id: id}}).then(function (ticketsinfos) {
         console.log('query exec: ');
         console.log(id);
@@ -876,7 +635,7 @@ var change_ticket = function(id, f_id){
         }
     })
 };
-var change_venue = function(id, f_id){
+var change_venue = function (id, f_id) {
     venue.findAll({where: {venue_id: id}}).then(function (ven) {
         console.log('query exec: ');
         console.log(id);
