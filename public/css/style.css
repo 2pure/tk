@@ -206,9 +206,9 @@ span.welcome {
     border-image: url('../img/oie_transparent.png') 40 repeat;
 }
 
-.img-title {
+.img-title,.img-description{
     color: #ffffff;
-    font: 1.3em Helvetica;
+    font: 1em Helvetica;
 
 }
 
