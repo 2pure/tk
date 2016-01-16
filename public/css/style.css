@@ -73,7 +73,7 @@ span.welcome {
 }
 
 .welcome-scroll {
-    padding-top: 120px;
+    padding-top: 70px;
 }
 
 .underline {
@@ -258,9 +258,13 @@ span.welcome {
     -webkit-transition: .2s all;
 }
 
-.theme-img:hover {
+.new-theme-img:hover .theme-img {
     -webkit-filter: brightness(50%);
 }
+.theme-collection-img:hover .theme-img {
+    -webkit-filter: brightness(50%);
+}
+
 
 .img-row {
     width: 100%;
@@ -288,7 +292,12 @@ span.welcome {
     text-align: center;
 
 }
-
+.scroll-down-welcome{
+    padding: 20px 20px;
+}
+.scroll-down-welcome:hover{
+    cursor: pointer;
+}
 .footer-title-text {
     font: 3em Helvetica;
 }
