@@ -15,10 +15,40 @@ $(document).ready(
                     result=responce;
                    // $("#test>.img-title").text(result[0].description);
                     //$("#single-test>.theme-img").attr("src",result[0].image_url);
-                    $(".img_container").each(function(){
-                        $(this).find(".theme-img").attr("src",result[0].img_url);
-                        $(this).find(".img-title").text(result[0].name);
-                        $(this).find(".img-description").text(result[0].description);
+                    var i=0;
+                    $(".theme-collection-img").each(function(){
+                        if(i>=result.size){
+                            $(this).hide();
+                        }else{
+                            $(this).find(".theme-img").attr("src",result[i].img_url);
+                            $(this).find(".img-title").text(result[i].name);
+                            $(this).find(".img-description").text(result[i].description);
+
+                        }
+                        i++
+                    })
+                }
+            });
+
+            $.ajax({
+                url: 'http://188.166.36.174:3000/api/themes',
+                dataType: 'json',
+                success: function (responce) {
+                    console.log(responce);
+                    result=responce;
+                    // $("#test>.img-title").text(result[0].description);
+                    //$("#single-test>.theme-img").attr("src",result[0].image_url);
+                    var i=0;
+                    $(".new-theme-img").each(function(){
+                        if(i>=result.size){
+                            $(this).hide();
+                        }else{
+                            $(this).find(".theme-img").attr("src",result[i].img_url);
+                            $(this).find(".img-title").text(result[i].name);
+                            $(this).find(".img-description").text(result[i].description);
+
+                        }
+                        i++
                     })
                 }
             });
