@@ -160,6 +160,10 @@ app.get('/auth/login', function (req, res) {
     res.render('login', {user: req.user});
 });
 
+app.get('/legal', function (req, res) {
+    res.render('legal');
+});
+
 
 var test_f = function (id, f_id) {
     subevent.findAll({where: {event_id: id}}).then(function (sub) {
