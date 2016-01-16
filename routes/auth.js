@@ -20,8 +20,8 @@ module.exports = function (app, express, client) {
     app.use(passport.initialize());
     app.use(passport.session());
 
-    var FACEBOOK_APP_ID = "1634268476827505"
-    var FACEBOOK_APP_SECRET = "1210ad4eceeb339cbd222734469f46bd";
+    var FACEBOOK_APP_ID = "207081636306766"
+    var FACEBOOK_APP_SECRET = "414a0385ed7d819477746846d0957ae2";
 
 // Passport session setup.
 //   To support persistent login sessions, Passport needs to be able to
@@ -45,7 +45,7 @@ module.exports = function (app, express, client) {
     passport.use(new FacebookStrategy({
             clientID: FACEBOOK_APP_ID,
             clientSecret: FACEBOOK_APP_SECRET,
-            callbackURL: "http://localhost:3000/auth/facebook/callback"
+            callbackURL: "http://kurtr.ru:3000/auth/facebook/callback"
         },
         function (accessToken, refreshToken, profile, done) {
             // asynchronous verification, for effect...
@@ -55,13 +55,14 @@ module.exports = function (app, express, client) {
                 // represent the logged-in user.  In a typical application, you would want
                 // to associate the Facebook account with a user record in your database,
                 // and return that user instead.
+                console.log(profile);
                 client
                     .findOrCreate({
                         where: {account_id: profile.id}, defaults: {
                             account_id: profile.id,
                             account_name: profile.displayName,
-                            email: 'test@mail.ru',
-                            phone: 'zzz'
+                            email: '',
+                            phone: ''
                         }
                     })
                     .spread(function (user, created) {

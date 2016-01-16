@@ -135,7 +135,7 @@ subevent.belongsToMany(ticket, {through: sub_event_ticket});
 ticket.belongsToMany(subevent, {through: sub_event_ticket});
 
 sequelize.sync().then(function () {
-    return client.create({});
+    return true;
 }).then(function (jane) {
     console.log(jane.get({
         plain: true
@@ -158,6 +158,10 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/auth/login', function (req, res) {
     res.render('login', {user: req.user});
+});
+
+app.get('/legal', function (req, res) {
+    res.render('legal');
 });
 
 

@@ -312,6 +312,17 @@ module.exports = function (app, express, fs, client, event, subevent, ticket, ve
         });
 
     });
+
+    api.get('/createPrice', function (req, res) {
+        event.findAll().then(function (events) {
+           for (var i=0;i<events.length;i++){
+               events[i].updateAttributes({
+                   event_prices: '1200'
+               }).success(function() {});
+           }
+        })
+
+    });
     // init api route. all api routes will begin with /api
     app.use('/api', api);
 
