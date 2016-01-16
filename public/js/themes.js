@@ -1,3 +1,10 @@
+$(window).scroll(function(){
+    var sticky = $('.sticky'),
+        scroll = $(window).scrollTop();
+
+    if (scroll >= 0) sticky.addClass('fixed');
+    else sticky.removeClass('fixed');
+});
 $(document).ready(
     $(function () {
             $("#navbar").load("./template.html #navbar-template");

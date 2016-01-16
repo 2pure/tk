@@ -28,6 +28,13 @@ $(document).ready(
         }
     ));
 
+$(window).scroll(function(){
+    var sticky = $('.sticky'),
+        scroll = $(window).scrollTop();
+
+    if (scroll >= 0) sticky.addClass('fixed');
+    else sticky.removeClass('fixed');
+});
 
 /**
  * Created by ASUS on 16/01/2016.
