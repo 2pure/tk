@@ -20,8 +20,8 @@ module.exports = function (app, express, client) {
     app.use(passport.initialize());
     app.use(passport.session());
 
-    var FACEBOOK_APP_ID = "1634268476827505"
-    var FACEBOOK_APP_SECRET = "1210ad4eceeb339cbd222734469f46bd";
+    var FACEBOOK_APP_ID = "207081636306766"
+    var FACEBOOK_APP_SECRET = "414a0385ed7d819477746846d0957ae";
 
 // Passport session setup.
 //   To support persistent login sessions, Passport needs to be able to
