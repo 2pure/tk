@@ -1,18 +1,60 @@
 /**
  * Created by sergeyzubov on 15/01/16.
  */
-module.exports = function(app, express, fs, client,event,subevent,ticket,venue,collection,sessions,theme,purchase,mails,eventvenue,collectionevent,themecollection,clientpurchases,clientmails,event_subevent,sub_event_ticket ) {
+module.exports = function (app, express, fs, client, event, subevent, ticket, venue, collection, sessions, theme, purchase, mails, eventvenue, collectionevent, themecollection, clientpurchases, clientmails, event_subevent, sub_event_ticket) {
     'use strict';
     var api = express.Router();
 
+
     api.get('/themes', function (req, res) {
-       return theme.findAll({include: [collection]}).then(function (theme) {
-            res.send(theme);
+        return theme.findAll().then(function (theme) {
+            var ret = {themes: []};
+            for (var i = 0; i < theme.length; i++) {
+                var element = {
+                    name: theme[i].name,
+                    description: theme[i].description,
+                    img_url: theme[i].img_url,
+                    theme_url: theme[i].theme_url,
+                    theme_id: theme[i].id
+                };
+                ret.themes.push(element);
+            }
+            res.send(ret);
         })
     });
     api.get('/themes/:id', function (req, res) {
-        return theme.find({where: {id: req.params.id}, include: [collection]}).then(function (theme) {
-            res.send(theme);
+        return theme.find({
+            where: {id: req.params.id},
+            include: [{model: collection, include: [event]}]
+        }).then(function (theme) {
+            var coll = [];
+
+            for (var i = 0; i < theme.collections.length; i++) {
+                var events_list = [];
+                for (var j = 0; j < theme.collections[i].events.length; j++) {
+                    events_list.push({
+                        name: theme.collections[i].events[j].title,
+                        event_id: theme.collections[i].events[j].event_id
+                    })
+                }
+                var element = {
+                    name: theme.collections[i].name,
+                    description: theme.collections[i].description,
+                    img_url: theme.collections[i].img_url,
+                    collection_id: theme.collections[i].id,
+                    events_list: events_list
+                }
+                coll.push(element);
+            }
+            var ret = {
+                name: theme.name,
+                description: theme.description,
+                img_url: theme.img_url,
+                theme_url: theme.theme_url,
+                theme_id: theme.id,
+                collections: coll
+            };
+            res.send(ret);
         })
     });
     api.get('/venues', function (req, res) {
@@ -25,24 +67,73 @@ module.exports = function(app, express, fs, client,event,subevent,ticket,venue,c
             res.send(venues);
         })
     });
-    api.get('/collections', function (req, res) {
-        return collection.findAll({include: [event]}).then(function (events) {
-            res.send(events);
+    api.get('/newcollections', function (req, res) {
+        return collection.findAll({include: [event]}).then(function (collections) {
+            var ret = {collections: []};
+            for (var i = 0; i < collections.length; i++) {
+                var events_list = [];
+                for (var j = 0; j < collections[i].events.length; j++) {
+                    events_list.push({
+                        name: collections[i].events[j].title,
+                        event_id: collections[i].events[j].event_id
+                    })
+                }
+                var element = {
+                    name: collections[i].name,
+                    description: collections[i].description,
+                    img_url: collections[i].img_url,
+                    collection_id: collections[i].id,
+                    events_list: events_list
+                };
+                ret.collections.push(element);
+            }
+            res.send(ret);
         })
     });
     api.get('/collections/:id', function (req, res) {
-        return collection.find({where: {id: req.params.id}, include: [event]}).then(function (events) {
-            res.send(events);
+        return collection.find({where: {id: req.params.id}, include: [event]}).then(function (collections) {
+            var events_list = [];
+            for (var j = 0; j < collections.events.length; j++) {
+                events_list.push({
+                    event_id: collections.events[j].event_id,
+                    venue_name: "",
+                    venue_id: "",
+                    img_url: collections.events[j].img_url,
+                    name: collections.events[j].title,
+                    description: collections.events[j].description,
+                    actors_list: collections.events[j].actors_list,
+                    genres_list: collections.events[j].genres_list,
+                    directors_list: collections.events[j].directors_list,
+                    event_dates: collections.events[j].event_dates,
+                    event_prices: collections.events[j].event_prices,
+                })
+            }
+            var element = {
+                name: collections.name,
+                description: collections.description,
+                img_url: collections.img_url,
+                collection_id: collections.id,
+                events_list: events_list
+            };
+            res.send(element);
         })
     });
-    api.get('/events', function (req, res) {
-        return event.findAll().then(function (events) {
-            res.send(events);
-        });
-    });
+
     api.get('/events/:id', function (req, res) {
-        return event.find({where: {event_id: req.params.id}, include: [subevent, venue]}).then(function (events) {
-            res.send(events);
+        return event.find({where: {event_id: req.params.id}, include: [venue]}).then(function (events) {
+            res.send({
+                event_id: events.event_id,
+                venue_name: "",
+                venue_id: "",
+                img_url: events.img_url,
+                name: events.title,
+                description: events.description,
+                actors_list: events.actors_list,
+                genres_list: events.genres_list,
+                directors_list: events.directors_list,
+                event_dates: events.event_dates,
+                event_prices: events.event_prices,
+            });
         })
     });
     api.get('/subevents', function (req, res) {
@@ -192,8 +283,7 @@ module.exports = function(app, express, fs, client,event,subevent,ticket,venue,c
             if (err) throw err;
             var obj = JSON.parse(data);
             console.log(obj);
-            for (var item = 0; item < obj.length; item++)
-            {
+            for (var item = 0; item < obj.length; item++) {
                 console.log(obj[item]);
                 collection.create({
                     name: obj[item].FIELD2,
@@ -210,8 +300,7 @@ module.exports = function(app, express, fs, client,event,subevent,ticket,venue,c
             if (err) throw err;
             var obj = JSON.parse(data);
             //console.log(obj);
-            for (var item = 0; item < obj.length; item++)
-            {
+            for (var item = 0; item < obj.length; item++) {
                 var num = obj[item].FIELD5.split(",");
                 for (var i = 0; i < num.length; i++) {
                     var temp = parseInt(num[i]);
