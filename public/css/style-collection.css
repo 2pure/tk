@@ -413,3 +413,9 @@ font-weight: normal;
 .calendar{
     padding: 20px;
 }
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%;
+    padding: 0 19px 0 19px ;
+    z-index: 4;}
