@@ -1,7 +1,6 @@
 $(document).ready(
     $(function () {
-            $("#navbar").load("./template.html #navbar-template")      ;
-            $("#welcome").load("./template.html #welcome-template")      ;
+
             $('.btn-number').click(function(e){
                 e.preventDefault();
 
@@ -73,6 +72,8 @@ $(document).ready(
                     e.preventDefault();
                 }
             });
+
+
         }
 
 
