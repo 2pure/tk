@@ -135,7 +135,7 @@ subevent.belongsToMany(ticket, {through: sub_event_ticket});
 ticket.belongsToMany(subevent, {through: sub_event_ticket});
 
 sequelize.sync().then(function () {
-    return client.create({});
+    return true;
 }).then(function (jane) {
     console.log(jane.get({
         plain: true
