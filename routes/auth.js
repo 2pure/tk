@@ -55,21 +55,21 @@ module.exports = function (app, express, client) {
                 // represent the logged-in user.  In a typical application, you would want
                 // to associate the Facebook account with a user record in your database,
                 // and return that user instead.
-                //client
-                //    .findOrCreate({
-                //        where: {account_id: profile.id}, defaults: {
-                //            account_id: profile.id,
-                //            account_name: profile.displayName,
-                //            email: 'test@mail.ru',
-                //            phone: 'zzz'
-                //        }
-                //    })
-                //    .spread(function (user, created) {
-                //        console.log(user.get({
-                //            plain: true
-                //        }))
-                //        console.log(created)
-                //    })
+                client
+                    .findOrCreate({
+                        where: {account_id: profile.id}, defaults: {
+                            account_id: profile.id,
+                            account_name: profile.displayName,
+                            email: '',
+                            phone: ''
+                        }
+                    })
+                    .spread(function (user, created) {
+                        console.log(user.get({
+                            plain: true
+                        }))
+                        console.log(created)
+                    })
                 return done(null, profile);
             });
         }
