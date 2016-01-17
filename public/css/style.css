@@ -149,7 +149,9 @@ span.welcome {
     height: 300px;
     overflow: hidden;
 }
-
+.img_container{
+    display: block;
+}
 .img-horizontal {
     vertical-align: middle;
     width: 100%;

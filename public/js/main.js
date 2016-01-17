@@ -30,23 +30,23 @@ $(document).ready(
                 success: function (responce) {
                     console.log(responce);
                     themes = responce.themes;
+
                     // $("#test>.img-title").text(result[0].description);
                     //$("#single-test>.theme-img").attr("src",result[0].image_url);
                     var i = 0;
                     $(".theme-collection-img").each(function () {
-                        $(this).click(function(){
-                            window.location.href="./theme.html?"+ $.param({id: themes[i].theme_id});
-                        });
+
                         if (i >= themes.size) {
 
                             $(this).hide();
                         } else {
+                            $(this).attr("href","./theme.html?"+ $.param({id: themes[i].theme_id}));
                             $(this).find(".theme-img").attr("src", themes[i].img_url);
                             $(this).find(".img-title").text(themes[i].name);
                             $(this).find(".img-description").text(themes[i].description);
 
                         }
-                        i++
+                        i++;
                     })
                 }
             });
@@ -60,17 +60,33 @@ $(document).ready(
                     // $("#test>.img-title").text(result[0].description);
                     //$("#single-test>.theme-img").attr("src",result[0].image_url);
                     var i = 0;
-                    $(".new-theme-img").each(function () {
-                        $(this).click(function(){
-                            window.location.href="./collection.html?"+ $.param({id: collections[i].collection_id});
-                        });
+                    $(".new-collection-element-wrapper").each(function () {
+                        var href="./collection.html?"+ $.param({id: collections[i].collection_id});
+                        //$(this).click(function(){
+                        //   window.location.href="./collection.html?"+ $.param({id: collections[i].collection_id});
+                        //});
                         if (i >= collections.size) {
                             $(this).hide();
                         } else {
+                            var events = collections[i].events_list;
+                            var j=0;
+                            $(this).find(".new-theme-img").attr("href", href);
                             $(this).find(".theme-img").attr("src", collections[i].img_url);
                             $(this).find(".img-title").text(collections[i].name);
                             $(this).find(".img-description").text(collections[i].description);
+                            $(this).find(".list-group-item").each(function () {
+                                if (!!events[j]) {
+                                    $(this).attr("href", href);
+                                    $(this).text(events[j].name);
+                                    if(j==4){
+                                        $(this).text("Больше спектаклей");
+                                    }
+                                }else{
+                                    $(this).hide();
+                                }
+                                j++;
 
+                            });
                         }
                         i++;
                     })
