@@ -16,7 +16,7 @@ $(document).on('click', '.scroll-down-welcome', function () {
 
 });
 
-$(document).ready(
+
     $(function () {
 
 
@@ -95,6 +95,6 @@ $(document).ready(
 
 
         }
-    ));
+    );
 
 
