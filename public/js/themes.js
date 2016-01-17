@@ -16,13 +16,13 @@ function getParameterByName(name) {
 
 var id = getParameterByName('id');
 
-
+$(document).ready(
     $(function () {
             $("#navbar").load("./template.html #navbar-template");
             $("#welcome").load("./template.html #welcome-template");
-            $("#new-themes").load("./template.html #new-themes");
+            $("#new-themes").load("./template.html #new-themes",function(){
 
-            var collections;
+        var collections;
             var theme;
             $.ajax({
                 url: 'http://188.166.36.174:3000/api/themes/' + id,
@@ -69,6 +69,6 @@ var id = getParameterByName('id');
                 }
             });
         }
-    );
+    );}));
 
 

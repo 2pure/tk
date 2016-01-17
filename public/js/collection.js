@@ -6,10 +6,10 @@ function getParameterByName(name) {
 }
 var id = getParameterByName('id');
 
-
+$(document).ready(
     $(function () {
             $("#navbar").load("./template.html #navbar-template");
-            $("#welcome").load("./template.html #welcome-template");
+            $("#welcome").load("./template.html #welcome-template",function(){
             var result;
             $.ajax({
                 url: 'http://188.166.36.174:3000/api/collections/'+id,
@@ -35,7 +35,7 @@ var id = getParameterByName('id');
                 }
             });
         }
-    );
+            );}));
 
 $(window).scroll(function(){
     var sticky = $('.sticky'),
