@@ -61,6 +61,7 @@ $(document).on('click', '.scroll-down-welcome', function () {
                     //$("#single-test>.theme-img").attr("src",result[0].image_url);
                     var i = 0;
                     $(".new-collection-element-wrapper").each(function () {
+                        console.log("working with new collection "+i);
                         var href="./collection.html?"+ $.param({id: collections[i].collection_id});
                         //$(this).click(function(){
                         //   window.location.href="./collection.html?"+ $.param({id: collections[i].collection_id});
