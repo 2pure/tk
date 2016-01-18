@@ -265,7 +265,7 @@ require('./routes/api')(app, express, fs, client, event, subevent, ticket, venue
 require('./cron/jobs')(fs, venue, event, subevent, ticket);
 require('./routes/auth')(app, express, client);
 
-app.listen(3000);
+app.listen(80);
 
 
 
