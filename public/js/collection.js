@@ -12,7 +12,7 @@ $(document).ready(
             $("#welcome").load("./template.html #welcome-template",function(){
             var result;
             $.ajax({
-                url: 'http://188.166.36.174:3000/api/collections/'+id,
+                url: 'http://kurtr.ru/api/collections/'+id,
                 dataType: 'json',
                 success: function (responce) {
                     console.log(responce);
