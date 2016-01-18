@@ -6,8 +6,11 @@ module.exports = function (app, express, fs, client, event, subevent, ticket, ve
     var api = express.Router();
 
 
-    api.get('/themes', function (req, res) {
-        return theme.findAll().then(function (theme) {
+    api.get('/themes?', function (req, res) {
+        //http://localhost:3000/api/themes?limit=5&offset=0
+        return theme.findAll({ limit: req.param('limit'), // Dynamic from query string.
+            offset: req.param('offset')}
+        ).then(function (theme) {
             var ret = {themes: []};
             for (var i = 0; i < theme.length; i++) {
                 var element = {
@@ -57,6 +60,10 @@ module.exports = function (app, express, fs, client, event, subevent, ticket, ve
             res.send(ret);
         })
     });
+
+
+
+
     api.get('/venues', function (req, res) {
         return venue.findAll({include: [event]}).then(function (venues) {
             res.send(venues);
@@ -67,8 +74,9 @@ module.exports = function (app, express, fs, client, event, subevent, ticket, ve
             res.send(venues);
         })
     });
-    api.get('/newcollections', function (req, res) {
-        return collection.findAll({include: [event]}).then(function (collections) {
+    api.get('/newcollections?', function (req, res) {
+        return collection.findAll({include: [event], limit: req.param('limit'), // Dynamic from query string.
+            offset: req.param('offset')}).then(function (collections) {
             var ret = {collections: []};
             for (var i = 0; i < collections.length; i++) {
                 var events_list = [];
