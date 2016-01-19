@@ -216,14 +216,17 @@
   width: 100%;
 }
 .bootstrap-datetimepicker-widget table {
+
   width: 100%;
   margin: 0;
 }
 .bootstrap-datetimepicker-widget table td,
 .bootstrap-datetimepicker-widget table th {
+
   text-align: center;
 }
 .bootstrap-datetimepicker-widget table th {
+  color:#ffffff;
   height: 20px;
   line-height: 20px;
   width: 20px;

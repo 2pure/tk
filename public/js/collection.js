@@ -5,39 +5,68 @@ function getParameterByName(name) {
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 var id = getParameterByName('id');
+var eventNumber;
+var counter;
+var collection;
+var events;
+var i = 0;
 
-$(document).ready(
-    $(function () {
-            $("#navbar").load("./template.html #navbar-template");
-            $("#welcome").load("./template.html #welcome-template",function(){
+$(function () {
+    $("#navbar").load("./template.html #navbar-template");
+    $("#welcome").load("./template.html #welcome-template", function () {
             var result;
             $.ajax({
-                url: 'http://kurtr.ru/api/collections/'+id,
+                url: 'http://kurtr.ru/api/collections/' + id,
                 dataType: 'json',
                 success: function (responce) {
                     console.log(responce);
                     collection = responce
-                    events=collection.events_list;
+                    events = collection.events_list;
+                    eventNumber = events.length;
+                    counter = eventNumber;
+                    console.log("event number " + eventNumber);
                     // $("#test>.img-title").text(result[0].description);
                     //$("#single-test>.theme-img").attr("src",result[0].image_url);
-                    var i = 0;
-                    $(".play-wrapper").each(function () {
-                        $(this).find(".play-title").text(events[i].name);
-                        $(this).find(".play-img").attr("src", events[i].event_img_url);
-                        $(this).find('#datetimepicker12').datetimepicker({
-                            inline: true,
-                            format: 'DD/MM/YYYY',
-                            enabledDates: events[i].event_dates
+                    for (i = 0; i < eventNumber; i++) {
+                        $(".main-content").append("<div class=\"play-element\"></div>");
 
 
-                        });
-                    })
+                    }
+                    $(".play-element").each(
+                        function () {
+                            $(this).load("./template.html .play-wrapper", function(){
+                                counter--;
+                                console.log("counter " + counter);
+                                if (counter === 0) {
+                                    console.log("workin with cnt " + $('.play-title').length);
+                                    var j = 0;
+
+                                    $(".play-wrapper").each(function () {
+                                        console.log(j + " event name is " + events[j].name);
+                                        $(this).find(".play-title").text(events[j].name);
+                                        $(this).find(".play-img").attr("src", events[j].event_img_url);
+                                        $(this).find('#datetimepicker12').datetimepicker({
+                                            inline: true,
+                                            format: 'DD/MM/YYYY',
+                                            enabledDates: events[j].event_dates,
+                                            locale: 'ru'
+                                        });
+                                        j++;
+                                    });
+                                }
+                            });
+                        }
+                    );
+
+
                 }
             });
         }
-            );}));
+    );
 
-$(window).scroll(function(){
+});
+
+$(window).scroll(function () {
     var sticky = $('.sticky'),
         scroll = $(window).scrollTop();
 
