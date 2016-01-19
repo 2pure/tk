@@ -58,7 +58,7 @@ module.exports = function (app, express, client) {
                 // to associate the Facebook account with a user record in your database,
                 // and return that user instead.
                 console.log(profile);
-                console.log(profile.emails[0].value);
+                //console.log(profile.emails[0].value);
                 client
                     .findOrCreate({
                         where: {account_id: profile.id}, defaults: {
