@@ -195,10 +195,11 @@ span.welcome {
 }
 
 .img-single {
-    width: 100%;
-    height: auto;
+    height: 250px;
 }
-
+.calendar{
+    box-shadow: 2px 2px 6px #888888;
+}
 .img-text {
     margin: auto;
     position: absolute;
@@ -330,7 +331,7 @@ span.welcome {
 
 .genre:before {
     color: red;
-    content: "Genre: "
+    content: "Жанр: "
 }
 
 .director {
@@ -340,7 +341,7 @@ span.welcome {
 
 .director:before {
     color: red;
-    content: "Director: "
+    content: "Режиссер: "
 }
 
 .artists {
@@ -350,7 +351,7 @@ span.welcome {
 
 .artists:before {
     color: red;
-    content: "Artists: "
+    content: "Артисты: "
 }
 .place-select-wrapper{
     background: #f3f3f3;

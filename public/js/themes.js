@@ -25,7 +25,7 @@ $(document).ready(
         var collections;
             var theme;
             $.ajax({
-                url: 'http://188.166.36.174:3000/api/themes/' + id,
+                url: 'http://kurtr.ru/api/themes/' + id,
                 dataType: 'json',
                 success: function (responce) {
                     console.log(responce);

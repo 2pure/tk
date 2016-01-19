@@ -26,7 +26,7 @@ $(document).ready(
 
             var themes;
             $.ajax({
-                url: 'http://188.166.36.174:3000/api/themes',
+                url: 'http://kurtr.ru/api/themes',
                 dataType: 'json',
                 success: function (responce) {
                     console.log(responce);
@@ -53,7 +53,7 @@ $(document).ready(
             });
             var collections;
             $.ajax({
-                url: 'http://188.166.36.174:3000/api/newcollections',
+                url: 'http://kurtr.ru/api/newcollections',
                 dataType: 'json',
                 success: function (responce) {
                     console.log(responce);
