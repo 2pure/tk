@@ -46,7 +46,6 @@ module.exports = function (app, express, client) {
             clientID: FACEBOOK_APP_ID,
             clientSecret: FACEBOOK_APP_SECRET,
             callbackURL: "http://kurtr.ru/auth/facebook/callback",
-            passReqToCallback : true,
             profileFields: ['id', 'email', 'gender', 'link', 'locale', 'name', 'timezone', 'updated_time', 'verified']
         },
         function (accessToken, refreshToken, profile, done) {
