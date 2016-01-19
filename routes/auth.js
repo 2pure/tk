@@ -45,8 +45,7 @@ module.exports = function (app, express, client) {
     passport.use(new FacebookStrategy({
             clientID: FACEBOOK_APP_ID,
             clientSecret: FACEBOOK_APP_SECRET,
-            callbackURL: "http://kurtr.ru/auth/facebook/callback",
-            profileFields: ['id', 'email', 'gender', 'link', 'locale', 'name', 'timezone', 'updated_time', 'verified']
+            callbackURL: "http://kurtr.ru/auth/facebook/callback"
         },
         function (accessToken, refreshToken, profile, done) {
             // asynchronous verification, for effect...
@@ -91,7 +90,7 @@ module.exports = function (app, express, client) {
 //   login page.  Otherwise, the primary route function function will be called,
 //   which, in this example, will redirect the user to the home page.
     api.get('/facebook/callback',
-        passport.authenticate('facebook',{failureRedirect: '/login'}),
+        passport.authenticate('facebook', {scope: 'email'}),
         function (req, res) {
             console.log(req.user);
             res.redirect('/');
