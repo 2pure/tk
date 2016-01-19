@@ -90,7 +90,7 @@ module.exports = function (app, express, client) {
 //   login page.  Otherwise, the primary route function function will be called,
 //   which, in this example, will redirect the user to the home page.
     api.get('/facebook/callback',
-        passport.authenticate('facebook', {failureRedirect: '/login'}),
+        passport.authenticate('facebook', { scope: ['email']},{failureRedirect: '/login'}),
         function (req, res) {
             console.log(req.user);
             res.redirect('/');
