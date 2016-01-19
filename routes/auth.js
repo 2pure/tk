@@ -59,21 +59,21 @@ module.exports = function (app, express, client) {
                 // and return that user instead.
                 console.log(profile);
                 //console.log(profile.emails[0].value);
-                client
-                    .findOrCreate({
-                        where: {account_id: profile.id}, defaults: {
-                            account_id: profile.id,
-                            account_name: profile.displayName,
-                            email: '',
-                            phone: ''
-                        }
-                    })
-                    .spread(function (user, created) {
-                        console.log(user.get({
-                            plain: true
-                        }))
-                        console.log(created)
-                    })
+                //client
+                //    .findOrCreate({
+                //        where: {account_id: profile.id}, defaults: {
+                //            account_id: profile.id,
+                //            account_name: profile.displayName,
+                //            email: '',
+                //            phone: ''
+                //        }
+                //    })
+                //    .spread(function (user, created) {
+                //        console.log(user.get({
+                //            plain: true
+                //        }))
+                //        console.log(created)
+                //    })
                 return done(null, profile);
             });
         }
@@ -93,7 +93,7 @@ module.exports = function (app, express, client) {
 //   login page.  Otherwise, the primary route function function will be called,
 //   which, in this example, will redirect the user to the home page.
     api.get('/facebook/callback',
-        passport.authenticate('facebook', { scope : 'email'}),
+        passport.authenticate('facebook'),
         function (req, res) {
             console.log(req.user);
             res.redirect('/');
