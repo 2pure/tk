@@ -54,6 +54,8 @@ $(document).ready(
                     alert('Sorry, the maximum value was reached');
                     $(this).val($(this).data('oldValue'));
                 }
+                price=totalPrice*$(this).val();
+                $(".total-price").text(price);
 
 
             });
