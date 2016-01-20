@@ -9,6 +9,7 @@ var eventNumber;
 var counter;
 var collection;
 var events;
+var prices=[];
 var i = 0;
 
 $(function () {
@@ -34,7 +35,7 @@ $(function () {
                     }
                     $(".play-element").each(
                         function () {
-                            $(this).load("./template.html .play-wrapper", function(){
+                            $(this).load("./template.html .play-wrapper", function () {
                                 counter--;
                                 console.log("counter " + counter);
                                 if (counter === 0) {
@@ -42,17 +43,26 @@ $(function () {
                                     var j = 0;
 
                                     $(".play-wrapper").each(function () {
-                                        console.log(j + " event name is " + events[j].name);
-                                        $(this).find(".play-title").text(events[j].name);
-                                        $(this).find(".play-img").attr("src", events[j].event_img_url);
-                                        $(this).find('#datetimepicker12').datetimepicker({
-                                            inline: true,
-                                            format: 'DD/MM/YYYY',
-                                            enabledDates: events[j].event_dates,
-                                            locale: 'ru'
-                                        });
-                                        j++;
-                                    });
+                                            console.log(j + " event name is " + events[j].name);
+                                            $(this).find(".play-title").text(events[j].name);
+                                            $(this).find(".play-img").attr("src", events[j].img_url);
+                                            $(this).find(".event-time").text(events[j].name);
+                                            calendar = $(this).find('#datetimepicker12');
+                                            calendar.datetimepicker({
+                                                inline: true,
+                                                format: 'DD/MM/YYYY',
+                                                enabledDates: events[j].event_dates,
+                                                locale: 'ru'
+                                            });
+                                           calendar.on("dp.change",function(e){
+                                               moment.locale('ru');
+                                               $(this).find(".event-time").text(e.date.format('dddd, MMMM DD YYYY, h:mm:ss'));
+                                           });
+
+                                            j++;
+                                        }
+                                    )
+                                    ;
                                 }
                             });
                         }
@@ -62,9 +72,11 @@ $(function () {
                 }
             });
         }
-    );
+    )
+    ;
 
-});
+})
+;
 
 $(window).scroll(function () {
     var sticky = $('.sticky'),
