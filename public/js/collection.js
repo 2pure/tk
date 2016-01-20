@@ -67,18 +67,23 @@ $(function () {
                                             $(this).find(".play-img").attr("src", events[j].img_url);
                                             $(this).find(".event-time").text(events[j].name);
 
-                                            if (events[j].name.length != 0) {
-                                                $(this).find(".genre").text(events[j].name);
+                                            if (events[j].genres_list.length != 0) {
+                                                $(this).find(".genre").text(events[j].genres_list);
                                             } else {
                                                 $(this).hide();
                                             }
-                                            if (events[j].name.length != 0) {
-                                                $(this).find(".director").text(events[j].name);
+                                            if (events[j].directors_list.length != 0) {
+                                                $(this).find(".director").text(events[j].directors_list);
                                             } else {
                                                 $(this).hide();
                                             }
-                                            if (events[j].name.length != 0) {
-                                                $(this).find(".artists").text(events[j].name);
+                                            if (events[j].actors_list.length != 0) {
+                                                $(this).find(".artists").text(events[j].actors_list);
+                                            } else {
+                                                $(this).hide();
+                                            }
+                                            if (events[j].description !== 0) {
+                                                $(this).find(".play-description").text(events[j].description);
                                             } else {
                                                 $(this).hide();
                                             }
