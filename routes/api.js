@@ -104,16 +104,20 @@ module.exports = function (app, express, fs, client, event, subevent, ticket, ve
             for (var j = 0; j < collections.events.length; j++) {
                 events_list.push({
                     event_id: collections.events[j].event_id,
-                    venue_name: "",
-                    venue_id: "",
+                    venue_name: "Московская Оперета",
+                    venue_id: "12",
                     img_url: collections.events[j].event_img_url,
                     name: collections.events[j].title,
-                    description: collections.events[j].description,
-                    actors_list: collections.events[j].actors_list,
-                    genres_list: collections.events[j].genres_list,
-                    directors_list: collections.events[j].directors_list,
+                    description: "Крутое описание крутого спектакля про крутых людей в крутом театре с крутыми актерами",
+                    actors_list: "Дикаприо",
+                    genres_list: "Боевик",
+                    directors_list: "Майкл Бэй",
                     event_dates: collections.events[j].event_dates,
-                    event_prices: collections.events[j].event_prices,
+                    event_prices: {event_prices : {
+                        stalls: 1000,
+                        mezzanine: 2000,
+                        balcony: 3000
+                    }}
                 })
             }
             var element = {
@@ -131,16 +135,20 @@ module.exports = function (app, express, fs, client, event, subevent, ticket, ve
         return event.find({where: {event_id: req.params.id}, include: [venue]}).then(function (events) {
             res.send({
                 event_id: events.event_id,
-                venue_name: "",
-                venue_id: "",
+                venue_name: "Московская Оперета",
+                venue_id: "12",
                 img_url: events.event_img_url,
                 name: events.title,
-                description: events.description,
-                actors_list: events.actors_list,
-                genres_list: events.genres_list,
-                directors_list: events.directors_list,
+                description: "Крутое описание крутого спектакля про крутых людей в крутом театре с крутыми актерами",
+                actors_list: "Дикаприо",
+                genres_list: "Боевик",
+                directors_list: "Майкл Бэй",
                 event_dates: events.event_dates,
-                event_prices: events.event_prices,
+                event_prices: {event_prices : {
+                    stalls: 1000,
+                    mezzanine: 2000,
+                    balcony: 3000
+                }}
             });
         })
     });
