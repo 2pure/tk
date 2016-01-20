@@ -1,7 +1,3 @@
-.navbar {
-    margin: 0 !important;
-}
-
 .welcome-img-container {
     position: relative;
     width: 100%;
@@ -153,7 +149,9 @@ span.welcome {
     height: 300px;
     overflow: hidden;
 }
-
+.img_container{
+    display: block;
+}
 .img-horizontal {
     vertical-align: middle;
     width: 100%;
@@ -187,10 +185,9 @@ span.welcome {
     -webkit-transition: .2s all;
 }
 
-.new-theme-img:hover .theme-img {
+.theme-img:hover {
     -webkit-filter: brightness(50%);
 }
-
 
 .img-single {
     width: 100%;
@@ -211,9 +208,9 @@ span.welcome {
     border-image: url('../img/oie_transparent.png') 40 repeat;
 }
 
-.img-title,.img-description {
+.img-title,.img-description{
     color: #ffffff;
-    font: 1.3em Helvetica;
+    font: 1em Helvetica;
 
 }
 
@@ -223,31 +220,28 @@ span.welcome {
 }
 
 .buy-btn {
-    background-color: #e3ffe3;
-    border: 1px solid #abffb3 !important;
+    background-color: #ac6866;
+    color: #ffffff;
     font: 1.2em Helvetica;
 }
 
 .buy-btn:hover {
-    background-color: #cce8cc;
+    background-color: #9c5a58;
+    color: #ffffff !important;
 }
 
 .new-collection-wrapper {
     background-color: #e6e6e6;
-    padding: 20px 0 0 0;
-    margin: 50px 0 30px 0;
+    padding: 70px 0;
 }
-
 .new-collection-title {
     text-align: center;
-    display: none;
 
 }
 
 .new-collection-title-text {
     font: 3em Helvetica;
 }
-
 .new-collection-element-wrapper {
     padding: 10px 0;
 }
@@ -255,11 +249,9 @@ span.welcome {
 .new-collection-element-wrapper:first-child {
     padding-left: 10px;
 }
-
 .new-collection-element-wrapper:last-child {
     padding-right: 10px;
 }
-
 .img-row-wrapper {
     position: relative;
 }
@@ -268,14 +260,19 @@ span.welcome {
     -webkit-transition: .2s all;
 }
 
-.theme-img:hover {
+.new-theme-img:hover .theme-img {
     -webkit-filter: brightness(50%);
 }
+.theme-collection-img:hover .theme-img {
+    -webkit-filter: brightness(50%);
+}
+
 
 .img-row {
     width: 100%;
     height: auto;
 }
+
 
 .new-collection-img-text {
     margin: auto;
@@ -290,129 +287,21 @@ span.welcome {
     border: 15px solid #000000;
     border-image: url('../img/oie_transparent.png') 40 repeat;
 }
-
-.footer-wrapper {
+.footer-wrapper{
     padding: 70px 0;
 }
-
 .footer-title {
     text-align: center;
 
 }
-
+.scroll-down-welcome{
+    padding: 20px 20px;
+}
+.scroll-down-welcome:hover{
+    cursor: pointer;
+}
 .footer-title-text {
     font: 3em Helvetica;
-}
-
-.play-wrapper span {
-    display: block;
-}
-
-.theater-title {
-    color: darkgray;
-    font: 1.2em Helvetica;
-}
-
-.play-title {
-    color: black;
-    font: 2em Helvetica;
-}
-
-.play-description {
-    color: #000000;
-    font: 1.2em Helvetica;
-}
-
-.genre {
-    color: darkgray;
-    font: 0.8em Helvetica;
-}
-
-.genre:before {
-    color: red;
-    content: "Genre: "
-}
-
-.director {
-    color: darkgray;
-    font: 0.8em Helvetica;
-}
-
-.director:before {
-    color: red;
-    content: "Director: "
-}
-
-.artists {
-    color: darkgray;
-    font: 0.8em Helvetica;
-}
-
-.artists:before {
-    color: red;
-    content: "Artists: "
-}
-.place-select-wrapper{
-    background: #f3f3f3;
-    border: 1px solid #e9e1e9;
-    margin: 20px 0;
-}
-.place-select-content{
-    padding: 0px 20px;
-}
-.place-select-title{
-    padding: 20px 0;
-}
-.place-select-title span{
-    font: 1.5em Helvetica;
-    font-weight: bold;
-}
-.place-select-button {
-    padding: 5px 20px !important;
-    margin : 0 20px;
-    border: solid 1px #f58485 !important;
-}
-.input-number{
-    text-align: center;
-}
-.place-select-button.active {
-    outline: 0;
-    background: #ffdce6;
-     -webkit-box-shadow: none !important;
-     box-shadow: none !important;
-}
-.price-text {
-    font-weight: bold;
-}
-.price-text:before {
-    content: "от ";
-font-weight: normal;
-}
-.price-text:after {
-    content: " рублей";
-    font-weight: normal;
-}
-.place-select-number{
-    padding: 20px 0;
-}
-.place-select-number .input-group{
-    width: 200px;
-}
-.total-price{
-    font-weight: bold;
-    font-size:  1.6em ;
-}
-.total-price:after{
-    content: " рублей";
-    font-weight: normal;
-}
-
-.total-price:before{
-    content: "Итого: ";
-    font-weight: normal;
-}
-.place-select-price{
-    padding: 20px 0;
 }
 .fixed {
     position: fixed;
@@ -420,9 +309,3 @@ font-weight: normal;
     width: 100%;
     padding: 0 19px 0 19px ;
     z-index: 4;}
-.scroll-down-welcome{
-    padding: 20px 20px;
-}
-.scroll-down-welcome:hover{
-    cursor: pointer;
-}
