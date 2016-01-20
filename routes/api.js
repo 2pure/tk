@@ -113,11 +113,11 @@ module.exports = function (app, express, fs, client, event, subevent, ticket, ve
                     genres_list: "Боевик",
                     directors_list: "Майкл Бэй",
                     event_dates: collections.events[j].event_dates,
-                    event_prices: {event_prices : {
+                    event_prices: {
                         stalls: 1000,
                         mezzanine: 2000,
                         balcony: 3000
-                    }}
+                    }
                 })
             }
             var element = {
@@ -144,11 +144,11 @@ module.exports = function (app, express, fs, client, event, subevent, ticket, ve
                 genres_list: "Боевик",
                 directors_list: "Майкл Бэй",
                 event_dates: events.event_dates,
-                event_prices: {event_prices : {
+                event_prices: {
                     stalls: 1000,
                     mezzanine: 2000,
                     balcony: 3000
-                }}
+                }
             });
         })
     });
