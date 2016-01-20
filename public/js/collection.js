@@ -15,10 +15,7 @@ var balcony = 0;
 var i = 0;
 var totalPrice = 0;
 
-$(".place-select-button").click(function () {
-    totalPrice = $(".active").find(".price-text").text();
-    $(".total-price").text(totalPrice * $('.input-number').val());
-});
+
 
 $(function () {
     $("#navbar").load("./template.html #navbar-template");
@@ -40,6 +37,12 @@ $(function () {
                     $(".welcome-hint").text(collection.description);
                     $(".welcome-img").attr("src", collection.img_url);
 
+
+                    $(".place-select-button").click(function () {
+                        totalPrice = $(this).find(".price-text").text();
+                        console.log($(this).find(".price-text").text());
+                        $(".total-price").text(totalPrice * $('.input-number').val());
+                    });
 
                     for (i = 0; i < eventNumber; i++) {
                         $(".main-content").append("<div class=\"play-element\"></div>");
@@ -84,6 +87,11 @@ $(function () {
                                             }
                                             if (events[j].description !== 0) {
                                                 $(this).find(".play-description").text(events[j].description);
+                                            } else {
+                                                $(this).hide();
+                                            }
+                                            if (events[j].venue_name !== 0) {
+                                                $(this).find(".theatre-title").text(events[j].venue_name);
                                             } else {
                                                 $(this).hide();
                                             }
