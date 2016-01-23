@@ -19,9 +19,9 @@
 }
 
 .welcome-img-banner {
-    width: 500px;
+    width: 1000px;
     height: 100%;
-    margin-left: -250px;
+    margin-left: -500px;
     position: absolute;
     top: 20%;
     text-align: center;
@@ -69,7 +69,7 @@ span.welcome {
 }
 
 .welcome-hint {
-    font: 1em Helvetica;
+    font: 1.2em Helvetica;
 }
 
 .welcome-scroll {

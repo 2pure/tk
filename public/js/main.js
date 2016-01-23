@@ -21,36 +21,37 @@ $(document).ready(
 
 
         $("#navbar").load("./template.html #navbar-template");
-        $("#welcome").load("./template.html #welcome-template");
-        $("#new-themes").load("./template.html #new-themes", function () {
+        //$("#new-themes").load("./template.html #new-themes"
+        $("#welcome").load("./template.html #welcome-template"
+            , function () {
 
                 var themes;
-                $.ajax({
-                    url: 'http://kurtr.ru/api/themes',
-                    dataType: 'json',
-                    success: function (responce) {
-                        console.log(responce);
-                        themes = responce.themes;
-
-                        // $("#test>.img-title").text(result[0].description);
-                        //$("#single-test>.theme-img").attr("src",result[0].image_url);
-                        var i = 0;
-                        $(".theme-collection-img").each(function () {
-
-                            if (i >= themes.size) {
-
-                                $(this).hide();
-                            } else {
-                                $(this).attr("href", "./theme.html?" + $.param({id: themes[i].theme_id}));
-                                $(this).find(".theme-img").attr("src", themes[i].img_url);
-                                $(this).find(".img-title").text(themes[i].name);
-                                $(this).find(".img-description").text(themes[i].description);
-
-                            }
-                            i++;
-                        })
-                    }
-                });
+                //$.ajax({
+                //    url: 'http://kurtr.ru/api/themes',
+                //    dataType: 'json',
+                //    success: function (responce) {
+                //        console.log(responce);
+                //        themes = responce.themes;
+                //
+                //        // $("#test>.img-title").text(result[0].description);
+                //        //$("#single-test>.theme-img").attr("src",result[0].image_url);
+                //        var i = 0;
+                //        $(".theme-collection-img").each(function () {
+                //
+                //            if (i >= themes.size) {
+                //
+                //                $(this).hide();
+                //            } else {
+                //                $(this).attr("href", "./theme.html?" + $.param({id: themes[i].theme_id}));
+                //                $(this).find(".theme-img").attr("src", themes[i].img_url);
+                //                $(this).find(".img-title").text(themes[i].name);
+                //                $(this).find(".img-description").text(themes[i].description);
+                //
+                //            }
+                //            i++;
+                //        })
+                //    }
+                //});
                 var collections;
                 $.ajax({
                     url: 'http://kurtr.ru/api/newcollections',
@@ -65,7 +66,7 @@ $(document).ready(
                         }
                         $(".collection-row-block").each(function () {
                             $(this).load("./template.html .collection-row", function () {
-                                i=0;
+                                i = 0;
                                 $(".new-collection-element-wrapper").each(function () {
                                     //$(this).click(function(){
                                     //   window.location.href="./collection.html?"+ $.param({id: collections[i].collection_id});
