@@ -117,8 +117,12 @@ span.welcome {
     padding-top: 20px;
 }
 
-.about-steps-col {
+.about-text {
     text-align: left;
+}
+.about-img{
+    width: 100%;
+    height:500px;
 }
 
 .about-steps-title {

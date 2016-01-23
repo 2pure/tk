@@ -40,7 +40,6 @@ $(function () {
 
                     $(".place-select-button").click(function () {
                         totalPrice = $(this).find(".price-text").text();
-                        console.log($(this).find(".price-text").text());
                         $(".total-price").text(totalPrice * $('.input-number').val());
                     });
 
