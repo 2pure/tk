@@ -108,10 +108,10 @@ module.exports = function (app, express, fs, client, event, subevent, ticket, ve
                     venue_id: "12",
                     img_url: collections.events[j].event_img_url,
                     name: collections.events[j].title,
-                    description: "Крутое описание крутого спектакля про крутых людей в крутом театре с крутыми актерами с сервера",
-                    actors_list: "Дикаприо",
-                    genres_list: "Боевик",
-                    directors_list: "Майкл Бэй",
+                    description: collections.events[j].description,
+                    actors_list: "",
+                    genres_list: "",
+                    directors_list: "",
                     event_dates: collections.events[j].event_dates,
                     event_prices: {
                         stalls: 1000,
@@ -139,10 +139,10 @@ module.exports = function (app, express, fs, client, event, subevent, ticket, ve
                 venue_id: "12",
                 img_url: events.event_img_url,
                 name: events.title,
-                description: "Крутое описание крутого спектакля про крутых людей в крутом театре с крутыми актерами с сервера",
-                actors_list: "Дикаприо",
-                genres_list: "Боевик",
-                directors_list: "Майкл Бэй",
+                description: events.description,
+                actors_list: "",
+                genres_list: "",
+                directors_list: "",
                 event_dates: events.event_dates,
                 event_prices: {
                     stalls: 1000,
@@ -295,34 +295,135 @@ module.exports = function (app, express, fs, client, event, subevent, ticket, ve
     });
     api.get('/initCollections', function (req, res) {
 
-        fs.readFile('data/collection.json', 'utf8', function (err, data) {
+        fs.readFile('data/collections.json', 'utf8', function (err, data) {
             if (err) throw err;
+
             var obj = JSON.parse(data);
-            console.log(obj);
-            for (var item = 0; item < obj.length; item++) {
-                console.log(obj[item]);
+            console.log(obj.collections_info);
+            for (var item = 0; item < obj.collections_info.length; item++) {
+                console.log(obj.collections_info[item]);
                 collection.create({
-                    name: obj[item].FIELD2,
-                    description: obj[item].FIELD4
+                    name: obj.collections_info[item].name,
+                    description: obj.collections_info[item].description,
+                    img_url: obj.collections_info[item].img_url
                 })
             }
         });
 
     });
 
+
+    var set_relat = function (event_id, name) {
+        collection.find({where: {name: name}}).then(function (coll) {
+            coll_relation(coll.id, event_id);
+            console.log(coll.id);
+            console.log(event_id);
+        })
+    };
+
+    var coll_relation = function (id, eventid) {
+        event.find({where: {event_id: eventid}}).then(function (ev) {
+            console.log(ev);
+            save_to_collection_event(ev.id, id);
+        })
+    };
+
+
+    var test_f = function (id, f_id) {
+        subevent.findAll({where: {event_id: id}}).then(function (sub) {
+            console.log('query exec: ');
+            console.log(id);
+            console.log(sub.length);
+
+            for (var i = 0; i < sub.length; i++) {
+                var sub_id = sub[i].id;
+                event_subevent
+                    .findOrCreate({
+                        where: {event_id: f_id, subevent_id: sub_id}, defaults: {
+                            event_id: f_id,
+                            subevent_id: sub_id
+                        }
+                    })
+                    .spread(function (user, created) {
+                        console.log(user.get({
+                            plain: true
+                        }))
+                        console.log(created)
+                    })
+            }
+        })
+    };
+
+
+    var change_ticket = function (id, f_id) {
+        ticket.findAll({where: {subevent_id: id}}).then(function (ticketsinfos) {
+            console.log('query exec: ');
+            console.log(id);
+            console.log(ticketsinfos.length);
+
+            for (var i = 0; i < ticketsinfos.length; i++) {
+                var sub_id = ticketsinfos[i].id;
+                sub_event_ticket
+                    .findOrCreate({
+                        where: {ticket_id: sub_id, subevent_id: f_id}, defaults: {
+                            ticket_id: sub_id,
+                            subevent_id: f_id
+                        }
+                    })
+                    .spread(function (user, created) {
+                        console.log(user.get({
+                            plain: true
+                        }))
+                        console.log(created)
+                    })
+            }
+        })
+    };
+    var change_venue = function (id, f_id) {
+        venue.findAll({where: {venue_id: id}}).then(function (ven) {
+            console.log('query exec: ');
+            console.log(id);
+            console.log(ven.length);
+
+            for (var i = 0; i < ven.length; i++) {
+                var sub_id = ven[i].id;
+                eventvenue
+                    .findOrCreate({
+                        where: {venue_id: sub_id, event_id: f_id}, defaults: {
+                            venue_id: sub_id,
+                            event_id: f_id
+                        }
+                    })
+                    .spread(function (user, created) {
+                        console.log(user.get({
+                            plain: true
+                        }))
+                        console.log(created)
+                    })
+            }
+        })
+    };
+
+
+
+    var save_to_collection_event = function (event_id, collection_id) {
+        collectionevent.create({
+            event_id: event_id,
+            collection_id: collection_id
+        })
+    };
+
+
     api.get('/initCollectionsRelations', function (req, res) {
 
-        fs.readFile('data/collection.json', 'utf8', function (err, data) {
+        fs.readFile('data/collections.json', 'utf8', function (err, data) {
             if (err) throw err;
             var obj = JSON.parse(data);
-            //console.log(obj);
-            for (var item = 0; item < obj.length; item++) {
-                var num = obj[item].FIELD5.split(",");
-                for (var i = 0; i < num.length; i++) {
-                    var temp = parseInt(num[i]);
-
-                    set_relations(temp, obj[item].FIELD2);
-
+            console.log(obj);
+            for (var item = 0; item < obj.collections_info.length; item++) {
+                for (var i =0; i< obj.collections_info[item].events_list.length;i++)
+                {
+                    set_relat(obj.collections_info[item].events_list[i],obj.collections_info[item].name);
                 }
             }
         });
