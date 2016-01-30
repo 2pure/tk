@@ -10,7 +10,7 @@
 {
 	"collections": [
 		{
-			"collection_id": "123"	
+			"collection_id": "123",
 			"collection_name": "Название коллекции",
 			"subscriptions": "13",
 			"date": "12.12.12",
@@ -36,7 +36,7 @@ limit и offset можно задавать любой
 Фотмат ответа:
 ```json
 		{
-			"collection_id": "123"	
+			"collection_id": "123",
 			"collection_name": "Название коллекции",
 			"subscriptions": "13",
 			"date": "12.12.12",
