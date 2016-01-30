@@ -3,49 +3,6 @@
 ### Version
 0.0.1
 
-### Коллекции по темам
-
-Формат ответа:
-```json
-{
-	"themes": [
-		{
-			"name": "Название темы",
-			"description": "Описание темы",
-			"img_url": "http://example.com/img.png",
-			"theme_id": 1
-		}
-	]
-}
-```
-
-`/api/themes`
-
-### Конкретная тема
-Формат ответа:
-```json
-{
-		"name": "Название темы",
-		"description": "Описание темы",
-		"img_url": "http://example.com/img.png",
-		"collections": [
-			{
-				"name": "Название коллекции",
-				"description": "Описание коллекции",
-				"img_url": "http://example.com/img.png",
-				"events_list": [
-					{
-						"name": "Название спектакля 1",
-						"event_id": 1
-					}
-				]
-			}
-		]
-}
-```
-
-`/api/themes/:id` возвращает конкретную запись темы
-
 ### Новые коллекции
 
 Фотмат ответа:
@@ -53,21 +10,48 @@
 {
 	"collections": [
 		{
-			"name": "Название коллекции",
-			"description": "Описание коллекции",
+			"collection_id": "123"	
+			"collection_name": "Название коллекции",
+			"subscriptions": "13",
+			"date": "12.12.12",
 			"img_url": "http://example.com/img.png",
-			"events_list": [
+			"tags": ["tag1", "tag2"],
+			"description": [
 				{
-					"name": "Название спектакля 1",
-					"event_id": 1
+					"name": "Василий Пупкин",
+					"person_description": "студент",
+					"text": "Описание крутое"
 				}
-			]
+			],
 		}
 	]
 }
 ```
 
-`/api/newcollections`
+`http://kurtr.ru/api/collections?limit=5&offset=0`
+limit и offset можно задавать любой
+
+### Конкретная коллекция
+
+Фотмат ответа:
+```json
+		{
+			"collection_id": "123"	
+			"collection_name": "Название коллекции",
+			"subscriptions": "13",
+			"date": "12.12.12",
+			"img_url": "http://example.com/img.png",
+			"tags": ["tag1", "tag2"],
+			"events": [
+				{
+					"name": "Спектакль",
+					"venue_name": "Большой",
+					"venue_id": 12,
+				}
+			],
+		}
+```
+`http://kurtr.ru/api/collections/:id`
 
 ## Открытая коллекция
 
