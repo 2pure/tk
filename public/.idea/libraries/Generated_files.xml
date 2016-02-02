@@ -1,0 +1,61 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/scripts/content-compiled.js" />
+        <item url="file://$PROJECT_DIR$/scripts/header-compiled.js" />
+        <item url="file://$PROJECT_DIR$/mainSignature-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/webpack.config-compiled.js" />
+        <item url="file://$PROJECT_DIR$/scripts/mainSignature-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/header-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/scripts/content-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/content-compiled.js" />
+        <item url="file://$PROJECT_DIR$/scripts/header-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/content-compiled-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/header-compiled-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/mainSignature-compiled-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/scripts/content-compiled-compiled-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/content-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/scripts/header-compiled-compiled-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/scripts/mainSignature-compiled-compiled-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/header-compiled.js" />
+        <item url="file://$PROJECT_DIR$/mainSignature-compiled.js" />
+        <item url="file://$PROJECT_DIR$/scripts/mainSignature-compiled.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/mianSignature-compiled.js" />
+      <root url="file://$PROJECT_DIR$/mianSignature-compiled.js" />
+      <root url="file://$PROJECT_DIR$/webpack.config-compiled.js" />
+      <root url="file://$PROJECT_DIR$/mainSignature-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/header-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/content-compiled.js" />
+      <root url="file://$PROJECT_DIR$/content-compiled-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/header-compiled-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/mainSignature-compiled-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/content-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/header-compiled.js" />
+      <root url="file://$PROJECT_DIR$/mainSignature-compiled.js" />
+      <root url="file://$PROJECT_DIR$/scripts/content-compiled.js" />
+      <root url="file://$PROJECT_DIR$/scripts/header-compiled.js" />
+      <root url="file://$PROJECT_DIR$/mainSignature-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/webpack.config-compiled.js" />
+      <root url="file://$PROJECT_DIR$/scripts/mainSignature-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/header-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/scripts/content-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/content-compiled.js" />
+      <root url="file://$PROJECT_DIR$/scripts/header-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/content-compiled-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/header-compiled-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/mainSignature-compiled-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/scripts/content-compiled-compiled-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/content-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/scripts/header-compiled-compiled-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/scripts/mainSignature-compiled-compiled-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/header-compiled.js" />
+      <root url="file://$PROJECT_DIR$/mainSignature-compiled.js" />
+      <root url="file://$PROJECT_DIR$/scripts/mainSignature-compiled.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
