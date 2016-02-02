@@ -1,116 +1,25 @@
 <!DOCTYPE html>
-<html xmlns:12="http://www.w3.org/1999/html">
-<head lang="en">
+<html lang="en">
+<head>
+
     <meta charset="UTF-8">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/buttons.css">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/buttons.js"></script>
-    <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
-    <script src="https://apis.google.com/js/platform.js"></script>
-    <script type="text/javascript">
-        VK.init({apiId: API_ID, onlyWidgets: true});
-    </script>
-    <title></title>
+    <title>kurtr.ru</title>
 </head>
 <body>
-<div class="page-wrapper container">
-    <div id="welcome">
-    </div>
-    <div id="navbar" class="sticky">
-    </div>
-    <div class="about-box">
-        <div class="about-text-container" style="display: none">
-        <span class="about-title">
-            Lorem ipsum
-        </span>
-            <hr class="red-hr">
-            <span class="about-main">
-Куратор помогает находить спектакли, которые вам интересны. Выберите коллекцию и количество билетов. Заплатите один раз. Получайте по почте электронные билеты на места, с которых хорошо видно и слышно.
-        </span>
-        </div>
+    <!-- React , React-Bootstrap, ReactDom included-->
 
-        <div class="about-steps-box">
-            <div class="row ">
-                <div class="col-md-9 about-text">
-                    <h1>О проекте</h1>
+    <script src="lib/react.js"></script>
+    <script src="lib/react-dom.js"></script>
+    <script src="lib/react-bootstrap.js"></script>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 
-                    <h3><strong>Что такое Куратор?</strong></h3>
+    <div id="header"></div>
+    <script src="scripts/header-compiled.js"></script>
 
-                    <p><strong>Куратор</strong> — это театры по подписке.</p>
+    <div id="mainSignature"></div>
+    <script src="scripts/mainSignature-compiled.js"></script>
 
-                    <p>Куратор помогает находить спектакли, которые вам интересны. Тематические подборки: Вечер с девушкой, сходить с коллегами, детям 6-8 лет или детям 13-15 лет, гуманитариям, технарям истории о жизни и другие.</p>
-
-                    <h3><strong>Чем Куратор отличается от других сервисов покупки билетов?</strong></h3>
-
-                    <p>Авторы коллекций Куратора — <strong>Крутой чел</strong>, который просмотрел десятки спектаклей. Каждую неделю <strong>Куртой чел</strong> добавляет в Куратор новые коллекции и обновляет старые.</p>
-
-                    <p>Остальные сервисы продают билеты, не помогают в поиске.</p>
-
-                    <h3><strong>Как пользоваться Куратором?</strong></h3>
-
-                    <p>Выберите коллекцию и количество билетов. Заплатите один раз. Получайте по почте электронные билеты на места, с которых хорошо видно и слышно.</p>
-
-                </div>
-
-                <div class="col-md-3">
-                    <img class="img-responsive  about-img" src="http://kurtr.ru/img/about.png">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="theme-collection-wrapper ">
-        <div class="theme-collection-title">
-            <span class="theme-collection-title-text">коллекции по темам</span>
-            <hr class="red-hr">
-        </div>
-        <div id="collection-row-wrapper"></div>
-
-        <div class="row " style="display: none">
-            <div class="col-md-10 col-md-offset-1 themes-button-wrapper">
-                <button type="button" class="btn buy-btn" aria-label="Left Align">
-                    <span class="other-themes-button-label" aria-hidden="true" >Другие тематики</span>
-                </button>
-            </div>
-        </div>
-    </div>
-    <div id="new-themes"></div>
-    <div class="footer-wrapper">
-        <div class="footer-title">
-            <span class="footer-title-text">расказать друзьям</span>
-            <hr class="red-hr">
-        </div>
-        <div class="share-buttons-wrapper" style="display: none;">
-
-
-            <div id="vk_like"></div>
-            <script type="text/javascript">
-                VK.Widgets.Like("vk_like", {type: "button"});
-            </script>
-            <a href="https://twitter.com/share" class="twitter-share-button" {count} data-size="large" data-dnt="true">Tweet</a>
-
-            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/"
-                 data-layout="button_count"></div>
-            <div id="fb-root"></div>
-
-            <span class="ig-follow" data-id="5479dee" data-handle="igfbdotcom" data-count="true" data-size="large"
-                  data-username="false"></span>
-
-
-            <div class="g-ytsubscribe" data-channel="GoogleDevelopers" data-layout="default" data-count="default"
-                 data-onytevent="onYtEvent"></div>
-        </div>
-
-    </div>
-
-
-</div>
-
+    <div id="content"></div>
+    <script src="scripts/content-compiled.js"></script>
 </body>
 </html>
